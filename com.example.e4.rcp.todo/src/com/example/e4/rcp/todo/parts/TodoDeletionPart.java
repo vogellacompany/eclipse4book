@@ -12,6 +12,7 @@ import org.eclipse.e4.core.contexts.IEclipseContext;
 import org.eclipse.e4.core.di.annotations.Optional;
 import org.eclipse.e4.ui.di.Focus;
 import org.eclipse.e4.ui.di.UIEventTopic;
+import org.eclipse.e4.ui.di.UISynchronize;
 import org.eclipse.e4.ui.workbench.modeling.ESelectionService;
 import org.eclipse.jface.viewers.ArrayContentProvider;
 import org.eclipse.jface.viewers.ComboViewer;
@@ -45,6 +46,9 @@ public class TodoDeletionPart {
 	private ECommandService commandService;
 
 	@Inject
+	private UISynchronize sync;
+
+	@Inject
 	private IEclipseContext ctx;
 
 	private ComboViewer viewer;
@@ -62,8 +66,7 @@ public class TodoDeletionPart {
 		});
 		viewer.setContentProvider(ArrayContentProvider.getInstance());
 
-		List<Todo> todos = model.getTodos();
-		updateViewer(todos);
+		model.getTodos(this::updateViewer);
 
 		Button button = new Button(parent, SWT.PUSH);
 		button.addSelectionListener(new SelectionAdapter() {
@@ -81,22 +84,25 @@ public class TodoDeletionPart {
 				}
 			}
 		});
-		
+
 		// set button text and register button text locale changes
 		messagesRegistry.register(button::setText, m -> m.part_deletion_button_deletetodo);
 	}
 
 	private void updateViewer(List<Todo> todos) {
-		viewer.setInput(todos);
-		if (todos.size() > 0) {
-			viewer.setSelection(new StructuredSelection(todos.get(0)));
-		}
+		sync.asyncExec(() -> {
+			viewer.setInput(todos);
+			if (todos.size() > 0) {
+				viewer.setSelection(new StructuredSelection(todos.get(0)));
+			}
+			viewer.getControl().getParent().layout();
+		});
 	}
 
 	@Inject
 	@Optional
 	private void getNotified(@UIEventTopic(MyEventConstants.TOPIC_TODO_ALLTOPICS) Todo todo) {
-		updateViewer(model.getTodos());
+		model.getTodos(this::updateViewer);
 	}
 
 	@Focus

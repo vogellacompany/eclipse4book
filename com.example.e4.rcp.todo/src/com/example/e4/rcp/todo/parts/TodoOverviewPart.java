@@ -1,7 +1,6 @@
 package com.example.e4.rcp.todo.parts;
 
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 
 import javax.annotation.PostConstruct;
@@ -9,10 +8,6 @@ import javax.inject.Inject;
 
 import org.eclipse.core.databinding.beans.BeanProperties;
 import org.eclipse.core.databinding.observable.list.WritableList;
-import org.eclipse.core.runtime.IProgressMonitor;
-import org.eclipse.core.runtime.IStatus;
-import org.eclipse.core.runtime.Status;
-import org.eclipse.core.runtime.jobs.Job;
 import org.eclipse.e4.core.di.annotations.Optional;
 import org.eclipse.e4.core.services.events.IEventBroker;
 import org.eclipse.e4.ui.di.Focus;
@@ -60,7 +55,7 @@ public class TodoOverviewPart {
 
 	@Inject
 	private ITodoService todoService;
-	
+
 	private WritableList writableList;
 	protected String searchString = ""; //$NON-NLS-1$
 
@@ -161,33 +156,32 @@ public class TodoOverviewPart {
 			selectionService.setSelection(selection.getFirstElement());
 		});
 		menuService.registerContextMenu(viewer.getControl(), "com.example.e4.rcp.todo.popupmenu.table"); //$NON-NLS-1$
-		writableList = new WritableList(todoService.getTodos(), Todo.class);
-		ViewerSupport.bind(viewer, writableList,
-				BeanProperties.values(new String[] { Todo.FIELD_SUMMARY, Todo.FIELD_DESCRIPTION }));
 
+		todoService.getTodos(todos -> {
+
+			sync.asyncExec(() -> {
+				writableList = new WritableList(todos, Todo.class);
+				ViewerSupport.bind(viewer, writableList,
+						BeanProperties.values(new String[] { Todo.FIELD_SUMMARY, Todo.FIELD_DESCRIPTION }));
+			});
+		});
 	}
 
 	@Inject
 	@Optional
 	private void subscribeTopicTodoAllTopics(
 			@UIEventTopic(MyEventConstants.TOPIC_TODO_ALLTOPICS) Map<String, String> event) {
-		Job job = new Job("loading") {
-			@Override
-			protected IStatus run(IProgressMonitor monitor) {
-				final List<Todo> list = todoService.getTodos();
-				sync.asyncExec(new Runnable() {
-					@Override
-					public void run() {
-						if (viewer != null) {
-							writableList.clear();
-							writableList.addAll(list);
-						}
+		todoService.getTodos(todos -> {
+			sync.asyncExec(new Runnable() {
+				@Override
+				public void run() {
+					if (viewer != null) {
+						writableList.clear();
+						writableList.addAll(todos);
 					}
-				});
-				return Status.OK_STATUS;
-			}
-		};
-		job.schedule();
+				}
+			});
+		});
 	}
 
 	@Focus

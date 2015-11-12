@@ -63,7 +63,7 @@ public class ManagerPart {
 						sync.asyncExec(new Runnable() {
 							@Override
 							public void run() {
-								viewer.setInput(todoService.getTodos());
+								todoService.getTodos(viewer::setInput);
 							}
 						});
 						return Status.OK_STATUS;
@@ -165,7 +165,7 @@ public class ManagerPart {
 	private void getNotified(
 			@UIEventTopic(MyEventConstants.TOPIC_TODO_ALLTOPICS) String topic) {
 		if (viewer != null) {
-			viewer.setInput(todoService.getTodos());
+			todoService.getTodos(viewer::setInput);
 		}
 	}
 

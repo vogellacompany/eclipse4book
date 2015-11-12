@@ -6,12 +6,20 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Optional;
+import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicInteger;
+import java.util.function.Consumer;
 import java.util.stream.Collectors;
 
 import javax.inject.Inject;
 
+import org.eclipse.core.runtime.IProgressMonitor;
+import org.eclipse.core.runtime.IStatus;
+import org.eclipse.core.runtime.Status;
+import org.eclipse.core.runtime.jobs.Job;
 import org.eclipse.e4.core.services.events.IEventBroker;
+import org.osgi.framework.Bundle;
+import org.osgi.framework.FrameworkUtil;
 
 import com.example.e4.rcp.todo.events.MyEventConstants;
 import com.example.e4.rcp.todo.model.ITodoService;
@@ -35,8 +43,26 @@ public class MyTodoServiceImpl implements ITodoService {
 
 	// always return a new copy of the data
 	@Override
-	public List<Todo> getTodos() {
-		return todos.stream().map(t -> t.copy()).collect(Collectors.toList());
+	public void getTodos(Consumer<List<Todo>> asyncConsumer) {
+
+		Job job = new Job("Getting the Todos") {
+
+			@Override
+			protected IStatus run(IProgressMonitor monitor) {
+
+				try {
+					TimeUnit.SECONDS.sleep(3);
+				} catch (InterruptedException e) {
+					Bundle bundle = FrameworkUtil.getBundle(getClass());
+					return new Status(IStatus.ERROR, bundle.getSymbolicName(), "Thread could not sleep");
+				}
+
+				asyncConsumer.accept(todos.stream().map(Todo::copy).collect(Collectors.toList()));
+			
+				return Status.OK_STATUS;
+			}
+		};
+		job.schedule();
 	}
 
 	protected List<Todo> getTodosInternal() {
@@ -80,7 +106,7 @@ public class MyTodoServiceImpl implements ITodoService {
 
 		deleteTodo.ifPresent(todo -> {
 			todos.remove(todo);
-			
+
 			// configure the event
 			broker.post(MyEventConstants.TOPIC_TODO_DELETE,
 					createEventData(MyEventConstants.TOPIC_TODO_DELETE, String.valueOf(todo.getId())));
@@ -97,10 +123,10 @@ public class MyTodoServiceImpl implements ITodoService {
 	@Override
 	public List<Tag<Todo>> getTags(long id) {
 		List<Tag<Todo>> tags = new ArrayList<>();
-	
+
 		Optional<Todo> findById = findById(id);
 		findById.ifPresent(todo -> findTags(todo, tags, getRootTag()));
-	
+
 		return tags;
 	}
 
