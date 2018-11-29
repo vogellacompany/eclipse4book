@@ -15,7 +15,7 @@
         
           -->
          <property
-               name="lifeCycleURI2"
+               name="lifeCycleURI"
                value="bundleclass://com.example.e4.rcp.todo/com.example.e4.rcp.todo.lifecycle.Manager">
          </property>
          <property

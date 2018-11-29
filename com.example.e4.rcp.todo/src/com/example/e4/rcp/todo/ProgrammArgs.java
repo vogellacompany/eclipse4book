@@ -6,7 +6,7 @@ public class ProgrammArgs {
 	@Parameter(names = "-username", description = "The user to be logged in")
 	private String username;
 
-	@Parameter(names = "-password", description = "The user's password")
+	@Parameter(names = "-userpw", description = "The user's password")
 	private String password;
 
 	@Parameter(names = "-autologin", description = "Specifies if the user should be logged in automatically without login dialog")

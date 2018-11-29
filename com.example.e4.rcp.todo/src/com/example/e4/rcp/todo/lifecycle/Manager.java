@@ -36,28 +36,26 @@ public class Manager {
 
 		String[] args = (String[]) appContext.getArguments().get("application.args");
 		ProgrammArgs programArgs = new ProgrammArgs();
-		JCommander.newBuilder()
-					.acceptUnknownOptions(true)
-					.addObject(programArgs)
-					.build()
-					.parse(args);
-		
+		JCommander.newBuilder().acceptUnknownOptions(true).addObject(programArgs).build().parse(args);
+
 		String username = programArgs.getUsername();
 		String password = programArgs.getPassword();
 		boolean autologin = programArgs.isAutologin();
 
-		if(autologin) {
+		if (autologin) {
 			// ... do automatic login with username and password ...
-			
+
 			return;
 		}
-		
+
 		final Shell shell = new Shell(SWT.SHELL_TRIM);
 		PasswordDialog dialog = new PasswordDialog(shell);
 		if (user != null) {
 			dialog.setUser(user);
 		} else if (username != null) {
 			dialog.setUser(username);
+		}
+		if (password != null) {
 			dialog.setPassword(password);
 		}
 
