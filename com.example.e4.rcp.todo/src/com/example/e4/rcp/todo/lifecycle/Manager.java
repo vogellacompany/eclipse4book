@@ -46,10 +46,19 @@ public class Manager {
 		String password = programArgs.getPassword();
 		boolean autologin = programArgs.isAutologin();
 
+		if(autologin) {
+			// ... do automatic login with username and password ...
+			
+			return;
+		}
+		
 		final Shell shell = new Shell(SWT.SHELL_TRIM);
 		PasswordDialog dialog = new PasswordDialog(shell);
 		if (user != null) {
 			dialog.setUser(user);
+		} else if (username != null) {
+			dialog.setUser(username);
+			dialog.setPassword(password);
 		}
 
 		// close the static splash screen
