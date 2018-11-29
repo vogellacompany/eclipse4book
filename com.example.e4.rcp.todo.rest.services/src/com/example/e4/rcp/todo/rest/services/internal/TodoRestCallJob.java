@@ -15,7 +15,7 @@ import com.example.e4.rcp.todo.model.Todo;
 
 import retrofit2.Call;
 import retrofit2.Retrofit;
-import retrofit2.converter.gson.GsonConverterFactory;
+import retrofit2.converter.jackson.JacksonConverterFactory;
 
 public class TodoRestCallJob extends Job {
 
@@ -32,7 +32,7 @@ public class TodoRestCallJob extends Job {
 	protected IStatus run(IProgressMonitor monitor) {
 
 
-		Retrofit retrofit = new Retrofit.Builder().baseUrl(API_URL).addConverterFactory(GsonConverterFactory.create())
+		Retrofit retrofit = new Retrofit.Builder().baseUrl(API_URL).addConverterFactory(JacksonConverterFactory.create())
 				.build();
 
 		TodoRestRequest todoRestRequest = retrofit.create(TodoRestRequest.class);
