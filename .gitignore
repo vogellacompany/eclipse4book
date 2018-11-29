@@ -1,8 +1,12 @@
-bin
-.metadata
-target
 .searchable
 screenshots/
+
+.class
+.metadata
+**/bin/
+**/target/
+**/build/
+**/.gradle/*
 
 # You can use wildcards as well
 

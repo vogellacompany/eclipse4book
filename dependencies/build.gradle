@@ -1,0 +1,61 @@
+buildscript {
+	repositories {
+		jcenter()
+	    maven {
+	      url 'http://oss.sonatype.org/content/repositories/snapshots/'
+	    }
+	}
+	dependencies {
+		classpath 'org.standardout:bnd-platform:1.7.0-SNAPSHOT'
+	}
+}
+
+apply plugin: 'org.standardout.bnd-platform'
+
+repositories {
+	jcenter()
+}
+
+platform {
+	// configure proper names for the p2 update site
+	categoryId = 'Vogella-Task-Manager-Libs'
+	categoryName = 'Vogella Task Manager Libs'
+
+	generatePlatformFeature = false
+
+	defaultQualifier = ''
+	useBndHashQualifiers = false
+	useFeatureHashQualifiers = false
+	defaultQualifierMap.prefix = ''
+
+	feature(id: 'Project-Reactor', name: 'Project Reactor', version: '3.1.5') {
+
+		plugin('io.projectreactor:reactor-core:3.1.5.RELEASE') {
+			bnd {
+				optionalImport 'javax.swing'
+				optionalImport 'kotlin'
+				optionalImport 'kotlin.jvm.functions'
+				optionalImport 'kotlin.jvm.internal'
+				optionalImport 'sun.misc'
+			}
+		}
+
+		plugin('io.projectreactor.addons:reactor-extra:3.1.5.RELEASE') {
+			bnd {
+				optionalImport 'javax.swing'
+				optionalImport 'kotlin'
+				optionalImport 'kotlin.jvm.functions'
+				optionalImport 'kotlin.jvm.internal'
+			}
+		}
+	}
+
+	feature(id: 'jcommander', name: 'jcommander', version: '1.71.0') {
+			plugin('com.beust:jcommander:1.71')
+	 }
+
+}
+
+wrapper {
+	gradleVersion = '4.10.2'
+}
