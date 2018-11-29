@@ -94,9 +94,9 @@
       <feature id="org.eclipse.ecf.filetransfer.ssl.feature"/>
       <feature id="org.eclipse.ecf.filetransfer.feature"/>
       <feature id="h2" version="1.4.197"/>
-      <feature id="retrofit" version="2.1.0"/>
       <feature id="org.eclipse.nebula.widgets.pshelf.feature" version="1.0.0.201804281520"/>
       <feature id="org.eclipse.nebula.widgets.pshelf.css.feature" version="1.0.0.201804281520"/>
+      <feature id="jcommander" version="1.71.0"/>
    </features>
 
    <configurations>
