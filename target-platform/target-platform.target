@@ -28,5 +28,29 @@
 			<unit id="jcommander.source.feature.group" version="1.71.0"/>
 			<repository location="https://dl.bintray.com/vogellacompany/OpenReq-Eclipse/0.5.0/"/>
 		</location>
+		<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
+			<unit id="org.apache.log4j" version="1.2.15.v201012070815"/>
+			<unit id="org.apache.log4j.source" version="1.2.15.v201012070815"/>
+			<unit id="org.eclipse.swtbot.eclipse.feature.group" version="2.7.0.201806111355"/>
+			<unit id="org.eclipse.swtbot.eclipse.gef.feature.group" version="2.7.0.201806111355"/>
+			<unit id="org.eclipse.swtbot.eclipse.gef.source.feature.group" version="2.7.0.201806111355"/>
+			<unit id="org.eclipse.swtbot.eclipse.source.feature.group" version="2.7.0.201806111355"/>
+			<unit id="org.eclipse.swtbot.eclipse.test.junit.feature.group" version="2.7.0.201806111355"/>
+			<unit id="org.eclipse.swtbot.feature.group" version="2.7.0.201806111355"/>
+			<unit id="org.eclipse.swtbot.forms.feature.group" version="2.7.0.201806111355"/>
+			<unit id="org.eclipse.swtbot.forms.source.feature.group" version="2.7.0.201806111355"/>
+			<unit id="org.eclipse.swtbot.generator.feature.source.feature.group" version="2.7.0.201806111355"/>
+			<unit id="org.eclipse.swtbot.ide.source.feature.group" version="2.7.0.201806111355"/>
+			<unit id="org.eclipse.swtbot.nebula.gallery.feature.group" version="2.7.0.201806111355"/>
+			<unit id="org.eclipse.swtbot.nebula.gallery.source.feature.group" version="2.7.0.201806111355"/>
+			<unit id="org.eclipse.swtbot.nebula.nattable.feature.group" version="2.7.0.201806111355"/>
+			<unit id="org.eclipse.swtbot.nebula.nattable.source.feature.group" version="2.7.0.201806111355"/>
+			<unit id="org.eclipse.swtbot.source.feature.group" version="2.7.0.201806111355"/>
+			<unit id="org.hamcrest.core" version="1.3.0.v20180420-1519"/>
+			<unit id="org.hamcrest.core.source" version="1.3.0.v20180420-1519"/>
+			<unit id="org.hamcrest.library" version="1.3.0.v20180524-2246"/>
+			<unit id="org.hamcrest.library.source" version="1.3.0.v20180524-2246"/>
+			<repository location="http://download.eclipse.org/technology/swtbot/releases/latest/"/>
+		</location>
 	</locations>
 </target>
