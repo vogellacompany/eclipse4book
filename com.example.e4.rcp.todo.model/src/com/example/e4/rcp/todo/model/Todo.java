@@ -4,6 +4,9 @@ import java.beans.PropertyChangeListener;
 import java.beans.PropertyChangeSupport;
 import java.util.Date;
 
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonProperty;
+
 public class Todo {
 
 	private PropertyChangeSupport changes = new PropertyChangeSupport(this);
@@ -14,18 +17,19 @@ public class Todo {
 	public static final String FIELD_DONE = "done";
 	public static final String FIELD_DUEDATE = "dueDate";
 
-	private final long id;
+	private long id;
 	private String summary ="" ;
 	private String description ="";
 	private boolean done = false;
 	private Date dueDate = new Date();
 	
-	public Todo(long i) {
-		id = i;
+	@JsonCreator
+	public Todo(@JsonProperty("id") long i) {
+		setId(i);
 	}
 
 	public Todo(long i, String summary, String description, boolean b, Date date) {
-		this.id = i;
+		this.setId(i);
 		this.summary = summary;
 		this.description = description;
 		this.done = b;
@@ -74,7 +78,7 @@ public class Todo {
 	public int hashCode() {
 		final int prime = 31;
 		int result = 1;
-		result = prime * result + (int) (id ^ (id >>> 32));
+		result = prime * result + (int) (getId() ^ (getId() >>> 32));
 		return result;
 	}
 
@@ -87,18 +91,18 @@ public class Todo {
 		if (getClass() != obj.getClass())
 			return false;
 		Todo other = (Todo) obj;
-		if (id != other.id)
+		if (getId() != other.getId())
 			return false;
 		return true;
 	}
 
 	@Override
 	public String toString() {
-		return "Todo [id=" + id + ", summary=" + summary + "]";
+		return "Todo [id=" + getId() + ", summary=" + summary + "]";
 	}
 
 	public Todo copy() {
-		return new Todo(id, summary, description, done, getDueDate());
+		return new Todo(getId(), summary, description, done, getDueDate());
 	}
 
 	public void addPropertyChangeListener(PropertyChangeListener l) {
@@ -107,5 +111,9 @@ public class Todo {
 
 	public void removePropertyChangeListener(PropertyChangeListener l) {
 		changes.removePropertyChangeListener(l);
+	}
+
+	public void setId(long id) {
+		this.id = id;
 	}
 }

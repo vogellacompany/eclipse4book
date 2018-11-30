@@ -6,4 +6,5 @@ Bundle-Version: 1.0.0.qualifier
 Bundle-Vendor: EXAMPLE
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Export-Package: com.example.e4.rcp.todo.model
-Require-Bundle: org.eclipse.core.databinding;bundle-version="1.6.0"
+Require-Bundle: org.eclipse.core.databinding;bundle-version="1.6.0",
+ com.fasterxml.jackson.core.jackson-annotations;bundle-version="2.7.0"

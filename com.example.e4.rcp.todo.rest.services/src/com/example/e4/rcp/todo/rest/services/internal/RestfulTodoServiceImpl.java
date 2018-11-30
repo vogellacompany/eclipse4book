@@ -20,7 +20,9 @@ import com.example.e4.rcp.todo.events.MyEventConstants;
 import com.example.e4.rcp.todo.model.ITodoService;
 import com.example.e4.rcp.todo.model.Todo;
 
-public class MyRestfulTodoServiceImpl implements ITodoService {
+import reactor.core.publisher.Mono;
+
+public class RestfulTodoServiceImpl implements ITodoService {
 
 	private static AtomicInteger current = new AtomicInteger(1);
 	private List<Todo> todos;
@@ -32,10 +34,10 @@ public class MyRestfulTodoServiceImpl implements ITodoService {
 	@Inject
 	private UISynchronize uiSync;
 	
-	public MyRestfulTodoServiceImpl() {
+	public RestfulTodoServiceImpl() {
 		todos = createInitialModel();
 	}
-
+	
 	@Override
 	public void getTodos(Consumer<List<Todo>> todosConsumer) {
 		// TODO use Job's create factory method, once we use Eclipse Neon as target

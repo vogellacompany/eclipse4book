@@ -18,6 +18,10 @@ Require-Bundle: org.eclipse.e4.core.contexts,
  com.squareup.retrofit2.retrofit;bundle-version="2.0.0",
  com.squareup.retrofit2.converter-jackson;bundle-version="2.3.0",
  org.eclipse.swt,
- org.eclipse.osgi.services
+ org.eclipse.osgi.services,
+ com.jakewharton.retrofit.2-reactor-adapter;bundle-version="2.1.0",
+ io.projectreactor.addons.reactor-extra;bundle-version="3.1.5",
+ io.projectreactor.reactor-core;bundle-version="3.1.5",
+ org.reactivestreams.reactive-streams;bundle-version="1.0.2"
 Service-Component: OSGI-INF/com.example.e4.rcp.todo.rest.services.internal.TodoServiceContextFunction.xml
 Bundle-ActivationPolicy: lazy
