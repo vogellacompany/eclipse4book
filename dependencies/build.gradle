@@ -53,6 +53,33 @@ platform {
 	feature(id: 'jcommander', name: 'jcommander', version: '1.71.0') {
 			plugin('com.beust:jcommander:1.71')
 	 }
+	 
+ 	feature(id: 'Retrofit', name: 'Retrofit', version: '2.4.0') {
+		// Convert the retrofit artifact to OSGi, make android.os optional and handle the split package problems in OSGi
+		plugin('com.squareup.retrofit2:retrofit:2.4.0'){
+			bnd {
+				optionalImport 'android.os'
+				optionalImport 'android.net'
+		    	}
+		}
+	
+		// Convert the retrofit jackson converter artifact to OSGi and handle the split package problems in OSGi
+		plugin('com.squareup.retrofit2:converter-jackson:2.3.0')
+
+		// lets retrofit return reactor types
+		plugin('com.jakewharton.retrofit:retrofit2-reactor-adapter:2.1.0')
+	
+		// Convert okhttp3 artifact to OSGi without android
+		plugin('com.squareup.okhttp3:okhttp:3.10.0') {
+			bnd{
+				optionalImport 'android.os'
+				optionalImport 'android.util'
+				optionalImport 'org.conscrypt'
+			}
+		}
+
+		plugin('com.squareup.okhttp3:logging-interceptor:3.10.0')
+	}
 
 }
 
