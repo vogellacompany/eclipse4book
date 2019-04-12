@@ -1,9 +1,0 @@
-Manifest-Version: 1.0
-Bundle-ManifestVersion: 2
-Bundle-Name: I18n
-Bundle-SymbolicName: com.example.e4.rcp.todo.i18n
-Bundle-Version: 1.0.0.qualifier
-Bundle-Vendor: EXAMPLE
-Bundle-RequiredExecutionEnvironment: JavaSE-1.7
-Require-Bundle: org.eclipse.core.runtime
-Export-Package: com.example.e4.rcp.todo.i18n
