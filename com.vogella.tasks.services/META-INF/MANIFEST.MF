@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Services
+Bundle-SymbolicName: com.vogella.tasks.services
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: VOGELLA
+Automatic-Module-Name: com.vogella.tasks.services
+Bundle-RequiredExecutionEnvironment: JavaSE-11
+Import-Package: com.vogella.tasks.model,
+ org.osgi.service.component.annotations;version="1.3.0"
+Service-Component: OSGI-INF/com.vogella.tasks.services.internal.MyTodoServiceImpl.xml
+Bundle-ActivationPolicy: lazy
