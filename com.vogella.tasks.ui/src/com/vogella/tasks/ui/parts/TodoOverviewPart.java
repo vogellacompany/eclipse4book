@@ -1,11 +1,14 @@
 package com.vogella.tasks.ui.parts;
 
+import java.util.List;
+
 import javax.annotation.PostConstruct;
 import javax.inject.Inject;
 
+import org.eclipse.core.databinding.beans.BeanProperties;
+import org.eclipse.core.databinding.observable.list.WritableList;
 import org.eclipse.e4.ui.di.Focus;
-import org.eclipse.jface.viewers.ArrayContentProvider;
-import org.eclipse.jface.viewers.ColumnLabelProvider;
+import org.eclipse.jface.databinding.viewers.ViewerSupport;
 import org.eclipse.jface.viewers.TableViewer;
 import org.eclipse.jface.viewers.TableViewerColumn;
 import org.eclipse.swt.SWT;
@@ -23,63 +26,67 @@ import com.vogella.tasks.model.Todo;
 public class TodoOverviewPart {
 
     @Inject
-    private ITodoService todoService;
+    ITodoService todoService;
 
+    private Button btnLoadData;
     private TableViewer viewer;
+
+    private WritableList<Todo> writableList;
 
     @PostConstruct
     public void createControls(Composite parent) {
         parent.setLayout(new GridLayout(1, false));
 
-        Button btnLoadData = new Button(parent, SWT.PUSH);
+        btnLoadData = new Button(parent, SWT.PUSH);
         btnLoadData.addSelectionListener(new SelectionAdapter() {
-            @Override
             public void widgetSelected(SelectionEvent e) {
-                // update the table content, whenever the btnLoadData is pressed
-                todoService.getTodos(viewer::setInput);
-            }
+                // pass in updateViewer method as Consumer
+                todoService.getTodos(TodoOverviewPart.this::updateViewer);
+            };
         });
         btnLoadData.setText("Load Data");
 
-        viewer = new TableViewer(parent, SWT.MULTI| SWT.FULL_SELECTION );
+        // more code, e.g. your search box
+        // ...
+        // ...
+
+        viewer = new TableViewer(parent, SWT.MULTI | SWT.H_SCROLL | SWT.V_SCROLL | SWT.FULL_SELECTION);
         Table table = viewer.getTable();
+        table.setLayoutData(new GridData(SWT.FILL, SWT.FILL, true, true, 1, 1));
+
         table.setHeaderVisible(true);
         table.setLinesVisible(true);
-        table.setLayoutData(new GridData(SWT.FILL, SWT.FILL, true, true));
-        viewer.setContentProvider(ArrayContentProvider.getInstance());
 
+        TableViewerColumn column = new TableViewerColumn(viewer, SWT.NONE);
 
-        // create column for the summary property
-        TableViewerColumn colSummary = new TableViewerColumn(viewer, SWT.NONE);
-        colSummary.setLabelProvider(new ColumnLabelProvider() {
-            @Override
-            public String getText(Object element) {
-                Todo todo = (Todo) element;
-                return todo.getSummary();
-            }
-        });
-        colSummary.getColumn().setWidth(100);
-        colSummary.getColumn().setText("Summary");
+        column.getColumn().setWidth(100);
+        column.getColumn().setText("Summary");
+        column = new TableViewerColumn(viewer, SWT.NONE);
 
-        // create column for description property
-        TableViewerColumn colDescription = new TableViewerColumn(viewer, SWT.NONE);
-        colDescription.setLabelProvider(new ColumnLabelProvider() {
-            @Override
-            public String getText(Object element) {
-                Todo todo = (Todo) element;
-                return todo.getDescription();
-            }
-        });
-        colDescription.getColumn().setWidth(200);
-        colDescription.getColumn().setText("Description");
+        column.getColumn().setWidth(100);
+        column.getColumn().setText("Description");
 
-        // initially the table is also filled
-        // the btnLoadData is used to update the data if the model changes
-        todoService.getTodos(viewer::setInput);
+        // more code for your table, e.g. filter, etc.
+
+        // use data binding to bind the viewer
+        writableList = new WritableList<>();
+        // fill the writable list, when Consumer callback is called. Databinding
+        // will do the rest once the list is filled
+        todoService.getTodos(writableList::addAll);
+        ViewerSupport.bind(viewer, writableList,
+                BeanProperties.values(new String[] { Todo.FIELD_SUMMARY, Todo.FIELD_DESCRIPTION }));
+
+    }
+
+    public void updateViewer(List<Todo> list) {
+        if (viewer != null) {
+            writableList.clear();
+            writableList.addAll(list);
+        }
     }
 
     @Focus
-    public void setFocus() {
-        viewer.getControl().setFocus();
+    private void setFocus() {
+        btnLoadData.setFocus();
     }
 }
