@@ -6,7 +6,7 @@ import java.util.Date;
 
 public class Todo {
 
-    private PropertyChangeSupport changes = new PropertyChangeSupport(this);
+    private transient PropertyChangeSupport changes = new PropertyChangeSupport(this);
 
     public static final String FIELD_ID = "id";
     public static final String FIELD_SUMMARY = "summary";

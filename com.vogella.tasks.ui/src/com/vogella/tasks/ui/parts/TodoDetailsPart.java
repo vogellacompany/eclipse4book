@@ -9,12 +9,15 @@ import javax.annotation.PreDestroy;
 import javax.inject.Inject;
 import javax.inject.Named;
 
+import org.eclipse.core.databinding.Binding;
 import org.eclipse.core.databinding.DataBindingContext;
 import org.eclipse.core.databinding.beans.BeanProperties;
 import org.eclipse.core.databinding.observable.value.IObservableValue;
 import org.eclipse.core.databinding.observable.value.WritableValue;
 import org.eclipse.e4.core.di.annotations.Optional;
 import org.eclipse.e4.ui.di.Focus;
+import org.eclipse.e4.ui.di.Persist;
+import org.eclipse.e4.ui.model.application.ui.basic.MPart;
 import org.eclipse.e4.ui.services.IServiceConstants;
 import org.eclipse.jface.databinding.swt.WidgetProperties;
 import org.eclipse.jface.layout.GridLayoutFactory;
@@ -25,6 +28,7 @@ import org.eclipse.swt.widgets.DateTime;
 import org.eclipse.swt.widgets.Label;
 import org.eclipse.swt.widgets.Text;
 
+import com.vogella.tasks.model.ITodoService;
 import com.vogella.tasks.model.Todo;
 
 public class TodoDetailsPart {
@@ -41,6 +45,12 @@ public class TodoDetailsPart {
     private WritableValue<Todo> observableTodo = new WritableValue<>();
 
     private DataBindingContext dbc;
+
+    @Inject                             // 
+    private MPart part;                 // 
+
+    // pause dirty listener when new Todo selection is set
+    private boolean pauseDirtyListener;
 
     @PostConstruct
     public void createControls(Composite parent) {
@@ -84,12 +94,22 @@ public class TodoDetailsPart {
             fields.put(Todo.FIELD_DUEDATE, WidgetProperties.selection().observe(dateTime));
             fields.put(Todo.FIELD_DONE, WidgetProperties.selection().observe(btnDone));
             fields.forEach((k, v) -> dbc.bindValue(v, BeanProperties.value(k).observeDetail(observableTodo)));
+
+            // set a dirty state if one of the bindings is changed
+            dbc.getBindings().forEach(item -> {
+                Binding binding = (Binding) item;
+                binding.getTarget().addChangeListener(e -> {
+                    if(!pauseDirtyListener && part != null) {  // 
+                        part.setDirty(true);
+                    }
+                });
+            });
         }
     }
 
     @Inject
     public void setTodos(@Optional @Named(IServiceConstants.ACTIVE_SELECTION) List<Todo> todos) {
-        if (todos == null || todos.isEmpty()) {
+        if(todos == null || todos.isEmpty()) {
             this.todo = java.util.Optional.empty();
         } else {
             this.todo = java.util.Optional.of(todos.get(0));
@@ -124,7 +144,19 @@ public class TodoDetailsPart {
         // assume you have a field called "summary"
         // for a widget
         if (txtSummary != null && !txtSummary.isDisposed()) {
+            pauseDirtyListener = true; // 
             this.observableTodo.setValue(todo.get());
+            pauseDirtyListener = false; // 
+        }
+    }
+
+    @Persist // 
+    public void save(ITodoService todoService) {
+        todo.ifPresent(t -> {
+            todoService.saveTodo(t);
+        });
+        if (part!=null) {
+            part.setDirty(false);
         }
     }
 

@@ -34,3 +34,21 @@ Checkbox {
 	color: yellow;
 	background-color: black;
 }
+
+.MPartStack, CTabFolder {
+    /* Point to the CustomTabFolderRenderer implementation */
+    swt-tab-renderer: url('bundleclass://com.vogella.eclipse.css/com.vogella.eclipse.css.renderer.CustomTabFolderRenderer');
+    background-color: white;
+}
+
+.MPart {
+    background-color: white;
+}
+
+CTabItem {
+    background-color: white;
+}
+
+CTabItem:selected {
+    color: rgb(0, 132, 180);
+}

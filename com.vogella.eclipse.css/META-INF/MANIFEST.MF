@@ -10,4 +10,5 @@ Require-Bundle: org.eclipse.e4.ui.css.swt.theme;bundle-version="0.12.200",
  org.eclipse.e4.ui.css.core;bundle-version="0.12.500",
  org.eclipse.e4.ui.css.swt;bundle-version="0.13.400",
  org.eclipse.swt;bundle-version="3.110.0",
- com.vogella.swt.widgets;bundle-version="1.0.0"
+ com.vogella.swt.widgets;bundle-version="1.0.0",
+ org.eclipse.jface;bundle-version="3.15.100"

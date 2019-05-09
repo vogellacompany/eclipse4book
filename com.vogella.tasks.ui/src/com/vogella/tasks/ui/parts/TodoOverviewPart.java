@@ -7,8 +7,12 @@ import javax.inject.Inject;
 
 import org.eclipse.core.databinding.beans.BeanProperties;
 import org.eclipse.core.databinding.observable.list.WritableList;
+import org.eclipse.e4.core.contexts.IEclipseContext;
 import org.eclipse.e4.ui.di.Focus;
+import org.eclipse.e4.ui.services.EMenuService;
+import org.eclipse.e4.ui.workbench.modeling.ESelectionService;
 import org.eclipse.jface.databinding.viewers.ViewerSupport;
+import org.eclipse.jface.viewers.IStructuredSelection;
 import org.eclipse.jface.viewers.TableViewer;
 import org.eclipse.jface.viewers.TableViewerColumn;
 import org.eclipse.swt.SWT;
@@ -25,8 +29,13 @@ import com.vogella.tasks.model.Todo;
 
 public class TodoOverviewPart {
 
+	@Inject EMenuService menuService;
+
     @Inject
     ITodoService todoService;
+
+    @Inject
+    ESelectionService selectionService;
 
     private Button btnLoadData;
     private TableViewer viewer;
@@ -42,7 +51,7 @@ public class TodoOverviewPart {
             public void widgetSelected(SelectionEvent e) {
                 // pass in updateViewer method as Consumer
                 todoService.getTodos(TodoOverviewPart.this::updateViewer);
-            };
+            }
         });
         btnLoadData.setText("Load Data");
 
@@ -75,7 +84,13 @@ public class TodoOverviewPart {
         todoService.getTodos(writableList::addAll);
         ViewerSupport.bind(viewer, writableList,
                 BeanProperties.values(new String[] { Todo.FIELD_SUMMARY, Todo.FIELD_DESCRIPTION }));
-
+        viewer.addSelectionChangedListener(event -> {
+        	IStructuredSelection structuredSelection = viewer.getStructuredSelection();
+        	List list = structuredSelection.toList();
+        	// context legen
+        	selectionService.setSelection(list);
+		});
+        menuService.registerContextMenu(viewer.getTable(), "com.vogella.tasks.ui.popupmenu.contextmenutable");
     }
 
     public void updateViewer(List<Todo> list) {

@@ -12,10 +12,6 @@
                name="appName"
                value="to-do">
          </property>
-         <property
-               name="cssTheme"
-               value="com.vogella.eclipse.css.default">
-         </property>
       </product>
    </extension>
 
