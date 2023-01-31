@@ -1,0 +1,1531 @@
+[INFO] Scanning for projects...
+[WARNING] Using JavaSE-17 to fulfill requested profile of JavaSE-11 this might lead to faulty dependency resolution, consider define a suitable JDK in the toolchains.xml
+[INFO] ### Using TychoRepositoryTransport for remote P2 access ###
+[INFO]     Cache location:         C:\Users\vogella\.m2\repository\.cache\tycho
+[INFO]     Transport mode:         online
+[INFO]     Update mode:            cache first
+[INFO]     Minimum cache duration: 60 minutes
+[INFO]       (you can configure this with -Dtycho.p2.transport.min-cache-minutes=<desired minimum cache duration>)
+[WARNING] Using JavaSE-17 to fulfill requested profile of JavaSE-11 this might lead to faulty dependency resolution, consider define a suitable JDK in the toolchains.xml
+[WARNING] Using JavaSE-17 to fulfill requested profile of JavaSE-11 this might lead to faulty dependency resolution, consider define a suitable JDK in the toolchains.xml
+[WARNING] Using JavaSE-17 to fulfill requested profile of JavaSE-11 this might lead to faulty dependency resolution, consider define a suitable JDK in the toolchains.xml
+[WARNING] Using JavaSE-17 to fulfill requested profile of JavaSE-11 this might lead to faulty dependency resolution, consider define a suitable JDK in the toolchains.xml
+[WARNING] Using JavaSE-17 to fulfill requested profile of JavaSE-11 this might lead to faulty dependency resolution, consider define a suitable JDK in the toolchains.xml
+[WARNING] Using JavaSE-17 to fulfill requested profile of JavaSE-11 this might lead to faulty dependency resolution, consider define a suitable JDK in the toolchains.xml
+[WARNING] Using JavaSE-17 to fulfill requested profile of JavaSE-11 this might lead to faulty dependency resolution, consider define a suitable JDK in the toolchains.xml
+[WARNING] Using JavaSE-17 to fulfill requested profile of JavaSE-11 this might lead to faulty dependency resolution, consider define a suitable JDK in the toolchains.xml
+[WARNING] No system packages found in profile nor toolchain for JRE-1.1, using current JRE system packages.
+This can cause faulty dependency resolution, consider adding a definition for a 'jdk' with id=JRE-1.1 in your toolchains.xml
+[INFO] Resolving target definition file:/C:/Users/vogella/git/eclipse4book/com.example.e4.rcp/../target-platform/target-platform.target for environments=[linux/gtk/x86_64, win32/win32/x86_64, macosx/cocoa/x86_64], include source mode=honor, execution environment=org.eclipse.tycho.p2.target.ee.AllKnownEEsResolutionHints@473c1, remote p2 repository options=org.eclipse.tycho.p2.remote.RemoteAgent@1acfb04c...
+[INFO] Resolving MavenDependencyRoots = [GroupId = com.google.code.gson, ArtifactId = gson, Version = 2.8.6, ArtifactType = jar, IncludeDependencyScope = ], IncludeDependencyScope = [compile], MissingManifestStrategy = GENERATE, IncludeSource = true...
+[INFO] Resolving MavenDependencyRoots = [GroupId = ch.qos.logback, ArtifactId = logback-classic, Version = 1.2.11, ArtifactType = jar, IncludeDependencyScope = , GroupId = com.beust, ArtifactId = jcommander, Version = 1.82, ArtifactType = jar, IncludeDependencyScope = , GroupId = com.google.code.gson, ArtifactId = gson, Version = 2.10.1, ArtifactType = jar, IncludeDependencyScope = , GroupId = com.itextpdf, ArtifactId = io, Version = 7.2.5, ArtifactType = jar, IncludeDependencyScope = , GroupId = com.itextpdf, ArtifactId = kernel, Version = 7.2.5, ArtifactType = jar, IncludeDependencyScope = , GroupId = com.oracle.database.jdbc, ArtifactId = ojdbc11, Version = 21.8.0.0, ArtifactType = jar, IncludeDependencyScope = , GroupId = org.slf4j, ArtifactId = slf4j-api, Version = 1.7.36, ArtifactType = jar, IncludeDependencyScope = , GroupId = org.yaml, ArtifactId = snakeyaml, Version = 1.33, ArtifactType = jar, IncludeDependencyScope = ], IncludeDependencyScope = [compile], MissingManifestStrategy = GENERATE, IncludeSource = true...
+[INFO] javax.mail:mail:1.4 is wrapped as a bundle with bundle symbolic name wrapped.javax.mail.mail
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.javax.mail.mail" version=" 1.4" download-size="0" install-size="0" unpack="false"/>
+[INFO] javax.activation:activation:1.1 is wrapped as a bundle with bundle symbolic name wrapped.javax.activation.activation
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.javax.activation.activation" version=" 1.1" download-size="0" install-size="0" unpack="false"/>
+[INFO] org.codehaus.janino:janino:3.0.6 is wrapped as a bundle with bundle symbolic name wrapped.org.codehaus.janino.janino
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.org.codehaus.janino.janino" version=" 3.0.6" download-size="0" install-size="0" unpack="false"/>
+[INFO] org.codehaus.janino:commons-compiler:3.0.6 is wrapped as a bundle with bundle symbolic name wrapped.org.codehaus.janino.commons-compiler
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.org.codehaus.janino.commons-compiler" version=" 3.0.6" download-size="0" install-size="0" unpack="false"/>
+[INFO] com.beust:jcommander:1.82 is wrapped as a bundle with bundle symbolic name wrapped.com.beust.jcommander
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.com.beust.jcommander" version=" 1.82" download-size="0" install-size="0" unpack="false"/>
+[INFO] com.itextpdf:io:7.2.5 is wrapped as a bundle with bundle symbolic name wrapped.com.itextpdf.io
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.com.itextpdf.io" version=" 7.2.5" download-size="0" install-size="0" unpack="false"/>
+[INFO] com.itextpdf:commons:7.2.5 is wrapped as a bundle with bundle symbolic name wrapped.com.itextpdf.commons
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.com.itextpdf.commons" version=" 7.2.5" download-size="0" install-size="0" unpack="false"/>
+[INFO] com.itextpdf:kernel:7.2.5 is wrapped as a bundle with bundle symbolic name wrapped.com.itextpdf.kernel
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.com.itextpdf.kernel" version=" 7.2.5" download-size="0" install-size="0" unpack="false"/>
+[INFO] com.itextpdf:io:7.2.5 is wrapped as a bundle with bundle symbolic name wrapped.com.itextpdf.io
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.com.itextpdf.io" version=" 7.2.5" download-size="0" install-size="0" unpack="false"/>
+[INFO] com.itextpdf:commons:7.2.5 is wrapped as a bundle with bundle symbolic name wrapped.com.itextpdf.commons
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.com.itextpdf.commons" version=" 7.2.5" download-size="0" install-size="0" unpack="false"/>
+[INFO] com.oracle.database.jdbc:ojdbc11:21.8.0.0 is wrapped as a bundle with bundle symbolic name wrapped.com.oracle.database.jdbc.ojdbc11
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.com.oracle.database.jdbc.ojdbc11" version=" 21.8.0.0" download-size="0" install-size="0" unpack="false"/>
+[INFO] Resolving MavenDependencyRoots = [GroupId = io.projectreactor, ArtifactId = reactor-core, Version = 3.5.2, ArtifactType = jar, IncludeDependencyScope = ], IncludeDependencyScope = [compile], MissingManifestStrategy = GENERATE, IncludeSource = true...
+[INFO] Resolving MavenDependencyRoots = [GroupId = org.eclipse.persistence, ArtifactId = org.eclipse.persistence.jpa, Version = 4.0.0, ArtifactType = jar, IncludeDependencyScope = ], IncludeDependencyScope = [compile], MissingManifestStrategy = GENERATE, IncludeSource = true...
+[INFO] org.apache.ant:ant-launcher:1.10.12 is wrapped as a bundle with bundle symbolic name wrapped.org.apache.ant.ant-launcher
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.org.apache.ant.ant-launcher" version=" 1.10.12" download-size="0" install-size="0" unpack="false"/>
+[INFO] Resolving dependencies of MavenProject: com.vogella.tycho:com.example.e4.rcp:1.0.0-SNAPSHOT @ C:\Users\vogella\git\eclipse4book\com.example.e4.rcp\.polyglot.META-INF
+[INFO] Resolving target definition file:/C:/Users/vogella/git/eclipse4book/com.example.e4.feature/../target-platform/target-platform.target for environments=[linux/gtk/x86_64, win32/win32/x86_64, macosx/cocoa/x86_64], include source mode=honor, execution environment=org.eclipse.tycho.p2.target.ee.AllKnownEEsResolutionHints@473c1, remote p2 repository options=org.eclipse.tycho.p2.remote.RemoteAgent@1acfb04c...
+[INFO] Resolving MavenDependencyRoots = [GroupId = com.google.code.gson, ArtifactId = gson, Version = 2.8.6, ArtifactType = jar, IncludeDependencyScope = ], IncludeDependencyScope = [compile], MissingManifestStrategy = GENERATE, IncludeSource = true...
+[INFO] Resolving MavenDependencyRoots = [GroupId = ch.qos.logback, ArtifactId = logback-classic, Version = 1.2.11, ArtifactType = jar, IncludeDependencyScope = , GroupId = com.beust, ArtifactId = jcommander, Version = 1.82, ArtifactType = jar, IncludeDependencyScope = , GroupId = com.google.code.gson, ArtifactId = gson, Version = 2.10.1, ArtifactType = jar, IncludeDependencyScope = , GroupId = com.itextpdf, ArtifactId = io, Version = 7.2.5, ArtifactType = jar, IncludeDependencyScope = , GroupId = com.itextpdf, ArtifactId = kernel, Version = 7.2.5, ArtifactType = jar, IncludeDependencyScope = , GroupId = com.oracle.database.jdbc, ArtifactId = ojdbc11, Version = 21.8.0.0, ArtifactType = jar, IncludeDependencyScope = , GroupId = org.slf4j, ArtifactId = slf4j-api, Version = 1.7.36, ArtifactType = jar, IncludeDependencyScope = , GroupId = org.yaml, ArtifactId = snakeyaml, Version = 1.33, ArtifactType = jar, IncludeDependencyScope = ], IncludeDependencyScope = [compile], MissingManifestStrategy = GENERATE, IncludeSource = true...
+[INFO] javax.mail:mail:1.4 is wrapped as a bundle with bundle symbolic name wrapped.javax.mail.mail
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.javax.mail.mail" version=" 1.4" download-size="0" install-size="0" unpack="false"/>
+[INFO] javax.activation:activation:1.1 is wrapped as a bundle with bundle symbolic name wrapped.javax.activation.activation
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.javax.activation.activation" version=" 1.1" download-size="0" install-size="0" unpack="false"/>
+[INFO] org.codehaus.janino:janino:3.0.6 is wrapped as a bundle with bundle symbolic name wrapped.org.codehaus.janino.janino
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.org.codehaus.janino.janino" version=" 3.0.6" download-size="0" install-size="0" unpack="false"/>
+[INFO] org.codehaus.janino:commons-compiler:3.0.6 is wrapped as a bundle with bundle symbolic name wrapped.org.codehaus.janino.commons-compiler
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.org.codehaus.janino.commons-compiler" version=" 3.0.6" download-size="0" install-size="0" unpack="false"/>
+[INFO] com.beust:jcommander:1.82 is wrapped as a bundle with bundle symbolic name wrapped.com.beust.jcommander
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.com.beust.jcommander" version=" 1.82" download-size="0" install-size="0" unpack="false"/>
+[INFO] com.itextpdf:io:7.2.5 is wrapped as a bundle with bundle symbolic name wrapped.com.itextpdf.io
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.com.itextpdf.io" version=" 7.2.5" download-size="0" install-size="0" unpack="false"/>
+[INFO] com.itextpdf:commons:7.2.5 is wrapped as a bundle with bundle symbolic name wrapped.com.itextpdf.commons
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.com.itextpdf.commons" version=" 7.2.5" download-size="0" install-size="0" unpack="false"/>
+[INFO] com.itextpdf:kernel:7.2.5 is wrapped as a bundle with bundle symbolic name wrapped.com.itextpdf.kernel
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.com.itextpdf.kernel" version=" 7.2.5" download-size="0" install-size="0" unpack="false"/>
+[INFO] com.itextpdf:io:7.2.5 is wrapped as a bundle with bundle symbolic name wrapped.com.itextpdf.io
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.com.itextpdf.io" version=" 7.2.5" download-size="0" install-size="0" unpack="false"/>
+[INFO] com.itextpdf:commons:7.2.5 is wrapped as a bundle with bundle symbolic name wrapped.com.itextpdf.commons
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.com.itextpdf.commons" version=" 7.2.5" download-size="0" install-size="0" unpack="false"/>
+[INFO] com.oracle.database.jdbc:ojdbc11:21.8.0.0 is wrapped as a bundle with bundle symbolic name wrapped.com.oracle.database.jdbc.ojdbc11
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.com.oracle.database.jdbc.ojdbc11" version=" 21.8.0.0" download-size="0" install-size="0" unpack="false"/>
+[INFO] Resolving MavenDependencyRoots = [GroupId = io.projectreactor, ArtifactId = reactor-core, Version = 3.5.2, ArtifactType = jar, IncludeDependencyScope = ], IncludeDependencyScope = [compile], MissingManifestStrategy = GENERATE, IncludeSource = true...
+[INFO] Resolving MavenDependencyRoots = [GroupId = org.eclipse.persistence, ArtifactId = org.eclipse.persistence.jpa, Version = 4.0.0, ArtifactType = jar, IncludeDependencyScope = ], IncludeDependencyScope = [compile], MissingManifestStrategy = GENERATE, IncludeSource = true...
+[INFO] org.apache.ant:ant-launcher:1.10.12 is wrapped as a bundle with bundle symbolic name wrapped.org.apache.ant.ant-launcher
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.org.apache.ant.ant-launcher" version=" 1.10.12" download-size="0" install-size="0" unpack="false"/>
+[INFO] Resolving dependencies of MavenProject: com.vogella.tycho:com.example.e4.feature:1.0.0-SNAPSHOT @ C:\Users\vogella\git\eclipse4book\com.example.e4.feature\.polyglot.feature.xml
+[INFO] Resolving target definition file:/C:/Users/vogella/git/eclipse4book/com.example.e4.product/../target-platform/target-platform.target for environments=[linux/gtk/x86_64, win32/win32/x86_64, macosx/cocoa/x86_64], include source mode=honor, execution environment=org.eclipse.tycho.p2.target.ee.AllKnownEEsResolutionHints@473c1, remote p2 repository options=org.eclipse.tycho.p2.remote.RemoteAgent@1acfb04c...
+[INFO] Resolving MavenDependencyRoots = [GroupId = com.google.code.gson, ArtifactId = gson, Version = 2.8.6, ArtifactType = jar, IncludeDependencyScope = ], IncludeDependencyScope = [compile], MissingManifestStrategy = GENERATE, IncludeSource = true...
+[INFO] Resolving MavenDependencyRoots = [GroupId = ch.qos.logback, ArtifactId = logback-classic, Version = 1.2.11, ArtifactType = jar, IncludeDependencyScope = , GroupId = com.beust, ArtifactId = jcommander, Version = 1.82, ArtifactType = jar, IncludeDependencyScope = , GroupId = com.google.code.gson, ArtifactId = gson, Version = 2.10.1, ArtifactType = jar, IncludeDependencyScope = , GroupId = com.itextpdf, ArtifactId = io, Version = 7.2.5, ArtifactType = jar, IncludeDependencyScope = , GroupId = com.itextpdf, ArtifactId = kernel, Version = 7.2.5, ArtifactType = jar, IncludeDependencyScope = , GroupId = com.oracle.database.jdbc, ArtifactId = ojdbc11, Version = 21.8.0.0, ArtifactType = jar, IncludeDependencyScope = , GroupId = org.slf4j, ArtifactId = slf4j-api, Version = 1.7.36, ArtifactType = jar, IncludeDependencyScope = , GroupId = org.yaml, ArtifactId = snakeyaml, Version = 1.33, ArtifactType = jar, IncludeDependencyScope = ], IncludeDependencyScope = [compile], MissingManifestStrategy = GENERATE, IncludeSource = true...
+[INFO] javax.mail:mail:1.4 is wrapped as a bundle with bundle symbolic name wrapped.javax.mail.mail
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.javax.mail.mail" version=" 1.4" download-size="0" install-size="0" unpack="false"/>
+[INFO] javax.activation:activation:1.1 is wrapped as a bundle with bundle symbolic name wrapped.javax.activation.activation
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.javax.activation.activation" version=" 1.1" download-size="0" install-size="0" unpack="false"/>
+[INFO] org.codehaus.janino:janino:3.0.6 is wrapped as a bundle with bundle symbolic name wrapped.org.codehaus.janino.janino
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.org.codehaus.janino.janino" version=" 3.0.6" download-size="0" install-size="0" unpack="false"/>
+[INFO] org.codehaus.janino:commons-compiler:3.0.6 is wrapped as a bundle with bundle symbolic name wrapped.org.codehaus.janino.commons-compiler
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.org.codehaus.janino.commons-compiler" version=" 3.0.6" download-size="0" install-size="0" unpack="false"/>
+[INFO] com.beust:jcommander:1.82 is wrapped as a bundle with bundle symbolic name wrapped.com.beust.jcommander
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.com.beust.jcommander" version=" 1.82" download-size="0" install-size="0" unpack="false"/>
+[INFO] com.itextpdf:io:7.2.5 is wrapped as a bundle with bundle symbolic name wrapped.com.itextpdf.io
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.com.itextpdf.io" version=" 7.2.5" download-size="0" install-size="0" unpack="false"/>
+[INFO] com.itextpdf:commons:7.2.5 is wrapped as a bundle with bundle symbolic name wrapped.com.itextpdf.commons
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.com.itextpdf.commons" version=" 7.2.5" download-size="0" install-size="0" unpack="false"/>
+[INFO] com.itextpdf:kernel:7.2.5 is wrapped as a bundle with bundle symbolic name wrapped.com.itextpdf.kernel
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.com.itextpdf.kernel" version=" 7.2.5" download-size="0" install-size="0" unpack="false"/>
+[INFO] com.itextpdf:io:7.2.5 is wrapped as a bundle with bundle symbolic name wrapped.com.itextpdf.io
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.com.itextpdf.io" version=" 7.2.5" download-size="0" install-size="0" unpack="false"/>
+[INFO] com.itextpdf:commons:7.2.5 is wrapped as a bundle with bundle symbolic name wrapped.com.itextpdf.commons
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.com.itextpdf.commons" version=" 7.2.5" download-size="0" install-size="0" unpack="false"/>
+[INFO] com.oracle.database.jdbc:ojdbc11:21.8.0.0 is wrapped as a bundle with bundle symbolic name wrapped.com.oracle.database.jdbc.ojdbc11
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.com.oracle.database.jdbc.ojdbc11" version=" 21.8.0.0" download-size="0" install-size="0" unpack="false"/>
+[INFO] Resolving MavenDependencyRoots = [GroupId = io.projectreactor, ArtifactId = reactor-core, Version = 3.5.2, ArtifactType = jar, IncludeDependencyScope = ], IncludeDependencyScope = [compile], MissingManifestStrategy = GENERATE, IncludeSource = true...
+[INFO] Resolving MavenDependencyRoots = [GroupId = org.eclipse.persistence, ArtifactId = org.eclipse.persistence.jpa, Version = 4.0.0, ArtifactType = jar, IncludeDependencyScope = ], IncludeDependencyScope = [compile], MissingManifestStrategy = GENERATE, IncludeSource = true...
+[INFO] org.apache.ant:ant-launcher:1.10.12 is wrapped as a bundle with bundle symbolic name wrapped.org.apache.ant.ant-launcher
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.org.apache.ant.ant-launcher" version=" 1.10.12" download-size="0" install-size="0" unpack="false"/>
+[INFO] Resolving dependencies of MavenProject: com.vogella.tycho:com.example.e4.product:1.0.0-SNAPSHOT @ C:\Users\vogella\git\eclipse4book\com.example.e4.product\.polyglot.com.example.e4.product
+[INFO] Resolving target definition file:/C:/Users/vogella/git/eclipse4book/com.vogella.swt.widgets/../target-platform/target-platform.target for environments=[linux/gtk/x86_64, win32/win32/x86_64, macosx/cocoa/x86_64], include source mode=honor, execution environment=org.eclipse.tycho.p2.target.ee.AllKnownEEsResolutionHints@473c1, remote p2 repository options=org.eclipse.tycho.p2.remote.RemoteAgent@1acfb04c...
+[INFO] Resolving MavenDependencyRoots = [GroupId = com.google.code.gson, ArtifactId = gson, Version = 2.8.6, ArtifactType = jar, IncludeDependencyScope = ], IncludeDependencyScope = [compile], MissingManifestStrategy = GENERATE, IncludeSource = true...
+[INFO] Resolving MavenDependencyRoots = [GroupId = ch.qos.logback, ArtifactId = logback-classic, Version = 1.2.11, ArtifactType = jar, IncludeDependencyScope = , GroupId = com.beust, ArtifactId = jcommander, Version = 1.82, ArtifactType = jar, IncludeDependencyScope = , GroupId = com.google.code.gson, ArtifactId = gson, Version = 2.10.1, ArtifactType = jar, IncludeDependencyScope = , GroupId = com.itextpdf, ArtifactId = io, Version = 7.2.5, ArtifactType = jar, IncludeDependencyScope = , GroupId = com.itextpdf, ArtifactId = kernel, Version = 7.2.5, ArtifactType = jar, IncludeDependencyScope = , GroupId = com.oracle.database.jdbc, ArtifactId = ojdbc11, Version = 21.8.0.0, ArtifactType = jar, IncludeDependencyScope = , GroupId = org.slf4j, ArtifactId = slf4j-api, Version = 1.7.36, ArtifactType = jar, IncludeDependencyScope = , GroupId = org.yaml, ArtifactId = snakeyaml, Version = 1.33, ArtifactType = jar, IncludeDependencyScope = ], IncludeDependencyScope = [compile], MissingManifestStrategy = GENERATE, IncludeSource = true...
+[INFO] javax.mail:mail:1.4 is wrapped as a bundle with bundle symbolic name wrapped.javax.mail.mail
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.javax.mail.mail" version=" 1.4" download-size="0" install-size="0" unpack="false"/>
+[INFO] javax.activation:activation:1.1 is wrapped as a bundle with bundle symbolic name wrapped.javax.activation.activation
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.javax.activation.activation" version=" 1.1" download-size="0" install-size="0" unpack="false"/>
+[INFO] org.codehaus.janino:janino:3.0.6 is wrapped as a bundle with bundle symbolic name wrapped.org.codehaus.janino.janino
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.org.codehaus.janino.janino" version=" 3.0.6" download-size="0" install-size="0" unpack="false"/>
+[INFO] org.codehaus.janino:commons-compiler:3.0.6 is wrapped as a bundle with bundle symbolic name wrapped.org.codehaus.janino.commons-compiler
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.org.codehaus.janino.commons-compiler" version=" 3.0.6" download-size="0" install-size="0" unpack="false"/>
+[INFO] com.beust:jcommander:1.82 is wrapped as a bundle with bundle symbolic name wrapped.com.beust.jcommander
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.com.beust.jcommander" version=" 1.82" download-size="0" install-size="0" unpack="false"/>
+[INFO] com.itextpdf:io:7.2.5 is wrapped as a bundle with bundle symbolic name wrapped.com.itextpdf.io
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.com.itextpdf.io" version=" 7.2.5" download-size="0" install-size="0" unpack="false"/>
+[INFO] com.itextpdf:commons:7.2.5 is wrapped as a bundle with bundle symbolic name wrapped.com.itextpdf.commons
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.com.itextpdf.commons" version=" 7.2.5" download-size="0" install-size="0" unpack="false"/>
+[INFO] com.itextpdf:kernel:7.2.5 is wrapped as a bundle with bundle symbolic name wrapped.com.itextpdf.kernel
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.com.itextpdf.kernel" version=" 7.2.5" download-size="0" install-size="0" unpack="false"/>
+[INFO] com.itextpdf:io:7.2.5 is wrapped as a bundle with bundle symbolic name wrapped.com.itextpdf.io
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.com.itextpdf.io" version=" 7.2.5" download-size="0" install-size="0" unpack="false"/>
+[INFO] com.itextpdf:commons:7.2.5 is wrapped as a bundle with bundle symbolic name wrapped.com.itextpdf.commons
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.com.itextpdf.commons" version=" 7.2.5" download-size="0" install-size="0" unpack="false"/>
+[INFO] com.oracle.database.jdbc:ojdbc11:21.8.0.0 is wrapped as a bundle with bundle symbolic name wrapped.com.oracle.database.jdbc.ojdbc11
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.com.oracle.database.jdbc.ojdbc11" version=" 21.8.0.0" download-size="0" install-size="0" unpack="false"/>
+[INFO] Resolving MavenDependencyRoots = [GroupId = io.projectreactor, ArtifactId = reactor-core, Version = 3.5.2, ArtifactType = jar, IncludeDependencyScope = ], IncludeDependencyScope = [compile], MissingManifestStrategy = GENERATE, IncludeSource = true...
+[INFO] Resolving MavenDependencyRoots = [GroupId = org.eclipse.persistence, ArtifactId = org.eclipse.persistence.jpa, Version = 4.0.0, ArtifactType = jar, IncludeDependencyScope = ], IncludeDependencyScope = [compile], MissingManifestStrategy = GENERATE, IncludeSource = true...
+[INFO] org.apache.ant:ant-launcher:1.10.12 is wrapped as a bundle with bundle symbolic name wrapped.org.apache.ant.ant-launcher
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.org.apache.ant.ant-launcher" version=" 1.10.12" download-size="0" install-size="0" unpack="false"/>
+[INFO] Resolving dependencies of MavenProject: com.vogella.tycho:com.vogella.swt.widgets:1.0.0-SNAPSHOT @ C:\Users\vogella\git\eclipse4book\com.vogella.swt.widgets\.polyglot.META-INF
+[INFO] Resolving target definition file:/C:/Users/vogella/git/eclipse4book/com.vogella.tasks.ui/../target-platform/target-platform.target for environments=[linux/gtk/x86_64, win32/win32/x86_64, macosx/cocoa/x86_64], include source mode=honor, execution environment=org.eclipse.tycho.p2.target.ee.AllKnownEEsResolutionHints@473c1, remote p2 repository options=org.eclipse.tycho.p2.remote.RemoteAgent@1acfb04c...
+[INFO] Resolving MavenDependencyRoots = [GroupId = com.google.code.gson, ArtifactId = gson, Version = 2.8.6, ArtifactType = jar, IncludeDependencyScope = ], IncludeDependencyScope = [compile], MissingManifestStrategy = GENERATE, IncludeSource = true...
+[INFO] Resolving MavenDependencyRoots = [GroupId = ch.qos.logback, ArtifactId = logback-classic, Version = 1.2.11, ArtifactType = jar, IncludeDependencyScope = , GroupId = com.beust, ArtifactId = jcommander, Version = 1.82, ArtifactType = jar, IncludeDependencyScope = , GroupId = com.google.code.gson, ArtifactId = gson, Version = 2.10.1, ArtifactType = jar, IncludeDependencyScope = , GroupId = com.itextpdf, ArtifactId = io, Version = 7.2.5, ArtifactType = jar, IncludeDependencyScope = , GroupId = com.itextpdf, ArtifactId = kernel, Version = 7.2.5, ArtifactType = jar, IncludeDependencyScope = , GroupId = com.oracle.database.jdbc, ArtifactId = ojdbc11, Version = 21.8.0.0, ArtifactType = jar, IncludeDependencyScope = , GroupId = org.slf4j, ArtifactId = slf4j-api, Version = 1.7.36, ArtifactType = jar, IncludeDependencyScope = , GroupId = org.yaml, ArtifactId = snakeyaml, Version = 1.33, ArtifactType = jar, IncludeDependencyScope = ], IncludeDependencyScope = [compile], MissingManifestStrategy = GENERATE, IncludeSource = true...
+[INFO] javax.mail:mail:1.4 is wrapped as a bundle with bundle symbolic name wrapped.javax.mail.mail
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.javax.mail.mail" version=" 1.4" download-size="0" install-size="0" unpack="false"/>
+[INFO] javax.activation:activation:1.1 is wrapped as a bundle with bundle symbolic name wrapped.javax.activation.activation
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.javax.activation.activation" version=" 1.1" download-size="0" install-size="0" unpack="false"/>
+[INFO] org.codehaus.janino:janino:3.0.6 is wrapped as a bundle with bundle symbolic name wrapped.org.codehaus.janino.janino
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.org.codehaus.janino.janino" version=" 3.0.6" download-size="0" install-size="0" unpack="false"/>
+[INFO] org.codehaus.janino:commons-compiler:3.0.6 is wrapped as a bundle with bundle symbolic name wrapped.org.codehaus.janino.commons-compiler
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.org.codehaus.janino.commons-compiler" version=" 3.0.6" download-size="0" install-size="0" unpack="false"/>
+[INFO] com.beust:jcommander:1.82 is wrapped as a bundle with bundle symbolic name wrapped.com.beust.jcommander
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.com.beust.jcommander" version=" 1.82" download-size="0" install-size="0" unpack="false"/>
+[INFO] com.itextpdf:io:7.2.5 is wrapped as a bundle with bundle symbolic name wrapped.com.itextpdf.io
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.com.itextpdf.io" version=" 7.2.5" download-size="0" install-size="0" unpack="false"/>
+[INFO] com.itextpdf:commons:7.2.5 is wrapped as a bundle with bundle symbolic name wrapped.com.itextpdf.commons
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.com.itextpdf.commons" version=" 7.2.5" download-size="0" install-size="0" unpack="false"/>
+[INFO] com.itextpdf:kernel:7.2.5 is wrapped as a bundle with bundle symbolic name wrapped.com.itextpdf.kernel
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.com.itextpdf.kernel" version=" 7.2.5" download-size="0" install-size="0" unpack="false"/>
+[INFO] com.itextpdf:io:7.2.5 is wrapped as a bundle with bundle symbolic name wrapped.com.itextpdf.io
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.com.itextpdf.io" version=" 7.2.5" download-size="0" install-size="0" unpack="false"/>
+[INFO] com.itextpdf:commons:7.2.5 is wrapped as a bundle with bundle symbolic name wrapped.com.itextpdf.commons
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.com.itextpdf.commons" version=" 7.2.5" download-size="0" install-size="0" unpack="false"/>
+[INFO] com.oracle.database.jdbc:ojdbc11:21.8.0.0 is wrapped as a bundle with bundle symbolic name wrapped.com.oracle.database.jdbc.ojdbc11
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.com.oracle.database.jdbc.ojdbc11" version=" 21.8.0.0" download-size="0" install-size="0" unpack="false"/>
+[INFO] Resolving MavenDependencyRoots = [GroupId = io.projectreactor, ArtifactId = reactor-core, Version = 3.5.2, ArtifactType = jar, IncludeDependencyScope = ], IncludeDependencyScope = [compile], MissingManifestStrategy = GENERATE, IncludeSource = true...
+[INFO] Resolving MavenDependencyRoots = [GroupId = org.eclipse.persistence, ArtifactId = org.eclipse.persistence.jpa, Version = 4.0.0, ArtifactType = jar, IncludeDependencyScope = ], IncludeDependencyScope = [compile], MissingManifestStrategy = GENERATE, IncludeSource = true...
+[INFO] org.apache.ant:ant-launcher:1.10.12 is wrapped as a bundle with bundle symbolic name wrapped.org.apache.ant.ant-launcher
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.org.apache.ant.ant-launcher" version=" 1.10.12" download-size="0" install-size="0" unpack="false"/>
+[INFO] Resolving dependencies of MavenProject: com.vogella.tycho:com.vogella.tasks.ui:1.0.0-SNAPSHOT @ C:\Users\vogella\git\eclipse4book\com.vogella.tasks.ui\.polyglot.META-INF
+[INFO] Resolving target definition file:/C:/Users/vogella/git/eclipse4book/com.example.e4.renderer.swt/../target-platform/target-platform.target for environments=[linux/gtk/x86_64, win32/win32/x86_64, macosx/cocoa/x86_64], include source mode=honor, execution environment=org.eclipse.tycho.p2.target.ee.AllKnownEEsResolutionHints@473c1, remote p2 repository options=org.eclipse.tycho.p2.remote.RemoteAgent@1acfb04c...
+[INFO] Resolving MavenDependencyRoots = [GroupId = com.google.code.gson, ArtifactId = gson, Version = 2.8.6, ArtifactType = jar, IncludeDependencyScope = ], IncludeDependencyScope = [compile], MissingManifestStrategy = GENERATE, IncludeSource = true...
+[INFO] Resolving MavenDependencyRoots = [GroupId = ch.qos.logback, ArtifactId = logback-classic, Version = 1.2.11, ArtifactType = jar, IncludeDependencyScope = , GroupId = com.beust, ArtifactId = jcommander, Version = 1.82, ArtifactType = jar, IncludeDependencyScope = , GroupId = com.google.code.gson, ArtifactId = gson, Version = 2.10.1, ArtifactType = jar, IncludeDependencyScope = , GroupId = com.itextpdf, ArtifactId = io, Version = 7.2.5, ArtifactType = jar, IncludeDependencyScope = , GroupId = com.itextpdf, ArtifactId = kernel, Version = 7.2.5, ArtifactType = jar, IncludeDependencyScope = , GroupId = com.oracle.database.jdbc, ArtifactId = ojdbc11, Version = 21.8.0.0, ArtifactType = jar, IncludeDependencyScope = , GroupId = org.slf4j, ArtifactId = slf4j-api, Version = 1.7.36, ArtifactType = jar, IncludeDependencyScope = , GroupId = org.yaml, ArtifactId = snakeyaml, Version = 1.33, ArtifactType = jar, IncludeDependencyScope = ], IncludeDependencyScope = [compile], MissingManifestStrategy = GENERATE, IncludeSource = true...
+[INFO] javax.mail:mail:1.4 is wrapped as a bundle with bundle symbolic name wrapped.javax.mail.mail
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.javax.mail.mail" version=" 1.4" download-size="0" install-size="0" unpack="false"/>
+[INFO] javax.activation:activation:1.1 is wrapped as a bundle with bundle symbolic name wrapped.javax.activation.activation
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.javax.activation.activation" version=" 1.1" download-size="0" install-size="0" unpack="false"/>
+[INFO] org.codehaus.janino:janino:3.0.6 is wrapped as a bundle with bundle symbolic name wrapped.org.codehaus.janino.janino
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.org.codehaus.janino.janino" version=" 3.0.6" download-size="0" install-size="0" unpack="false"/>
+[INFO] org.codehaus.janino:commons-compiler:3.0.6 is wrapped as a bundle with bundle symbolic name wrapped.org.codehaus.janino.commons-compiler
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.org.codehaus.janino.commons-compiler" version=" 3.0.6" download-size="0" install-size="0" unpack="false"/>
+[INFO] com.beust:jcommander:1.82 is wrapped as a bundle with bundle symbolic name wrapped.com.beust.jcommander
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.com.beust.jcommander" version=" 1.82" download-size="0" install-size="0" unpack="false"/>
+[INFO] com.itextpdf:io:7.2.5 is wrapped as a bundle with bundle symbolic name wrapped.com.itextpdf.io
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.com.itextpdf.io" version=" 7.2.5" download-size="0" install-size="0" unpack="false"/>
+[INFO] com.itextpdf:commons:7.2.5 is wrapped as a bundle with bundle symbolic name wrapped.com.itextpdf.commons
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.com.itextpdf.commons" version=" 7.2.5" download-size="0" install-size="0" unpack="false"/>
+[INFO] com.itextpdf:kernel:7.2.5 is wrapped as a bundle with bundle symbolic name wrapped.com.itextpdf.kernel
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.com.itextpdf.kernel" version=" 7.2.5" download-size="0" install-size="0" unpack="false"/>
+[INFO] com.itextpdf:io:7.2.5 is wrapped as a bundle with bundle symbolic name wrapped.com.itextpdf.io
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.com.itextpdf.io" version=" 7.2.5" download-size="0" install-size="0" unpack="false"/>
+[INFO] com.itextpdf:commons:7.2.5 is wrapped as a bundle with bundle symbolic name wrapped.com.itextpdf.commons
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.com.itextpdf.commons" version=" 7.2.5" download-size="0" install-size="0" unpack="false"/>
+[INFO] com.oracle.database.jdbc:ojdbc11:21.8.0.0 is wrapped as a bundle with bundle symbolic name wrapped.com.oracle.database.jdbc.ojdbc11
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.com.oracle.database.jdbc.ojdbc11" version=" 21.8.0.0" download-size="0" install-size="0" unpack="false"/>
+[INFO] Resolving MavenDependencyRoots = [GroupId = io.projectreactor, ArtifactId = reactor-core, Version = 3.5.2, ArtifactType = jar, IncludeDependencyScope = ], IncludeDependencyScope = [compile], MissingManifestStrategy = GENERATE, IncludeSource = true...
+[INFO] Resolving MavenDependencyRoots = [GroupId = org.eclipse.persistence, ArtifactId = org.eclipse.persistence.jpa, Version = 4.0.0, ArtifactType = jar, IncludeDependencyScope = ], IncludeDependencyScope = [compile], MissingManifestStrategy = GENERATE, IncludeSource = true...
+[INFO] org.apache.ant:ant-launcher:1.10.12 is wrapped as a bundle with bundle symbolic name wrapped.org.apache.ant.ant-launcher
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.org.apache.ant.ant-launcher" version=" 1.10.12" download-size="0" install-size="0" unpack="false"/>
+[INFO] Resolving dependencies of MavenProject: com.vogella.tycho:com.example.e4.renderer.swt:1.0.0-SNAPSHOT @ C:\Users\vogella\git\eclipse4book\com.example.e4.renderer.swt\.polyglot.META-INF
+[INFO] Resolving target definition file:/C:/Users/vogella/git/eclipse4book/com.vogella.tasks.feature/../target-platform/target-platform.target for environments=[linux/gtk/x86_64, win32/win32/x86_64, macosx/cocoa/x86_64], include source mode=honor, execution environment=org.eclipse.tycho.p2.target.ee.AllKnownEEsResolutionHints@473c1, remote p2 repository options=org.eclipse.tycho.p2.remote.RemoteAgent@1acfb04c...
+[INFO] Resolving MavenDependencyRoots = [GroupId = com.google.code.gson, ArtifactId = gson, Version = 2.8.6, ArtifactType = jar, IncludeDependencyScope = ], IncludeDependencyScope = [compile], MissingManifestStrategy = GENERATE, IncludeSource = true...
+[INFO] Resolving MavenDependencyRoots = [GroupId = ch.qos.logback, ArtifactId = logback-classic, Version = 1.2.11, ArtifactType = jar, IncludeDependencyScope = , GroupId = com.beust, ArtifactId = jcommander, Version = 1.82, ArtifactType = jar, IncludeDependencyScope = , GroupId = com.google.code.gson, ArtifactId = gson, Version = 2.10.1, ArtifactType = jar, IncludeDependencyScope = , GroupId = com.itextpdf, ArtifactId = io, Version = 7.2.5, ArtifactType = jar, IncludeDependencyScope = , GroupId = com.itextpdf, ArtifactId = kernel, Version = 7.2.5, ArtifactType = jar, IncludeDependencyScope = , GroupId = com.oracle.database.jdbc, ArtifactId = ojdbc11, Version = 21.8.0.0, ArtifactType = jar, IncludeDependencyScope = , GroupId = org.slf4j, ArtifactId = slf4j-api, Version = 1.7.36, ArtifactType = jar, IncludeDependencyScope = , GroupId = org.yaml, ArtifactId = snakeyaml, Version = 1.33, ArtifactType = jar, IncludeDependencyScope = ], IncludeDependencyScope = [compile], MissingManifestStrategy = GENERATE, IncludeSource = true...
+[INFO] javax.mail:mail:1.4 is wrapped as a bundle with bundle symbolic name wrapped.javax.mail.mail
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.javax.mail.mail" version=" 1.4" download-size="0" install-size="0" unpack="false"/>
+[INFO] javax.activation:activation:1.1 is wrapped as a bundle with bundle symbolic name wrapped.javax.activation.activation
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.javax.activation.activation" version=" 1.1" download-size="0" install-size="0" unpack="false"/>
+[INFO] org.codehaus.janino:janino:3.0.6 is wrapped as a bundle with bundle symbolic name wrapped.org.codehaus.janino.janino
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.org.codehaus.janino.janino" version=" 3.0.6" download-size="0" install-size="0" unpack="false"/>
+[INFO] org.codehaus.janino:commons-compiler:3.0.6 is wrapped as a bundle with bundle symbolic name wrapped.org.codehaus.janino.commons-compiler
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.org.codehaus.janino.commons-compiler" version=" 3.0.6" download-size="0" install-size="0" unpack="false"/>
+[INFO] com.beust:jcommander:1.82 is wrapped as a bundle with bundle symbolic name wrapped.com.beust.jcommander
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.com.beust.jcommander" version=" 1.82" download-size="0" install-size="0" unpack="false"/>
+[INFO] com.itextpdf:io:7.2.5 is wrapped as a bundle with bundle symbolic name wrapped.com.itextpdf.io
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.com.itextpdf.io" version=" 7.2.5" download-size="0" install-size="0" unpack="false"/>
+[INFO] com.itextpdf:commons:7.2.5 is wrapped as a bundle with bundle symbolic name wrapped.com.itextpdf.commons
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.com.itextpdf.commons" version=" 7.2.5" download-size="0" install-size="0" unpack="false"/>
+[INFO] com.itextpdf:kernel:7.2.5 is wrapped as a bundle with bundle symbolic name wrapped.com.itextpdf.kernel
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.com.itextpdf.kernel" version=" 7.2.5" download-size="0" install-size="0" unpack="false"/>
+[INFO] com.itextpdf:io:7.2.5 is wrapped as a bundle with bundle symbolic name wrapped.com.itextpdf.io
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.com.itextpdf.io" version=" 7.2.5" download-size="0" install-size="0" unpack="false"/>
+[INFO] com.itextpdf:commons:7.2.5 is wrapped as a bundle with bundle symbolic name wrapped.com.itextpdf.commons
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.com.itextpdf.commons" version=" 7.2.5" download-size="0" install-size="0" unpack="false"/>
+[INFO] com.oracle.database.jdbc:ojdbc11:21.8.0.0 is wrapped as a bundle with bundle symbolic name wrapped.com.oracle.database.jdbc.ojdbc11
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.com.oracle.database.jdbc.ojdbc11" version=" 21.8.0.0" download-size="0" install-size="0" unpack="false"/>
+[INFO] Resolving MavenDependencyRoots = [GroupId = io.projectreactor, ArtifactId = reactor-core, Version = 3.5.2, ArtifactType = jar, IncludeDependencyScope = ], IncludeDependencyScope = [compile], MissingManifestStrategy = GENERATE, IncludeSource = true...
+[INFO] Resolving MavenDependencyRoots = [GroupId = org.eclipse.persistence, ArtifactId = org.eclipse.persistence.jpa, Version = 4.0.0, ArtifactType = jar, IncludeDependencyScope = ], IncludeDependencyScope = [compile], MissingManifestStrategy = GENERATE, IncludeSource = true...
+[INFO] org.apache.ant:ant-launcher:1.10.12 is wrapped as a bundle with bundle symbolic name wrapped.org.apache.ant.ant-launcher
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.org.apache.ant.ant-launcher" version=" 1.10.12" download-size="0" install-size="0" unpack="false"/>
+[INFO] Resolving dependencies of MavenProject: com.vogella.tycho:com.vogella.tasks.feature:1.0.0-SNAPSHOT @ C:\Users\vogella\git\eclipse4book\com.vogella.tasks.feature\.polyglot.feature.xml
+[INFO] Resolving target definition file:/C:/Users/vogella/git/eclipse4book/com.vogella.tasks.product/../target-platform/target-platform.target for environments=[linux/gtk/x86_64, win32/win32/x86_64, macosx/cocoa/x86_64], include source mode=honor, execution environment=org.eclipse.tycho.p2.target.ee.AllKnownEEsResolutionHints@473c1, remote p2 repository options=org.eclipse.tycho.p2.remote.RemoteAgent@1acfb04c...
+[INFO] Resolving MavenDependencyRoots = [GroupId = com.google.code.gson, ArtifactId = gson, Version = 2.8.6, ArtifactType = jar, IncludeDependencyScope = ], IncludeDependencyScope = [compile], MissingManifestStrategy = GENERATE, IncludeSource = true...
+[INFO] Resolving MavenDependencyRoots = [GroupId = ch.qos.logback, ArtifactId = logback-classic, Version = 1.2.11, ArtifactType = jar, IncludeDependencyScope = , GroupId = com.beust, ArtifactId = jcommander, Version = 1.82, ArtifactType = jar, IncludeDependencyScope = , GroupId = com.google.code.gson, ArtifactId = gson, Version = 2.10.1, ArtifactType = jar, IncludeDependencyScope = , GroupId = com.itextpdf, ArtifactId = io, Version = 7.2.5, ArtifactType = jar, IncludeDependencyScope = , GroupId = com.itextpdf, ArtifactId = kernel, Version = 7.2.5, ArtifactType = jar, IncludeDependencyScope = , GroupId = com.oracle.database.jdbc, ArtifactId = ojdbc11, Version = 21.8.0.0, ArtifactType = jar, IncludeDependencyScope = , GroupId = org.slf4j, ArtifactId = slf4j-api, Version = 1.7.36, ArtifactType = jar, IncludeDependencyScope = , GroupId = org.yaml, ArtifactId = snakeyaml, Version = 1.33, ArtifactType = jar, IncludeDependencyScope = ], IncludeDependencyScope = [compile], MissingManifestStrategy = GENERATE, IncludeSource = true...
+[INFO] javax.mail:mail:1.4 is wrapped as a bundle with bundle symbolic name wrapped.javax.mail.mail
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.javax.mail.mail" version=" 1.4" download-size="0" install-size="0" unpack="false"/>
+[INFO] javax.activation:activation:1.1 is wrapped as a bundle with bundle symbolic name wrapped.javax.activation.activation
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.javax.activation.activation" version=" 1.1" download-size="0" install-size="0" unpack="false"/>
+[INFO] org.codehaus.janino:janino:3.0.6 is wrapped as a bundle with bundle symbolic name wrapped.org.codehaus.janino.janino
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.org.codehaus.janino.janino" version=" 3.0.6" download-size="0" install-size="0" unpack="false"/>
+[INFO] org.codehaus.janino:commons-compiler:3.0.6 is wrapped as a bundle with bundle symbolic name wrapped.org.codehaus.janino.commons-compiler
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.org.codehaus.janino.commons-compiler" version=" 3.0.6" download-size="0" install-size="0" unpack="false"/>
+[INFO] com.beust:jcommander:1.82 is wrapped as a bundle with bundle symbolic name wrapped.com.beust.jcommander
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.com.beust.jcommander" version=" 1.82" download-size="0" install-size="0" unpack="false"/>
+[INFO] com.itextpdf:io:7.2.5 is wrapped as a bundle with bundle symbolic name wrapped.com.itextpdf.io
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.com.itextpdf.io" version=" 7.2.5" download-size="0" install-size="0" unpack="false"/>
+[INFO] com.itextpdf:commons:7.2.5 is wrapped as a bundle with bundle symbolic name wrapped.com.itextpdf.commons
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.com.itextpdf.commons" version=" 7.2.5" download-size="0" install-size="0" unpack="false"/>
+[INFO] com.itextpdf:kernel:7.2.5 is wrapped as a bundle with bundle symbolic name wrapped.com.itextpdf.kernel
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.com.itextpdf.kernel" version=" 7.2.5" download-size="0" install-size="0" unpack="false"/>
+[INFO] com.itextpdf:io:7.2.5 is wrapped as a bundle with bundle symbolic name wrapped.com.itextpdf.io
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.com.itextpdf.io" version=" 7.2.5" download-size="0" install-size="0" unpack="false"/>
+[INFO] com.itextpdf:commons:7.2.5 is wrapped as a bundle with bundle symbolic name wrapped.com.itextpdf.commons
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.com.itextpdf.commons" version=" 7.2.5" download-size="0" install-size="0" unpack="false"/>
+[INFO] com.oracle.database.jdbc:ojdbc11:21.8.0.0 is wrapped as a bundle with bundle symbolic name wrapped.com.oracle.database.jdbc.ojdbc11
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.com.oracle.database.jdbc.ojdbc11" version=" 21.8.0.0" download-size="0" install-size="0" unpack="false"/>
+[INFO] Resolving MavenDependencyRoots = [GroupId = io.projectreactor, ArtifactId = reactor-core, Version = 3.5.2, ArtifactType = jar, IncludeDependencyScope = ], IncludeDependencyScope = [compile], MissingManifestStrategy = GENERATE, IncludeSource = true...
+[INFO] Resolving MavenDependencyRoots = [GroupId = org.eclipse.persistence, ArtifactId = org.eclipse.persistence.jpa, Version = 4.0.0, ArtifactType = jar, IncludeDependencyScope = ], IncludeDependencyScope = [compile], MissingManifestStrategy = GENERATE, IncludeSource = true...
+[INFO] org.apache.ant:ant-launcher:1.10.12 is wrapped as a bundle with bundle symbolic name wrapped.org.apache.ant.ant-launcher
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.org.apache.ant.ant-launcher" version=" 1.10.12" download-size="0" install-size="0" unpack="false"/>
+[INFO] Resolving dependencies of MavenProject: com.vogella.tycho:com.vogella.tasks:0.0.1 @ C:\Users\vogella\git\eclipse4book\com.vogella.tasks.product\.polyglot.com.vogella.tasks.product
+[INFO] Resolving target definition file:/C:/Users/vogella/git/eclipse4book/com.vogella.tasks.model/../target-platform/target-platform.target for environments=[linux/gtk/x86_64, win32/win32/x86_64, macosx/cocoa/x86_64], include source mode=honor, execution environment=org.eclipse.tycho.p2.target.ee.AllKnownEEsResolutionHints@473c1, remote p2 repository options=org.eclipse.tycho.p2.remote.RemoteAgent@1acfb04c...
+[INFO] Resolving MavenDependencyRoots = [GroupId = com.google.code.gson, ArtifactId = gson, Version = 2.8.6, ArtifactType = jar, IncludeDependencyScope = ], IncludeDependencyScope = [compile], MissingManifestStrategy = GENERATE, IncludeSource = true...
+[INFO] Resolving MavenDependencyRoots = [GroupId = ch.qos.logback, ArtifactId = logback-classic, Version = 1.2.11, ArtifactType = jar, IncludeDependencyScope = , GroupId = com.beust, ArtifactId = jcommander, Version = 1.82, ArtifactType = jar, IncludeDependencyScope = , GroupId = com.google.code.gson, ArtifactId = gson, Version = 2.10.1, ArtifactType = jar, IncludeDependencyScope = , GroupId = com.itextpdf, ArtifactId = io, Version = 7.2.5, ArtifactType = jar, IncludeDependencyScope = , GroupId = com.itextpdf, ArtifactId = kernel, Version = 7.2.5, ArtifactType = jar, IncludeDependencyScope = , GroupId = com.oracle.database.jdbc, ArtifactId = ojdbc11, Version = 21.8.0.0, ArtifactType = jar, IncludeDependencyScope = , GroupId = org.slf4j, ArtifactId = slf4j-api, Version = 1.7.36, ArtifactType = jar, IncludeDependencyScope = , GroupId = org.yaml, ArtifactId = snakeyaml, Version = 1.33, ArtifactType = jar, IncludeDependencyScope = ], IncludeDependencyScope = [compile], MissingManifestStrategy = GENERATE, IncludeSource = true...
+[INFO] javax.mail:mail:1.4 is wrapped as a bundle with bundle symbolic name wrapped.javax.mail.mail
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.javax.mail.mail" version=" 1.4" download-size="0" install-size="0" unpack="false"/>
+[INFO] javax.activation:activation:1.1 is wrapped as a bundle with bundle symbolic name wrapped.javax.activation.activation
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.javax.activation.activation" version=" 1.1" download-size="0" install-size="0" unpack="false"/>
+[INFO] org.codehaus.janino:janino:3.0.6 is wrapped as a bundle with bundle symbolic name wrapped.org.codehaus.janino.janino
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.org.codehaus.janino.janino" version=" 3.0.6" download-size="0" install-size="0" unpack="false"/>
+[INFO] org.codehaus.janino:commons-compiler:3.0.6 is wrapped as a bundle with bundle symbolic name wrapped.org.codehaus.janino.commons-compiler
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.org.codehaus.janino.commons-compiler" version=" 3.0.6" download-size="0" install-size="0" unpack="false"/>
+[INFO] com.beust:jcommander:1.82 is wrapped as a bundle with bundle symbolic name wrapped.com.beust.jcommander
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.com.beust.jcommander" version=" 1.82" download-size="0" install-size="0" unpack="false"/>
+[INFO] com.itextpdf:io:7.2.5 is wrapped as a bundle with bundle symbolic name wrapped.com.itextpdf.io
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.com.itextpdf.io" version=" 7.2.5" download-size="0" install-size="0" unpack="false"/>
+[INFO] com.itextpdf:commons:7.2.5 is wrapped as a bundle with bundle symbolic name wrapped.com.itextpdf.commons
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.com.itextpdf.commons" version=" 7.2.5" download-size="0" install-size="0" unpack="false"/>
+[INFO] com.itextpdf:kernel:7.2.5 is wrapped as a bundle with bundle symbolic name wrapped.com.itextpdf.kernel
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.com.itextpdf.kernel" version=" 7.2.5" download-size="0" install-size="0" unpack="false"/>
+[INFO] com.itextpdf:io:7.2.5 is wrapped as a bundle with bundle symbolic name wrapped.com.itextpdf.io
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.com.itextpdf.io" version=" 7.2.5" download-size="0" install-size="0" unpack="false"/>
+[INFO] com.itextpdf:commons:7.2.5 is wrapped as a bundle with bundle symbolic name wrapped.com.itextpdf.commons
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.com.itextpdf.commons" version=" 7.2.5" download-size="0" install-size="0" unpack="false"/>
+[INFO] com.oracle.database.jdbc:ojdbc11:21.8.0.0 is wrapped as a bundle with bundle symbolic name wrapped.com.oracle.database.jdbc.ojdbc11
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.com.oracle.database.jdbc.ojdbc11" version=" 21.8.0.0" download-size="0" install-size="0" unpack="false"/>
+[INFO] Resolving MavenDependencyRoots = [GroupId = io.projectreactor, ArtifactId = reactor-core, Version = 3.5.2, ArtifactType = jar, IncludeDependencyScope = ], IncludeDependencyScope = [compile], MissingManifestStrategy = GENERATE, IncludeSource = true...
+[INFO] Resolving MavenDependencyRoots = [GroupId = org.eclipse.persistence, ArtifactId = org.eclipse.persistence.jpa, Version = 4.0.0, ArtifactType = jar, IncludeDependencyScope = ], IncludeDependencyScope = [compile], MissingManifestStrategy = GENERATE, IncludeSource = true...
+[INFO] org.apache.ant:ant-launcher:1.10.12 is wrapped as a bundle with bundle symbolic name wrapped.org.apache.ant.ant-launcher
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.org.apache.ant.ant-launcher" version=" 1.10.12" download-size="0" install-size="0" unpack="false"/>
+[INFO] Resolving dependencies of MavenProject: com.vogella.tycho:com.vogella.tasks.model:1.0.0-SNAPSHOT @ C:\Users\vogella\git\eclipse4book\com.vogella.tasks.model\.polyglot.META-INF
+[INFO] Resolving target definition file:/C:/Users/vogella/git/eclipse4book/com.vogella.tasks.services/../target-platform/target-platform.target for environments=[linux/gtk/x86_64, win32/win32/x86_64, macosx/cocoa/x86_64], include source mode=honor, execution environment=org.eclipse.tycho.p2.target.ee.AllKnownEEsResolutionHints@473c1, remote p2 repository options=org.eclipse.tycho.p2.remote.RemoteAgent@1acfb04c...
+[INFO] Resolving MavenDependencyRoots = [GroupId = com.google.code.gson, ArtifactId = gson, Version = 2.8.6, ArtifactType = jar, IncludeDependencyScope = ], IncludeDependencyScope = [compile], MissingManifestStrategy = GENERATE, IncludeSource = true...
+[INFO] Resolving MavenDependencyRoots = [GroupId = ch.qos.logback, ArtifactId = logback-classic, Version = 1.2.11, ArtifactType = jar, IncludeDependencyScope = , GroupId = com.beust, ArtifactId = jcommander, Version = 1.82, ArtifactType = jar, IncludeDependencyScope = , GroupId = com.google.code.gson, ArtifactId = gson, Version = 2.10.1, ArtifactType = jar, IncludeDependencyScope = , GroupId = com.itextpdf, ArtifactId = io, Version = 7.2.5, ArtifactType = jar, IncludeDependencyScope = , GroupId = com.itextpdf, ArtifactId = kernel, Version = 7.2.5, ArtifactType = jar, IncludeDependencyScope = , GroupId = com.oracle.database.jdbc, ArtifactId = ojdbc11, Version = 21.8.0.0, ArtifactType = jar, IncludeDependencyScope = , GroupId = org.slf4j, ArtifactId = slf4j-api, Version = 1.7.36, ArtifactType = jar, IncludeDependencyScope = , GroupId = org.yaml, ArtifactId = snakeyaml, Version = 1.33, ArtifactType = jar, IncludeDependencyScope = ], IncludeDependencyScope = [compile], MissingManifestStrategy = GENERATE, IncludeSource = true...
+[INFO] javax.mail:mail:1.4 is wrapped as a bundle with bundle symbolic name wrapped.javax.mail.mail
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.javax.mail.mail" version=" 1.4" download-size="0" install-size="0" unpack="false"/>
+[INFO] javax.activation:activation:1.1 is wrapped as a bundle with bundle symbolic name wrapped.javax.activation.activation
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.javax.activation.activation" version=" 1.1" download-size="0" install-size="0" unpack="false"/>
+[INFO] org.codehaus.janino:janino:3.0.6 is wrapped as a bundle with bundle symbolic name wrapped.org.codehaus.janino.janino
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.org.codehaus.janino.janino" version=" 3.0.6" download-size="0" install-size="0" unpack="false"/>
+[INFO] org.codehaus.janino:commons-compiler:3.0.6 is wrapped as a bundle with bundle symbolic name wrapped.org.codehaus.janino.commons-compiler
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.org.codehaus.janino.commons-compiler" version=" 3.0.6" download-size="0" install-size="0" unpack="false"/>
+[INFO] com.beust:jcommander:1.82 is wrapped as a bundle with bundle symbolic name wrapped.com.beust.jcommander
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.com.beust.jcommander" version=" 1.82" download-size="0" install-size="0" unpack="false"/>
+[INFO] com.itextpdf:io:7.2.5 is wrapped as a bundle with bundle symbolic name wrapped.com.itextpdf.io
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.com.itextpdf.io" version=" 7.2.5" download-size="0" install-size="0" unpack="false"/>
+[INFO] com.itextpdf:commons:7.2.5 is wrapped as a bundle with bundle symbolic name wrapped.com.itextpdf.commons
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.com.itextpdf.commons" version=" 7.2.5" download-size="0" install-size="0" unpack="false"/>
+[INFO] com.itextpdf:kernel:7.2.5 is wrapped as a bundle with bundle symbolic name wrapped.com.itextpdf.kernel
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.com.itextpdf.kernel" version=" 7.2.5" download-size="0" install-size="0" unpack="false"/>
+[INFO] com.itextpdf:io:7.2.5 is wrapped as a bundle with bundle symbolic name wrapped.com.itextpdf.io
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.com.itextpdf.io" version=" 7.2.5" download-size="0" install-size="0" unpack="false"/>
+[INFO] com.itextpdf:commons:7.2.5 is wrapped as a bundle with bundle symbolic name wrapped.com.itextpdf.commons
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.com.itextpdf.commons" version=" 7.2.5" download-size="0" install-size="0" unpack="false"/>
+[INFO] com.oracle.database.jdbc:ojdbc11:21.8.0.0 is wrapped as a bundle with bundle symbolic name wrapped.com.oracle.database.jdbc.ojdbc11
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.com.oracle.database.jdbc.ojdbc11" version=" 21.8.0.0" download-size="0" install-size="0" unpack="false"/>
+[INFO] Resolving MavenDependencyRoots = [GroupId = io.projectreactor, ArtifactId = reactor-core, Version = 3.5.2, ArtifactType = jar, IncludeDependencyScope = ], IncludeDependencyScope = [compile], MissingManifestStrategy = GENERATE, IncludeSource = true...
+[INFO] Resolving MavenDependencyRoots = [GroupId = org.eclipse.persistence, ArtifactId = org.eclipse.persistence.jpa, Version = 4.0.0, ArtifactType = jar, IncludeDependencyScope = ], IncludeDependencyScope = [compile], MissingManifestStrategy = GENERATE, IncludeSource = true...
+[INFO] org.apache.ant:ant-launcher:1.10.12 is wrapped as a bundle with bundle symbolic name wrapped.org.apache.ant.ant-launcher
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.org.apache.ant.ant-launcher" version=" 1.10.12" download-size="0" install-size="0" unpack="false"/>
+[INFO] Resolving dependencies of MavenProject: com.vogella.tycho:com.vogella.tasks.services:1.0.0-SNAPSHOT @ C:\Users\vogella\git\eclipse4book\com.vogella.tasks.services\.polyglot.META-INF
+[INFO] Resolving target definition file:/C:/Users/vogella/git/eclipse4book/com.vogella.tasks.services.tests/../target-platform/target-platform.target for environments=[linux/gtk/x86_64, win32/win32/x86_64, macosx/cocoa/x86_64], include source mode=honor, execution environment=org.eclipse.tycho.p2.target.ee.AllKnownEEsResolutionHints@473c1, remote p2 repository options=org.eclipse.tycho.p2.remote.RemoteAgent@1acfb04c...
+[INFO] Resolving MavenDependencyRoots = [GroupId = com.google.code.gson, ArtifactId = gson, Version = 2.8.6, ArtifactType = jar, IncludeDependencyScope = ], IncludeDependencyScope = [compile], MissingManifestStrategy = GENERATE, IncludeSource = true...
+[INFO] Resolving MavenDependencyRoots = [GroupId = ch.qos.logback, ArtifactId = logback-classic, Version = 1.2.11, ArtifactType = jar, IncludeDependencyScope = , GroupId = com.beust, ArtifactId = jcommander, Version = 1.82, ArtifactType = jar, IncludeDependencyScope = , GroupId = com.google.code.gson, ArtifactId = gson, Version = 2.10.1, ArtifactType = jar, IncludeDependencyScope = , GroupId = com.itextpdf, ArtifactId = io, Version = 7.2.5, ArtifactType = jar, IncludeDependencyScope = , GroupId = com.itextpdf, ArtifactId = kernel, Version = 7.2.5, ArtifactType = jar, IncludeDependencyScope = , GroupId = com.oracle.database.jdbc, ArtifactId = ojdbc11, Version = 21.8.0.0, ArtifactType = jar, IncludeDependencyScope = , GroupId = org.slf4j, ArtifactId = slf4j-api, Version = 1.7.36, ArtifactType = jar, IncludeDependencyScope = , GroupId = org.yaml, ArtifactId = snakeyaml, Version = 1.33, ArtifactType = jar, IncludeDependencyScope = ], IncludeDependencyScope = [compile], MissingManifestStrategy = GENERATE, IncludeSource = true...
+[INFO] javax.mail:mail:1.4 is wrapped as a bundle with bundle symbolic name wrapped.javax.mail.mail
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.javax.mail.mail" version=" 1.4" download-size="0" install-size="0" unpack="false"/>
+[INFO] javax.activation:activation:1.1 is wrapped as a bundle with bundle symbolic name wrapped.javax.activation.activation
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.javax.activation.activation" version=" 1.1" download-size="0" install-size="0" unpack="false"/>
+[INFO] org.codehaus.janino:janino:3.0.6 is wrapped as a bundle with bundle symbolic name wrapped.org.codehaus.janino.janino
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.org.codehaus.janino.janino" version=" 3.0.6" download-size="0" install-size="0" unpack="false"/>
+[INFO] org.codehaus.janino:commons-compiler:3.0.6 is wrapped as a bundle with bundle symbolic name wrapped.org.codehaus.janino.commons-compiler
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.org.codehaus.janino.commons-compiler" version=" 3.0.6" download-size="0" install-size="0" unpack="false"/>
+[INFO] com.beust:jcommander:1.82 is wrapped as a bundle with bundle symbolic name wrapped.com.beust.jcommander
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.com.beust.jcommander" version=" 1.82" download-size="0" install-size="0" unpack="false"/>
+[INFO] com.itextpdf:io:7.2.5 is wrapped as a bundle with bundle symbolic name wrapped.com.itextpdf.io
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.com.itextpdf.io" version=" 7.2.5" download-size="0" install-size="0" unpack="false"/>
+[INFO] com.itextpdf:commons:7.2.5 is wrapped as a bundle with bundle symbolic name wrapped.com.itextpdf.commons
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.com.itextpdf.commons" version=" 7.2.5" download-size="0" install-size="0" unpack="false"/>
+[INFO] com.itextpdf:kernel:7.2.5 is wrapped as a bundle with bundle symbolic name wrapped.com.itextpdf.kernel
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.com.itextpdf.kernel" version=" 7.2.5" download-size="0" install-size="0" unpack="false"/>
+[INFO] com.itextpdf:io:7.2.5 is wrapped as a bundle with bundle symbolic name wrapped.com.itextpdf.io
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.com.itextpdf.io" version=" 7.2.5" download-size="0" install-size="0" unpack="false"/>
+[INFO] com.itextpdf:commons:7.2.5 is wrapped as a bundle with bundle symbolic name wrapped.com.itextpdf.commons
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.com.itextpdf.commons" version=" 7.2.5" download-size="0" install-size="0" unpack="false"/>
+[INFO] com.oracle.database.jdbc:ojdbc11:21.8.0.0 is wrapped as a bundle with bundle symbolic name wrapped.com.oracle.database.jdbc.ojdbc11
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.com.oracle.database.jdbc.ojdbc11" version=" 21.8.0.0" download-size="0" install-size="0" unpack="false"/>
+[INFO] Resolving MavenDependencyRoots = [GroupId = io.projectreactor, ArtifactId = reactor-core, Version = 3.5.2, ArtifactType = jar, IncludeDependencyScope = ], IncludeDependencyScope = [compile], MissingManifestStrategy = GENERATE, IncludeSource = true...
+[INFO] Resolving MavenDependencyRoots = [GroupId = org.eclipse.persistence, ArtifactId = org.eclipse.persistence.jpa, Version = 4.0.0, ArtifactType = jar, IncludeDependencyScope = ], IncludeDependencyScope = [compile], MissingManifestStrategy = GENERATE, IncludeSource = true...
+[INFO] org.apache.ant:ant-launcher:1.10.12 is wrapped as a bundle with bundle symbolic name wrapped.org.apache.ant.ant-launcher
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.org.apache.ant.ant-launcher" version=" 1.10.12" download-size="0" install-size="0" unpack="false"/>
+[INFO] Resolving dependencies of MavenProject: com.vogella.tycho:com.vogella.tasks.services.tests:1.0.0-SNAPSHOT @ C:\Users\vogella\git\eclipse4book\com.vogella.tasks.services.tests\.polyglot.META-INF
+[INFO] Resolving target definition file:/C:/Users/vogella/git/eclipse4book/com.vogella.service.imageloader/../target-platform/target-platform.target for environments=[linux/gtk/x86_64, win32/win32/x86_64, macosx/cocoa/x86_64], include source mode=honor, execution environment=org.eclipse.tycho.p2.target.ee.AllKnownEEsResolutionHints@473c1, remote p2 repository options=org.eclipse.tycho.p2.remote.RemoteAgent@1acfb04c...
+[INFO] Resolving MavenDependencyRoots = [GroupId = com.google.code.gson, ArtifactId = gson, Version = 2.8.6, ArtifactType = jar, IncludeDependencyScope = ], IncludeDependencyScope = [compile], MissingManifestStrategy = GENERATE, IncludeSource = true...
+[INFO] Resolving MavenDependencyRoots = [GroupId = ch.qos.logback, ArtifactId = logback-classic, Version = 1.2.11, ArtifactType = jar, IncludeDependencyScope = , GroupId = com.beust, ArtifactId = jcommander, Version = 1.82, ArtifactType = jar, IncludeDependencyScope = , GroupId = com.google.code.gson, ArtifactId = gson, Version = 2.10.1, ArtifactType = jar, IncludeDependencyScope = , GroupId = com.itextpdf, ArtifactId = io, Version = 7.2.5, ArtifactType = jar, IncludeDependencyScope = , GroupId = com.itextpdf, ArtifactId = kernel, Version = 7.2.5, ArtifactType = jar, IncludeDependencyScope = , GroupId = com.oracle.database.jdbc, ArtifactId = ojdbc11, Version = 21.8.0.0, ArtifactType = jar, IncludeDependencyScope = , GroupId = org.slf4j, ArtifactId = slf4j-api, Version = 1.7.36, ArtifactType = jar, IncludeDependencyScope = , GroupId = org.yaml, ArtifactId = snakeyaml, Version = 1.33, ArtifactType = jar, IncludeDependencyScope = ], IncludeDependencyScope = [compile], MissingManifestStrategy = GENERATE, IncludeSource = true...
+[INFO] javax.mail:mail:1.4 is wrapped as a bundle with bundle symbolic name wrapped.javax.mail.mail
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.javax.mail.mail" version=" 1.4" download-size="0" install-size="0" unpack="false"/>
+[INFO] javax.activation:activation:1.1 is wrapped as a bundle with bundle symbolic name wrapped.javax.activation.activation
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.javax.activation.activation" version=" 1.1" download-size="0" install-size="0" unpack="false"/>
+[INFO] org.codehaus.janino:janino:3.0.6 is wrapped as a bundle with bundle symbolic name wrapped.org.codehaus.janino.janino
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.org.codehaus.janino.janino" version=" 3.0.6" download-size="0" install-size="0" unpack="false"/>
+[INFO] org.codehaus.janino:commons-compiler:3.0.6 is wrapped as a bundle with bundle symbolic name wrapped.org.codehaus.janino.commons-compiler
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.org.codehaus.janino.commons-compiler" version=" 3.0.6" download-size="0" install-size="0" unpack="false"/>
+[INFO] com.beust:jcommander:1.82 is wrapped as a bundle with bundle symbolic name wrapped.com.beust.jcommander
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.com.beust.jcommander" version=" 1.82" download-size="0" install-size="0" unpack="false"/>
+[INFO] com.itextpdf:io:7.2.5 is wrapped as a bundle with bundle symbolic name wrapped.com.itextpdf.io
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.com.itextpdf.io" version=" 7.2.5" download-size="0" install-size="0" unpack="false"/>
+[INFO] com.itextpdf:commons:7.2.5 is wrapped as a bundle with bundle symbolic name wrapped.com.itextpdf.commons
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.com.itextpdf.commons" version=" 7.2.5" download-size="0" install-size="0" unpack="false"/>
+[INFO] com.itextpdf:kernel:7.2.5 is wrapped as a bundle with bundle symbolic name wrapped.com.itextpdf.kernel
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.com.itextpdf.kernel" version=" 7.2.5" download-size="0" install-size="0" unpack="false"/>
+[INFO] com.itextpdf:io:7.2.5 is wrapped as a bundle with bundle symbolic name wrapped.com.itextpdf.io
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.com.itextpdf.io" version=" 7.2.5" download-size="0" install-size="0" unpack="false"/>
+[INFO] com.itextpdf:commons:7.2.5 is wrapped as a bundle with bundle symbolic name wrapped.com.itextpdf.commons
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.com.itextpdf.commons" version=" 7.2.5" download-size="0" install-size="0" unpack="false"/>
+[INFO] com.oracle.database.jdbc:ojdbc11:21.8.0.0 is wrapped as a bundle with bundle symbolic name wrapped.com.oracle.database.jdbc.ojdbc11
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.com.oracle.database.jdbc.ojdbc11" version=" 21.8.0.0" download-size="0" install-size="0" unpack="false"/>
+[INFO] Resolving MavenDependencyRoots = [GroupId = io.projectreactor, ArtifactId = reactor-core, Version = 3.5.2, ArtifactType = jar, IncludeDependencyScope = ], IncludeDependencyScope = [compile], MissingManifestStrategy = GENERATE, IncludeSource = true...
+[INFO] Resolving MavenDependencyRoots = [GroupId = org.eclipse.persistence, ArtifactId = org.eclipse.persistence.jpa, Version = 4.0.0, ArtifactType = jar, IncludeDependencyScope = ], IncludeDependencyScope = [compile], MissingManifestStrategy = GENERATE, IncludeSource = true...
+[INFO] org.apache.ant:ant-launcher:1.10.12 is wrapped as a bundle with bundle symbolic name wrapped.org.apache.ant.ant-launcher
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.org.apache.ant.ant-launcher" version=" 1.10.12" download-size="0" install-size="0" unpack="false"/>
+[INFO] Resolving dependencies of MavenProject: com.vogella.tycho:com.vogella.service.imageloader:1.0.0-SNAPSHOT @ C:\Users\vogella\git\eclipse4book\com.vogella.service.imageloader\.polyglot.META-INF
+[INFO] Resolving target definition file:/C:/Users/vogella/git/eclipse4book/com.vogella.tasks.events/../target-platform/target-platform.target for environments=[linux/gtk/x86_64, win32/win32/x86_64, macosx/cocoa/x86_64], include source mode=honor, execution environment=org.eclipse.tycho.p2.target.ee.AllKnownEEsResolutionHints@473c1, remote p2 repository options=org.eclipse.tycho.p2.remote.RemoteAgent@1acfb04c...
+[INFO] Resolving MavenDependencyRoots = [GroupId = com.google.code.gson, ArtifactId = gson, Version = 2.8.6, ArtifactType = jar, IncludeDependencyScope = ], IncludeDependencyScope = [compile], MissingManifestStrategy = GENERATE, IncludeSource = true...
+[INFO] Resolving MavenDependencyRoots = [GroupId = ch.qos.logback, ArtifactId = logback-classic, Version = 1.2.11, ArtifactType = jar, IncludeDependencyScope = , GroupId = com.beust, ArtifactId = jcommander, Version = 1.82, ArtifactType = jar, IncludeDependencyScope = , GroupId = com.google.code.gson, ArtifactId = gson, Version = 2.10.1, ArtifactType = jar, IncludeDependencyScope = , GroupId = com.itextpdf, ArtifactId = io, Version = 7.2.5, ArtifactType = jar, IncludeDependencyScope = , GroupId = com.itextpdf, ArtifactId = kernel, Version = 7.2.5, ArtifactType = jar, IncludeDependencyScope = , GroupId = com.oracle.database.jdbc, ArtifactId = ojdbc11, Version = 21.8.0.0, ArtifactType = jar, IncludeDependencyScope = , GroupId = org.slf4j, ArtifactId = slf4j-api, Version = 1.7.36, ArtifactType = jar, IncludeDependencyScope = , GroupId = org.yaml, ArtifactId = snakeyaml, Version = 1.33, ArtifactType = jar, IncludeDependencyScope = ], IncludeDependencyScope = [compile], MissingManifestStrategy = GENERATE, IncludeSource = true...
+[INFO] javax.mail:mail:1.4 is wrapped as a bundle with bundle symbolic name wrapped.javax.mail.mail
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.javax.mail.mail" version=" 1.4" download-size="0" install-size="0" unpack="false"/>
+[INFO] javax.activation:activation:1.1 is wrapped as a bundle with bundle symbolic name wrapped.javax.activation.activation
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.javax.activation.activation" version=" 1.1" download-size="0" install-size="0" unpack="false"/>
+[INFO] org.codehaus.janino:janino:3.0.6 is wrapped as a bundle with bundle symbolic name wrapped.org.codehaus.janino.janino
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.org.codehaus.janino.janino" version=" 3.0.6" download-size="0" install-size="0" unpack="false"/>
+[INFO] org.codehaus.janino:commons-compiler:3.0.6 is wrapped as a bundle with bundle symbolic name wrapped.org.codehaus.janino.commons-compiler
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.org.codehaus.janino.commons-compiler" version=" 3.0.6" download-size="0" install-size="0" unpack="false"/>
+[INFO] com.beust:jcommander:1.82 is wrapped as a bundle with bundle symbolic name wrapped.com.beust.jcommander
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.com.beust.jcommander" version=" 1.82" download-size="0" install-size="0" unpack="false"/>
+[INFO] com.itextpdf:io:7.2.5 is wrapped as a bundle with bundle symbolic name wrapped.com.itextpdf.io
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.com.itextpdf.io" version=" 7.2.5" download-size="0" install-size="0" unpack="false"/>
+[INFO] com.itextpdf:commons:7.2.5 is wrapped as a bundle with bundle symbolic name wrapped.com.itextpdf.commons
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.com.itextpdf.commons" version=" 7.2.5" download-size="0" install-size="0" unpack="false"/>
+[INFO] com.itextpdf:kernel:7.2.5 is wrapped as a bundle with bundle symbolic name wrapped.com.itextpdf.kernel
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.com.itextpdf.kernel" version=" 7.2.5" download-size="0" install-size="0" unpack="false"/>
+[INFO] com.itextpdf:io:7.2.5 is wrapped as a bundle with bundle symbolic name wrapped.com.itextpdf.io
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.com.itextpdf.io" version=" 7.2.5" download-size="0" install-size="0" unpack="false"/>
+[INFO] com.itextpdf:commons:7.2.5 is wrapped as a bundle with bundle symbolic name wrapped.com.itextpdf.commons
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.com.itextpdf.commons" version=" 7.2.5" download-size="0" install-size="0" unpack="false"/>
+[INFO] com.oracle.database.jdbc:ojdbc11:21.8.0.0 is wrapped as a bundle with bundle symbolic name wrapped.com.oracle.database.jdbc.ojdbc11
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.com.oracle.database.jdbc.ojdbc11" version=" 21.8.0.0" download-size="0" install-size="0" unpack="false"/>
+[INFO] Resolving MavenDependencyRoots = [GroupId = io.projectreactor, ArtifactId = reactor-core, Version = 3.5.2, ArtifactType = jar, IncludeDependencyScope = ], IncludeDependencyScope = [compile], MissingManifestStrategy = GENERATE, IncludeSource = true...
+[INFO] Resolving MavenDependencyRoots = [GroupId = org.eclipse.persistence, ArtifactId = org.eclipse.persistence.jpa, Version = 4.0.0, ArtifactType = jar, IncludeDependencyScope = ], IncludeDependencyScope = [compile], MissingManifestStrategy = GENERATE, IncludeSource = true...
+[INFO] org.apache.ant:ant-launcher:1.10.12 is wrapped as a bundle with bundle symbolic name wrapped.org.apache.ant.ant-launcher
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.org.apache.ant.ant-launcher" version=" 1.10.12" download-size="0" install-size="0" unpack="false"/>
+[INFO] Resolving dependencies of MavenProject: com.vogella.tycho:com.vogella.tasks.events:1.0.0-SNAPSHOT @ C:\Users\vogella\git\eclipse4book\com.vogella.tasks.events\.polyglot.META-INF
+[INFO] Resolving target definition file:/C:/Users/vogella/git/eclipse4book/com.vogella.contribute.parts/../target-platform/target-platform.target for environments=[linux/gtk/x86_64, win32/win32/x86_64, macosx/cocoa/x86_64], include source mode=honor, execution environment=org.eclipse.tycho.p2.target.ee.AllKnownEEsResolutionHints@473c1, remote p2 repository options=org.eclipse.tycho.p2.remote.RemoteAgent@1acfb04c...
+[INFO] Resolving MavenDependencyRoots = [GroupId = com.google.code.gson, ArtifactId = gson, Version = 2.8.6, ArtifactType = jar, IncludeDependencyScope = ], IncludeDependencyScope = [compile], MissingManifestStrategy = GENERATE, IncludeSource = true...
+[INFO] Resolving MavenDependencyRoots = [GroupId = ch.qos.logback, ArtifactId = logback-classic, Version = 1.2.11, ArtifactType = jar, IncludeDependencyScope = , GroupId = com.beust, ArtifactId = jcommander, Version = 1.82, ArtifactType = jar, IncludeDependencyScope = , GroupId = com.google.code.gson, ArtifactId = gson, Version = 2.10.1, ArtifactType = jar, IncludeDependencyScope = , GroupId = com.itextpdf, ArtifactId = io, Version = 7.2.5, ArtifactType = jar, IncludeDependencyScope = , GroupId = com.itextpdf, ArtifactId = kernel, Version = 7.2.5, ArtifactType = jar, IncludeDependencyScope = , GroupId = com.oracle.database.jdbc, ArtifactId = ojdbc11, Version = 21.8.0.0, ArtifactType = jar, IncludeDependencyScope = , GroupId = org.slf4j, ArtifactId = slf4j-api, Version = 1.7.36, ArtifactType = jar, IncludeDependencyScope = , GroupId = org.yaml, ArtifactId = snakeyaml, Version = 1.33, ArtifactType = jar, IncludeDependencyScope = ], IncludeDependencyScope = [compile], MissingManifestStrategy = GENERATE, IncludeSource = true...
+[INFO] javax.mail:mail:1.4 is wrapped as a bundle with bundle symbolic name wrapped.javax.mail.mail
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.javax.mail.mail" version=" 1.4" download-size="0" install-size="0" unpack="false"/>
+[INFO] javax.activation:activation:1.1 is wrapped as a bundle with bundle symbolic name wrapped.javax.activation.activation
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.javax.activation.activation" version=" 1.1" download-size="0" install-size="0" unpack="false"/>
+[INFO] org.codehaus.janino:janino:3.0.6 is wrapped as a bundle with bundle symbolic name wrapped.org.codehaus.janino.janino
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.org.codehaus.janino.janino" version=" 3.0.6" download-size="0" install-size="0" unpack="false"/>
+[INFO] org.codehaus.janino:commons-compiler:3.0.6 is wrapped as a bundle with bundle symbolic name wrapped.org.codehaus.janino.commons-compiler
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.org.codehaus.janino.commons-compiler" version=" 3.0.6" download-size="0" install-size="0" unpack="false"/>
+[INFO] com.beust:jcommander:1.82 is wrapped as a bundle with bundle symbolic name wrapped.com.beust.jcommander
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.com.beust.jcommander" version=" 1.82" download-size="0" install-size="0" unpack="false"/>
+[INFO] com.itextpdf:io:7.2.5 is wrapped as a bundle with bundle symbolic name wrapped.com.itextpdf.io
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.com.itextpdf.io" version=" 7.2.5" download-size="0" install-size="0" unpack="false"/>
+[INFO] com.itextpdf:commons:7.2.5 is wrapped as a bundle with bundle symbolic name wrapped.com.itextpdf.commons
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.com.itextpdf.commons" version=" 7.2.5" download-size="0" install-size="0" unpack="false"/>
+[INFO] com.itextpdf:kernel:7.2.5 is wrapped as a bundle with bundle symbolic name wrapped.com.itextpdf.kernel
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.com.itextpdf.kernel" version=" 7.2.5" download-size="0" install-size="0" unpack="false"/>
+[INFO] com.itextpdf:io:7.2.5 is wrapped as a bundle with bundle symbolic name wrapped.com.itextpdf.io
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.com.itextpdf.io" version=" 7.2.5" download-size="0" install-size="0" unpack="false"/>
+[INFO] com.itextpdf:commons:7.2.5 is wrapped as a bundle with bundle symbolic name wrapped.com.itextpdf.commons
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.com.itextpdf.commons" version=" 7.2.5" download-size="0" install-size="0" unpack="false"/>
+[INFO] com.oracle.database.jdbc:ojdbc11:21.8.0.0 is wrapped as a bundle with bundle symbolic name wrapped.com.oracle.database.jdbc.ojdbc11
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.com.oracle.database.jdbc.ojdbc11" version=" 21.8.0.0" download-size="0" install-size="0" unpack="false"/>
+[INFO] Resolving MavenDependencyRoots = [GroupId = io.projectreactor, ArtifactId = reactor-core, Version = 3.5.2, ArtifactType = jar, IncludeDependencyScope = ], IncludeDependencyScope = [compile], MissingManifestStrategy = GENERATE, IncludeSource = true...
+[INFO] Resolving MavenDependencyRoots = [GroupId = org.eclipse.persistence, ArtifactId = org.eclipse.persistence.jpa, Version = 4.0.0, ArtifactType = jar, IncludeDependencyScope = ], IncludeDependencyScope = [compile], MissingManifestStrategy = GENERATE, IncludeSource = true...
+[INFO] org.apache.ant:ant-launcher:1.10.12 is wrapped as a bundle with bundle symbolic name wrapped.org.apache.ant.ant-launcher
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.org.apache.ant.ant-launcher" version=" 1.10.12" download-size="0" install-size="0" unpack="false"/>
+[INFO] Resolving dependencies of MavenProject: com.vogella.tycho:com.vogella.contribute.parts:1.0.0-SNAPSHOT @ C:\Users\vogella\git\eclipse4book\com.vogella.contribute.parts\.polyglot.META-INF
+[INFO] Resolving target definition file:/C:/Users/vogella/git/eclipse4book/com.vogella.tasks.ui.contribute/../target-platform/target-platform.target for environments=[linux/gtk/x86_64, win32/win32/x86_64, macosx/cocoa/x86_64], include source mode=honor, execution environment=org.eclipse.tycho.p2.target.ee.AllKnownEEsResolutionHints@473c1, remote p2 repository options=org.eclipse.tycho.p2.remote.RemoteAgent@1acfb04c...
+[INFO] Resolving MavenDependencyRoots = [GroupId = com.google.code.gson, ArtifactId = gson, Version = 2.8.6, ArtifactType = jar, IncludeDependencyScope = ], IncludeDependencyScope = [compile], MissingManifestStrategy = GENERATE, IncludeSource = true...
+[INFO] Resolving MavenDependencyRoots = [GroupId = ch.qos.logback, ArtifactId = logback-classic, Version = 1.2.11, ArtifactType = jar, IncludeDependencyScope = , GroupId = com.beust, ArtifactId = jcommander, Version = 1.82, ArtifactType = jar, IncludeDependencyScope = , GroupId = com.google.code.gson, ArtifactId = gson, Version = 2.10.1, ArtifactType = jar, IncludeDependencyScope = , GroupId = com.itextpdf, ArtifactId = io, Version = 7.2.5, ArtifactType = jar, IncludeDependencyScope = , GroupId = com.itextpdf, ArtifactId = kernel, Version = 7.2.5, ArtifactType = jar, IncludeDependencyScope = , GroupId = com.oracle.database.jdbc, ArtifactId = ojdbc11, Version = 21.8.0.0, ArtifactType = jar, IncludeDependencyScope = , GroupId = org.slf4j, ArtifactId = slf4j-api, Version = 1.7.36, ArtifactType = jar, IncludeDependencyScope = , GroupId = org.yaml, ArtifactId = snakeyaml, Version = 1.33, ArtifactType = jar, IncludeDependencyScope = ], IncludeDependencyScope = [compile], MissingManifestStrategy = GENERATE, IncludeSource = true...
+[INFO] javax.mail:mail:1.4 is wrapped as a bundle with bundle symbolic name wrapped.javax.mail.mail
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.javax.mail.mail" version=" 1.4" download-size="0" install-size="0" unpack="false"/>
+[INFO] javax.activation:activation:1.1 is wrapped as a bundle with bundle symbolic name wrapped.javax.activation.activation
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.javax.activation.activation" version=" 1.1" download-size="0" install-size="0" unpack="false"/>
+[INFO] org.codehaus.janino:janino:3.0.6 is wrapped as a bundle with bundle symbolic name wrapped.org.codehaus.janino.janino
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.org.codehaus.janino.janino" version=" 3.0.6" download-size="0" install-size="0" unpack="false"/>
+[INFO] org.codehaus.janino:commons-compiler:3.0.6 is wrapped as a bundle with bundle symbolic name wrapped.org.codehaus.janino.commons-compiler
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.org.codehaus.janino.commons-compiler" version=" 3.0.6" download-size="0" install-size="0" unpack="false"/>
+[INFO] com.beust:jcommander:1.82 is wrapped as a bundle with bundle symbolic name wrapped.com.beust.jcommander
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.com.beust.jcommander" version=" 1.82" download-size="0" install-size="0" unpack="false"/>
+[INFO] com.itextpdf:io:7.2.5 is wrapped as a bundle with bundle symbolic name wrapped.com.itextpdf.io
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.com.itextpdf.io" version=" 7.2.5" download-size="0" install-size="0" unpack="false"/>
+[INFO] com.itextpdf:commons:7.2.5 is wrapped as a bundle with bundle symbolic name wrapped.com.itextpdf.commons
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.com.itextpdf.commons" version=" 7.2.5" download-size="0" install-size="0" unpack="false"/>
+[INFO] com.itextpdf:kernel:7.2.5 is wrapped as a bundle with bundle symbolic name wrapped.com.itextpdf.kernel
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.com.itextpdf.kernel" version=" 7.2.5" download-size="0" install-size="0" unpack="false"/>
+[INFO] com.itextpdf:io:7.2.5 is wrapped as a bundle with bundle symbolic name wrapped.com.itextpdf.io
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.com.itextpdf.io" version=" 7.2.5" download-size="0" install-size="0" unpack="false"/>
+[INFO] com.itextpdf:commons:7.2.5 is wrapped as a bundle with bundle symbolic name wrapped.com.itextpdf.commons
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.com.itextpdf.commons" version=" 7.2.5" download-size="0" install-size="0" unpack="false"/>
+[INFO] com.oracle.database.jdbc:ojdbc11:21.8.0.0 is wrapped as a bundle with bundle symbolic name wrapped.com.oracle.database.jdbc.ojdbc11
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.com.oracle.database.jdbc.ojdbc11" version=" 21.8.0.0" download-size="0" install-size="0" unpack="false"/>
+[INFO] Resolving MavenDependencyRoots = [GroupId = io.projectreactor, ArtifactId = reactor-core, Version = 3.5.2, ArtifactType = jar, IncludeDependencyScope = ], IncludeDependencyScope = [compile], MissingManifestStrategy = GENERATE, IncludeSource = true...
+[INFO] Resolving MavenDependencyRoots = [GroupId = org.eclipse.persistence, ArtifactId = org.eclipse.persistence.jpa, Version = 4.0.0, ArtifactType = jar, IncludeDependencyScope = ], IncludeDependencyScope = [compile], MissingManifestStrategy = GENERATE, IncludeSource = true...
+[INFO] org.apache.ant:ant-launcher:1.10.12 is wrapped as a bundle with bundle symbolic name wrapped.org.apache.ant.ant-launcher
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.org.apache.ant.ant-launcher" version=" 1.10.12" download-size="0" install-size="0" unpack="false"/>
+[INFO] Resolving dependencies of MavenProject: com.vogella.tycho:com.vogella.tasks.ui.contribute:1.0.0-SNAPSHOT @ C:\Users\vogella\git\eclipse4book\com.vogella.tasks.ui.contribute\.polyglot.META-INF
+[INFO] Resolving target definition file:/C:/Users/vogella/git/eclipse4book/com.vogella.tasks.update/../target-platform/target-platform.target for environments=[linux/gtk/x86_64, win32/win32/x86_64, macosx/cocoa/x86_64], include source mode=honor, execution environment=org.eclipse.tycho.p2.target.ee.AllKnownEEsResolutionHints@473c1, remote p2 repository options=org.eclipse.tycho.p2.remote.RemoteAgent@1acfb04c...
+[INFO] Resolving MavenDependencyRoots = [GroupId = com.google.code.gson, ArtifactId = gson, Version = 2.8.6, ArtifactType = jar, IncludeDependencyScope = ], IncludeDependencyScope = [compile], MissingManifestStrategy = GENERATE, IncludeSource = true...
+[INFO] Resolving MavenDependencyRoots = [GroupId = ch.qos.logback, ArtifactId = logback-classic, Version = 1.2.11, ArtifactType = jar, IncludeDependencyScope = , GroupId = com.beust, ArtifactId = jcommander, Version = 1.82, ArtifactType = jar, IncludeDependencyScope = , GroupId = com.google.code.gson, ArtifactId = gson, Version = 2.10.1, ArtifactType = jar, IncludeDependencyScope = , GroupId = com.itextpdf, ArtifactId = io, Version = 7.2.5, ArtifactType = jar, IncludeDependencyScope = , GroupId = com.itextpdf, ArtifactId = kernel, Version = 7.2.5, ArtifactType = jar, IncludeDependencyScope = , GroupId = com.oracle.database.jdbc, ArtifactId = ojdbc11, Version = 21.8.0.0, ArtifactType = jar, IncludeDependencyScope = , GroupId = org.slf4j, ArtifactId = slf4j-api, Version = 1.7.36, ArtifactType = jar, IncludeDependencyScope = , GroupId = org.yaml, ArtifactId = snakeyaml, Version = 1.33, ArtifactType = jar, IncludeDependencyScope = ], IncludeDependencyScope = [compile], MissingManifestStrategy = GENERATE, IncludeSource = true...
+[INFO] javax.mail:mail:1.4 is wrapped as a bundle with bundle symbolic name wrapped.javax.mail.mail
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.javax.mail.mail" version=" 1.4" download-size="0" install-size="0" unpack="false"/>
+[INFO] javax.activation:activation:1.1 is wrapped as a bundle with bundle symbolic name wrapped.javax.activation.activation
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.javax.activation.activation" version=" 1.1" download-size="0" install-size="0" unpack="false"/>
+[INFO] org.codehaus.janino:janino:3.0.6 is wrapped as a bundle with bundle symbolic name wrapped.org.codehaus.janino.janino
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.org.codehaus.janino.janino" version=" 3.0.6" download-size="0" install-size="0" unpack="false"/>
+[INFO] org.codehaus.janino:commons-compiler:3.0.6 is wrapped as a bundle with bundle symbolic name wrapped.org.codehaus.janino.commons-compiler
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.org.codehaus.janino.commons-compiler" version=" 3.0.6" download-size="0" install-size="0" unpack="false"/>
+[INFO] com.beust:jcommander:1.82 is wrapped as a bundle with bundle symbolic name wrapped.com.beust.jcommander
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.com.beust.jcommander" version=" 1.82" download-size="0" install-size="0" unpack="false"/>
+[INFO] com.itextpdf:io:7.2.5 is wrapped as a bundle with bundle symbolic name wrapped.com.itextpdf.io
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.com.itextpdf.io" version=" 7.2.5" download-size="0" install-size="0" unpack="false"/>
+[INFO] com.itextpdf:commons:7.2.5 is wrapped as a bundle with bundle symbolic name wrapped.com.itextpdf.commons
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.com.itextpdf.commons" version=" 7.2.5" download-size="0" install-size="0" unpack="false"/>
+[INFO] com.itextpdf:kernel:7.2.5 is wrapped as a bundle with bundle symbolic name wrapped.com.itextpdf.kernel
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.com.itextpdf.kernel" version=" 7.2.5" download-size="0" install-size="0" unpack="false"/>
+[INFO] com.itextpdf:io:7.2.5 is wrapped as a bundle with bundle symbolic name wrapped.com.itextpdf.io
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.com.itextpdf.io" version=" 7.2.5" download-size="0" install-size="0" unpack="false"/>
+[INFO] com.itextpdf:commons:7.2.5 is wrapped as a bundle with bundle symbolic name wrapped.com.itextpdf.commons
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.com.itextpdf.commons" version=" 7.2.5" download-size="0" install-size="0" unpack="false"/>
+[INFO] com.oracle.database.jdbc:ojdbc11:21.8.0.0 is wrapped as a bundle with bundle symbolic name wrapped.com.oracle.database.jdbc.ojdbc11
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.com.oracle.database.jdbc.ojdbc11" version=" 21.8.0.0" download-size="0" install-size="0" unpack="false"/>
+[INFO] Resolving MavenDependencyRoots = [GroupId = io.projectreactor, ArtifactId = reactor-core, Version = 3.5.2, ArtifactType = jar, IncludeDependencyScope = ], IncludeDependencyScope = [compile], MissingManifestStrategy = GENERATE, IncludeSource = true...
+[INFO] Resolving MavenDependencyRoots = [GroupId = org.eclipse.persistence, ArtifactId = org.eclipse.persistence.jpa, Version = 4.0.0, ArtifactType = jar, IncludeDependencyScope = ], IncludeDependencyScope = [compile], MissingManifestStrategy = GENERATE, IncludeSource = true...
+[INFO] org.apache.ant:ant-launcher:1.10.12 is wrapped as a bundle with bundle symbolic name wrapped.org.apache.ant.ant-launcher
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.org.apache.ant.ant-launcher" version=" 1.10.12" download-size="0" install-size="0" unpack="false"/>
+[INFO] Resolving dependencies of MavenProject: com.vogella.tycho:com.vogella.tasks.update:1.0.0-SNAPSHOT @ C:\Users\vogella\git\eclipse4book\com.vogella.tasks.update\.polyglot.META-INF
+[INFO] Resolving target definition file:/C:/Users/vogella/git/eclipse4book/com.vogella.eclipse.css/../target-platform/target-platform.target for environments=[linux/gtk/x86_64, win32/win32/x86_64, macosx/cocoa/x86_64], include source mode=honor, execution environment=org.eclipse.tycho.p2.target.ee.AllKnownEEsResolutionHints@473c1, remote p2 repository options=org.eclipse.tycho.p2.remote.RemoteAgent@1acfb04c...
+[INFO] Resolving MavenDependencyRoots = [GroupId = com.google.code.gson, ArtifactId = gson, Version = 2.8.6, ArtifactType = jar, IncludeDependencyScope = ], IncludeDependencyScope = [compile], MissingManifestStrategy = GENERATE, IncludeSource = true...
+[INFO] Resolving MavenDependencyRoots = [GroupId = ch.qos.logback, ArtifactId = logback-classic, Version = 1.2.11, ArtifactType = jar, IncludeDependencyScope = , GroupId = com.beust, ArtifactId = jcommander, Version = 1.82, ArtifactType = jar, IncludeDependencyScope = , GroupId = com.google.code.gson, ArtifactId = gson, Version = 2.10.1, ArtifactType = jar, IncludeDependencyScope = , GroupId = com.itextpdf, ArtifactId = io, Version = 7.2.5, ArtifactType = jar, IncludeDependencyScope = , GroupId = com.itextpdf, ArtifactId = kernel, Version = 7.2.5, ArtifactType = jar, IncludeDependencyScope = , GroupId = com.oracle.database.jdbc, ArtifactId = ojdbc11, Version = 21.8.0.0, ArtifactType = jar, IncludeDependencyScope = , GroupId = org.slf4j, ArtifactId = slf4j-api, Version = 1.7.36, ArtifactType = jar, IncludeDependencyScope = , GroupId = org.yaml, ArtifactId = snakeyaml, Version = 1.33, ArtifactType = jar, IncludeDependencyScope = ], IncludeDependencyScope = [compile], MissingManifestStrategy = GENERATE, IncludeSource = true...
+[INFO] javax.mail:mail:1.4 is wrapped as a bundle with bundle symbolic name wrapped.javax.mail.mail
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.javax.mail.mail" version=" 1.4" download-size="0" install-size="0" unpack="false"/>
+[INFO] javax.activation:activation:1.1 is wrapped as a bundle with bundle symbolic name wrapped.javax.activation.activation
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.javax.activation.activation" version=" 1.1" download-size="0" install-size="0" unpack="false"/>
+[INFO] org.codehaus.janino:janino:3.0.6 is wrapped as a bundle with bundle symbolic name wrapped.org.codehaus.janino.janino
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.org.codehaus.janino.janino" version=" 3.0.6" download-size="0" install-size="0" unpack="false"/>
+[INFO] org.codehaus.janino:commons-compiler:3.0.6 is wrapped as a bundle with bundle symbolic name wrapped.org.codehaus.janino.commons-compiler
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.org.codehaus.janino.commons-compiler" version=" 3.0.6" download-size="0" install-size="0" unpack="false"/>
+[INFO] com.beust:jcommander:1.82 is wrapped as a bundle with bundle symbolic name wrapped.com.beust.jcommander
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.com.beust.jcommander" version=" 1.82" download-size="0" install-size="0" unpack="false"/>
+[INFO] com.itextpdf:io:7.2.5 is wrapped as a bundle with bundle symbolic name wrapped.com.itextpdf.io
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.com.itextpdf.io" version=" 7.2.5" download-size="0" install-size="0" unpack="false"/>
+[INFO] com.itextpdf:commons:7.2.5 is wrapped as a bundle with bundle symbolic name wrapped.com.itextpdf.commons
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.com.itextpdf.commons" version=" 7.2.5" download-size="0" install-size="0" unpack="false"/>
+[INFO] com.itextpdf:kernel:7.2.5 is wrapped as a bundle with bundle symbolic name wrapped.com.itextpdf.kernel
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.com.itextpdf.kernel" version=" 7.2.5" download-size="0" install-size="0" unpack="false"/>
+[INFO] com.itextpdf:io:7.2.5 is wrapped as a bundle with bundle symbolic name wrapped.com.itextpdf.io
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.com.itextpdf.io" version=" 7.2.5" download-size="0" install-size="0" unpack="false"/>
+[INFO] com.itextpdf:commons:7.2.5 is wrapped as a bundle with bundle symbolic name wrapped.com.itextpdf.commons
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.com.itextpdf.commons" version=" 7.2.5" download-size="0" install-size="0" unpack="false"/>
+[INFO] com.oracle.database.jdbc:ojdbc11:21.8.0.0 is wrapped as a bundle with bundle symbolic name wrapped.com.oracle.database.jdbc.ojdbc11
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.com.oracle.database.jdbc.ojdbc11" version=" 21.8.0.0" download-size="0" install-size="0" unpack="false"/>
+[INFO] Resolving MavenDependencyRoots = [GroupId = io.projectreactor, ArtifactId = reactor-core, Version = 3.5.2, ArtifactType = jar, IncludeDependencyScope = ], IncludeDependencyScope = [compile], MissingManifestStrategy = GENERATE, IncludeSource = true...
+[INFO] Resolving MavenDependencyRoots = [GroupId = org.eclipse.persistence, ArtifactId = org.eclipse.persistence.jpa, Version = 4.0.0, ArtifactType = jar, IncludeDependencyScope = ], IncludeDependencyScope = [compile], MissingManifestStrategy = GENERATE, IncludeSource = true...
+[INFO] org.apache.ant:ant-launcher:1.10.12 is wrapped as a bundle with bundle symbolic name wrapped.org.apache.ant.ant-launcher
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.org.apache.ant.ant-launcher" version=" 1.10.12" download-size="0" install-size="0" unpack="false"/>
+[INFO] Resolving dependencies of MavenProject: com.vogella.tycho:com.vogella.eclipse.css:1.0.0-SNAPSHOT @ C:\Users\vogella\git\eclipse4book\com.vogella.eclipse.css\.polyglot.META-INF
+[INFO] Resolving target definition file:/C:/Users/vogella/git/eclipse4book/releng-updatesite/../target-platform/target-platform.target for environments=[linux/gtk/x86_64, win32/win32/x86_64, macosx/cocoa/x86_64], include source mode=honor, execution environment=org.eclipse.tycho.p2.target.ee.AllKnownEEsResolutionHints@473c1, remote p2 repository options=org.eclipse.tycho.p2.remote.RemoteAgent@1acfb04c...
+[INFO] Resolving MavenDependencyRoots = [GroupId = com.google.code.gson, ArtifactId = gson, Version = 2.8.6, ArtifactType = jar, IncludeDependencyScope = ], IncludeDependencyScope = [compile], MissingManifestStrategy = GENERATE, IncludeSource = true...
+[INFO] Resolving MavenDependencyRoots = [GroupId = ch.qos.logback, ArtifactId = logback-classic, Version = 1.2.11, ArtifactType = jar, IncludeDependencyScope = , GroupId = com.beust, ArtifactId = jcommander, Version = 1.82, ArtifactType = jar, IncludeDependencyScope = , GroupId = com.google.code.gson, ArtifactId = gson, Version = 2.10.1, ArtifactType = jar, IncludeDependencyScope = , GroupId = com.itextpdf, ArtifactId = io, Version = 7.2.5, ArtifactType = jar, IncludeDependencyScope = , GroupId = com.itextpdf, ArtifactId = kernel, Version = 7.2.5, ArtifactType = jar, IncludeDependencyScope = , GroupId = com.oracle.database.jdbc, ArtifactId = ojdbc11, Version = 21.8.0.0, ArtifactType = jar, IncludeDependencyScope = , GroupId = org.slf4j, ArtifactId = slf4j-api, Version = 1.7.36, ArtifactType = jar, IncludeDependencyScope = , GroupId = org.yaml, ArtifactId = snakeyaml, Version = 1.33, ArtifactType = jar, IncludeDependencyScope = ], IncludeDependencyScope = [compile], MissingManifestStrategy = GENERATE, IncludeSource = true...
+[INFO] javax.mail:mail:1.4 is wrapped as a bundle with bundle symbolic name wrapped.javax.mail.mail
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.javax.mail.mail" version=" 1.4" download-size="0" install-size="0" unpack="false"/>
+[INFO] javax.activation:activation:1.1 is wrapped as a bundle with bundle symbolic name wrapped.javax.activation.activation
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.javax.activation.activation" version=" 1.1" download-size="0" install-size="0" unpack="false"/>
+[INFO] org.codehaus.janino:janino:3.0.6 is wrapped as a bundle with bundle symbolic name wrapped.org.codehaus.janino.janino
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.org.codehaus.janino.janino" version=" 3.0.6" download-size="0" install-size="0" unpack="false"/>
+[INFO] org.codehaus.janino:commons-compiler:3.0.6 is wrapped as a bundle with bundle symbolic name wrapped.org.codehaus.janino.commons-compiler
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.org.codehaus.janino.commons-compiler" version=" 3.0.6" download-size="0" install-size="0" unpack="false"/>
+[INFO] com.beust:jcommander:1.82 is wrapped as a bundle with bundle symbolic name wrapped.com.beust.jcommander
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.com.beust.jcommander" version=" 1.82" download-size="0" install-size="0" unpack="false"/>
+[INFO] com.itextpdf:io:7.2.5 is wrapped as a bundle with bundle symbolic name wrapped.com.itextpdf.io
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.com.itextpdf.io" version=" 7.2.5" download-size="0" install-size="0" unpack="false"/>
+[INFO] com.itextpdf:commons:7.2.5 is wrapped as a bundle with bundle symbolic name wrapped.com.itextpdf.commons
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.com.itextpdf.commons" version=" 7.2.5" download-size="0" install-size="0" unpack="false"/>
+[INFO] com.itextpdf:kernel:7.2.5 is wrapped as a bundle with bundle symbolic name wrapped.com.itextpdf.kernel
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.com.itextpdf.kernel" version=" 7.2.5" download-size="0" install-size="0" unpack="false"/>
+[INFO] com.itextpdf:io:7.2.5 is wrapped as a bundle with bundle symbolic name wrapped.com.itextpdf.io
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.com.itextpdf.io" version=" 7.2.5" download-size="0" install-size="0" unpack="false"/>
+[INFO] com.itextpdf:commons:7.2.5 is wrapped as a bundle with bundle symbolic name wrapped.com.itextpdf.commons
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.com.itextpdf.commons" version=" 7.2.5" download-size="0" install-size="0" unpack="false"/>
+[INFO] com.oracle.database.jdbc:ojdbc11:21.8.0.0 is wrapped as a bundle with bundle symbolic name wrapped.com.oracle.database.jdbc.ojdbc11
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.com.oracle.database.jdbc.ojdbc11" version=" 21.8.0.0" download-size="0" install-size="0" unpack="false"/>
+[INFO] Resolving MavenDependencyRoots = [GroupId = io.projectreactor, ArtifactId = reactor-core, Version = 3.5.2, ArtifactType = jar, IncludeDependencyScope = ], IncludeDependencyScope = [compile], MissingManifestStrategy = GENERATE, IncludeSource = true...
+[INFO] Resolving MavenDependencyRoots = [GroupId = org.eclipse.persistence, ArtifactId = org.eclipse.persistence.jpa, Version = 4.0.0, ArtifactType = jar, IncludeDependencyScope = ], IncludeDependencyScope = [compile], MissingManifestStrategy = GENERATE, IncludeSource = true...
+[INFO] org.apache.ant:ant-launcher:1.10.12 is wrapped as a bundle with bundle symbolic name wrapped.org.apache.ant.ant-launcher
+[INFO] The artifact can be referenced in feature files with the following data: <plugin id="wrapped.org.apache.ant.ant-launcher" version=" 1.10.12" download-size="0" install-size="0" unpack="false"/>
+[INFO] Resolving dependencies of MavenProject: com.vogella.tycho:releng-updatesite.eclipse-repository:1.0.0-SNAPSHOT @ C:\Users\vogella\git\eclipse4book\releng-updatesite\.polyglot.category.xml
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] releng                                                             [pom]
+[INFO] [bundle] Rcp from the Wizard                            [eclipse-plugin]
+[INFO] [feature] RCP Feature from the wizard                  [eclipse-feature]
+[INFO] [product] Example RCP product from the Wizard       [eclipse-repository]
+[INFO] [bundle] Widgets                                        [eclipse-plugin]
+[INFO] [bundle] Imageloader                                    [eclipse-plugin]
+[INFO] [bundle] Events                                         [eclipse-plugin]
+[INFO] [bundle] Model                                          [eclipse-plugin]
+[INFO] [bundle] Ui                                             [eclipse-plugin]
+[INFO] [bundle] Swt                                            [eclipse-plugin]
+[INFO] [bundle] Update                                         [eclipse-plugin]
+[INFO] [bundle] Services                                       [eclipse-plugin]
+[INFO] [bundle] Contribute                                     [eclipse-plugin]
+[INFO] [feature] Feature                                      [eclipse-feature]
+[INFO] [product] to-do                                     [eclipse-repository]
+[INFO] [test-bundle] Tests                                [eclipse-test-plugin]
+[INFO] [bundle] Parts                                          [eclipse-plugin]
+[INFO] [bundle] Css                                            [eclipse-plugin]
+[INFO] [updatesite] releng-updatesite.eclipse-repository   [eclipse-repository]
+[INFO] 
+[INFO] ----------------------< com.vogella.tycho:releng >----------------------
+[INFO] Building releng 1.0.0-SNAPSHOT                                    [1/19]
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ releng ---
+[INFO] 
+[INFO] ----------------< com.vogella.tycho:com.example.e4.rcp >----------------
+[INFO] Building [bundle] Rcp from the Wizard 1.0.0-SNAPSHOT              [2/19]
+[INFO] ---------------------------[ eclipse-plugin ]---------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ com.example.e4.rcp ---
+[INFO] Deleting C:\Users\vogella\git\eclipse4book\com.example.e4.rcp\target
+[INFO] 
+[INFO] --- tycho-packaging-plugin:3.0.1:build-qualifier (default-build-qualifier) @ com.example.e4.rcp ---
+[INFO] The project's OSGi version is 1.0.0.202301311109
+[INFO] 
+[INFO] --- tycho-packaging-plugin:3.0.1:validate-id (default-validate-id) @ com.example.e4.rcp ---
+[INFO] 
+[INFO] --- tycho-packaging-plugin:3.0.1:validate-version (default-validate-version) @ com.example.e4.rcp ---
+[INFO] 
+[INFO] --- target-platform-configuration:3.0.1:target-platform (default-target-platform) @ com.example.e4.rcp ---
+[INFO] 
+[INFO] --- tycho-compiler-plugin:3.0.1:validate-classpath (default-validate-classpath) @ com.example.e4.rcp ---
+[INFO] Resolving class path of [bundle] Rcp from the Wizard...
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ com.example.e4.rcp ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\vogella\git\eclipse4book\com.example.e4.rcp\src\main\resources
+[INFO] 
+[INFO] --- tycho-compiler-plugin:3.0.1:compile (default-compile) @ com.example.e4.rcp ---
+[WARNING] Using JavaSE-17 to fulfill requested profile of JavaSE-11 this might lead to faulty dependency resolution, consider define a suitable JDK in the toolchains.xml
+[INFO] Compiling 5 source files to C:\Users\vogella\git\eclipse4book\com.example.e4.rcp\target\classes
+[INFO] 
+[INFO] --- tycho-ds-plugin:3.0.1:declarative-services (default-declarative-services) @ com.example.e4.rcp ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:testResources (default-testResources) @ com.example.e4.rcp ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\vogella\git\eclipse4book\com.example.e4.rcp\src\test\resources
+[INFO] 
+[INFO] --- tycho-compiler-plugin:3.0.1:testCompile (default-testCompile) @ com.example.e4.rcp ---
+[WARNING] Using JavaSE-17 to fulfill requested profile of JavaSE-11 this might lead to faulty dependency resolution, consider define a suitable JDK in the toolchains.xml
+[INFO] 
+[INFO] --- maven-surefire-plugin:3.0.0-M5:test (default-test) @ com.example.e4.rcp ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- tycho-packaging-plugin:3.0.1:update-consumer-pom (default-update-consumer-pom) @ com.example.e4.rcp ---
+[INFO] 
+[INFO] --- tycho-packaging-plugin:3.0.1:package-plugin (default-package-plugin) @ com.example.e4.rcp ---
+[INFO] Building jar: C:\Users\vogella\git\eclipse4book\com.example.e4.rcp\target\com.example.e4.rcp-1.0.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- tycho-p2-plugin:3.0.1:p2-metadata-default (default-p2-metadata-default) @ com.example.e4.rcp ---
+[INFO] 
+[INFO] --- tycho-surefire-plugin:3.0.1:integration-test (default-integration-test) @ com.example.e4.rcp ---
+[INFO] 
+[INFO] --- maven-failsafe-plugin:3.0.0-M5:verify (default-verify) @ com.example.e4.rcp ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --------------< com.vogella.tycho:com.example.e4.feature >--------------
+[INFO] Building [feature] RCP Feature from the wizard 1.0.0-SNAPSHOT     [3/19]
+[INFO] --------------------------[ eclipse-feature ]---------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ com.example.e4.feature ---
+[INFO] Deleting C:\Users\vogella\git\eclipse4book\com.example.e4.feature\target
+[INFO] 
+[INFO] --- tycho-packaging-plugin:3.0.1:build-qualifier-aggregator (default-build-qualifier-aggregator) @ com.example.e4.feature ---
+[INFO] The project's OSGi version is 1.0.0.202301311109
+[INFO] 
+[INFO] --- tycho-packaging-plugin:3.0.1:validate-id (default-validate-id) @ com.example.e4.feature ---
+[INFO] 
+[INFO] --- tycho-packaging-plugin:3.0.1:validate-version (default-validate-version) @ com.example.e4.feature ---
+[INFO] 
+[INFO] --- target-platform-configuration:3.0.1:target-platform (default-target-platform) @ com.example.e4.feature ---
+[INFO] 
+[INFO] --- tycho-packaging-plugin:3.0.1:update-consumer-pom (default-update-consumer-pom) @ com.example.e4.feature ---
+[INFO] 
+[INFO] --- tycho-packaging-plugin:3.0.1:package-feature (default-package-feature) @ com.example.e4.feature ---
+[INFO] Building jar: C:\Users\vogella\git\eclipse4book\com.example.e4.feature\target\com.example.e4.feature-1.0.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- tycho-p2-plugin:3.0.1:p2-metadata-default (default-p2-metadata-default) @ com.example.e4.feature ---
+[INFO] 
+[INFO] --- tycho-p2-plugin:3.0.1:feature-p2-metadata (default-feature-p2-metadata) @ com.example.e4.feature ---
+[INFO] 
+[INFO] --------------< com.vogella.tycho:com.example.e4.product >--------------
+[INFO] Building [product] Example RCP product from the Wizard 1.0.0-SNAPSHOT [4/19]
+[INFO] -------------------------[ eclipse-repository ]-------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ com.example.e4.product ---
+[INFO] Deleting C:\Users\vogella\git\eclipse4book\com.example.e4.product\target
+[INFO] 
+[INFO] --- tycho-packaging-plugin:3.0.1:build-qualifier-aggregator (default-build-qualifier-aggregator) @ com.example.e4.product ---
+[INFO] The project's OSGi version is 1.0.0.202301311109
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean-1) @ com.example.e4.product ---
+[INFO] 
+[INFO] --- target-platform-configuration:3.0.1:target-platform (default-target-platform) @ com.example.e4.product ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ com.example.e4.product ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\vogella\git\eclipse4book\com.example.e4.product\src\main\resources
+[INFO] 
+[INFO] --- tycho-p2-publisher-plugin:3.0.1:publish-osgi-ee (default-publish-osgi-ee) @ com.example.e4.product ---
+[INFO] Published profile IUs: [a.jre.javase 17.0.0]
+[INFO] 
+[INFO] --- tycho-p2-publisher-plugin:3.0.1:publish-products (default-publish-products) @ com.example.e4.product ---
+[INFO] publishing result: [The bundles specified in the product definition are ignored; verify the value of the 'type' or 'useFeatures' attribute.]
+[INFO] 
+[INFO] --- tycho-p2-publisher-plugin:3.0.1:publish-categories (default-publish-categories) @ com.example.e4.product ---
+[INFO] 
+[INFO] --- tycho-p2-publisher-plugin:3.0.1:attach-artifacts (default-attach-artifacts) @ com.example.e4.product ---
+[INFO] 
+[INFO] --- tycho-p2-repository-plugin:3.0.1:assemble-repository (default-assemble-repository) @ com.example.e4.product ---
+[WARNING] [3c2aec65-dda8-42c4-ad57-a63a08179b0b][extension>org.eclipse.tycho:tycho-maven-plugin:3.0.1] No digest algorithm is available to verify download of org.eclipse.update.feature,com.example.e4.feature,1.0.0.202301311109.
+[WARNING] [3c2aec65-dda8-42c4-ad57-a63a08179b0b][extension>org.eclipse.tycho:tycho-maven-plugin:3.0.1] No digest algorithm is available to verify download of binary,com.example.e4.product.executable.gtk.linux.x86_64,1.0.0.202301311109.
+[WARNING] [3c2aec65-dda8-42c4-ad57-a63a08179b0b][extension>org.eclipse.tycho:tycho-maven-plugin:3.0.1] No digest algorithm is available to verify download of osgi.bundle,com.example.e4.rcp,1.0.0.202301311109.
+[WARNING] [3c2aec65-dda8-42c4-ad57-a63a08179b0b][extension>org.eclipse.tycho:tycho-maven-plugin:3.0.1] No digest algorithm is available to verify download of binary,com.example.e4.product.executable.win32.win32.x86_64,1.0.0.202301311109.
+[WARNING] [3c2aec65-dda8-42c4-ad57-a63a08179b0b][extension>org.eclipse.tycho:tycho-maven-plugin:3.0.1] No digest algorithm is available to verify download of binary,com.example.e4.product.executable.cocoa.macosx.x86_64,1.0.0.202301311109.
+[INFO] 
+[INFO] --- tycho-p2-repository-plugin:3.0.1:archive-repository (default-archive-repository) @ com.example.e4.product ---
+[INFO] Building zip: C:\Users\vogella\git\eclipse4book\com.example.e4.product\target\com.example.e4.product-1.0.0-SNAPSHOT.zip
+[INFO] 
+[INFO] --- tycho-p2-director-plugin:3.0.1:materialize-products (materialize-products) @ com.example.e4.product ---
+[INFO] Installing product com.example.e4.product for environment linux/gtk/x86_64 to C:\Users\vogella\git\eclipse4book\com.example.e4.product\target\products\com.example.e4.product\linux\gtk\x86_64
+Installing com.example.e4.product 1.0.0.202301311109.
+Installing com.example.e4.feature.feature.group 1.0.0.202301311109.
+Installing org.eclipse.e4.rcp.feature.group 4.24.0.v20220530-1036.
+Installing org.eclipse.emf.ecore.feature.group 2.28.0.v20220426-0617.
+Installing org.eclipse.emf.common.feature.group 2.26.0.v20220325-0806.
+[WARNING] [3c2aec65-dda8-42c4-ad57-a63a08179b0b][extension>org.eclipse.tycho:tycho-maven-plugin:3.0.1] Failed creating shared configuration url for null.
+Operation completed in 1288 ms.
+[INFO] Installing product com.example.e4.product for environment win32/win32/x86_64 to C:\Users\vogella\git\eclipse4book\com.example.e4.product\target\products\com.example.e4.product\win32\win32\x86_64
+Installing com.example.e4.product 1.0.0.202301311109.
+Installing com.example.e4.feature.feature.group 1.0.0.202301311109.
+Installing org.eclipse.e4.rcp.feature.group 4.24.0.v20220530-1036.
+Installing org.eclipse.emf.ecore.feature.group 2.28.0.v20220426-0617.
+Installing org.eclipse.emf.common.feature.group 2.26.0.v20220325-0806.
+[WARNING] [3c2aec65-dda8-42c4-ad57-a63a08179b0b][extension>org.eclipse.tycho:tycho-maven-plugin:3.0.1] Failed creating shared configuration url for null.
+Operation completed in 1049 ms.
+[INFO] Installing product com.example.e4.product for environment macosx/cocoa/x86_64 to C:\Users\vogella\git\eclipse4book\com.example.e4.product\target\products\com.example.e4.product\macosx\cocoa\x86_64\Eclipse.app
+Installing com.example.e4.product 1.0.0.202301311109.
+Installing com.example.e4.feature.feature.group 1.0.0.202301311109.
+Installing org.eclipse.e4.rcp.feature.group 4.24.0.v20220530-1036.
+Installing org.eclipse.emf.ecore.feature.group 2.28.0.v20220426-0617.
+Installing org.eclipse.emf.common.feature.group 2.26.0.v20220325-0806.
+[WARNING] [3c2aec65-dda8-42c4-ad57-a63a08179b0b][extension>org.eclipse.tycho:tycho-maven-plugin:3.0.1] Failed creating shared configuration url for null.
+Operation completed in 1085 ms.
+[INFO] 
+[INFO] --- tycho-p2-director-plugin:3.0.1:archive-products (archive-products) @ com.example.e4.product ---
+[INFO] Building tar: C:\Users\vogella\git\eclipse4book\com.example.e4.product\target\products\com.example.e4.product-linux.gtk.x86_64.tar.gz
+[INFO] Building zip: C:\Users\vogella\git\eclipse4book\com.example.e4.product\target\products\com.example.e4.product-win32.win32.x86_64.zip
+[INFO] Building tar: C:\Users\vogella\git\eclipse4book\com.example.e4.product\target\products\com.example.e4.product-macosx.cocoa.x86_64.tar.gz
+[INFO] 
+[INFO] -------------< com.vogella.tycho:com.vogella.swt.widgets >--------------
+[INFO] Building [bundle] Widgets 1.0.0-SNAPSHOT                          [5/19]
+[INFO] ---------------------------[ eclipse-plugin ]---------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ com.vogella.swt.widgets ---
+[INFO] Deleting C:\Users\vogella\git\eclipse4book\com.vogella.swt.widgets\target
+[INFO] 
+[INFO] --- tycho-packaging-plugin:3.0.1:build-qualifier (default-build-qualifier) @ com.vogella.swt.widgets ---
+[INFO] The project's OSGi version is 1.0.0.202301311109
+[INFO] 
+[INFO] --- tycho-packaging-plugin:3.0.1:validate-id (default-validate-id) @ com.vogella.swt.widgets ---
+[INFO] 
+[INFO] --- tycho-packaging-plugin:3.0.1:validate-version (default-validate-version) @ com.vogella.swt.widgets ---
+[INFO] 
+[INFO] --- target-platform-configuration:3.0.1:target-platform (default-target-platform) @ com.vogella.swt.widgets ---
+[INFO] 
+[INFO] --- tycho-compiler-plugin:3.0.1:validate-classpath (default-validate-classpath) @ com.vogella.swt.widgets ---
+[INFO] Resolving class path of [bundle] Widgets...
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ com.vogella.swt.widgets ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\vogella\git\eclipse4book\com.vogella.swt.widgets\src\main\resources
+[INFO] 
+[INFO] --- tycho-compiler-plugin:3.0.1:compile (default-compile) @ com.vogella.swt.widgets ---
+[WARNING] Using JavaSE-17 to fulfill requested profile of JavaSE-11 this might lead to faulty dependency resolution, consider define a suitable JDK in the toolchains.xml
+[INFO] Compiling 2 source files to C:\Users\vogella\git\eclipse4book\com.vogella.swt.widgets\target\classes
+[INFO] 
+[INFO] --- tycho-ds-plugin:3.0.1:declarative-services (default-declarative-services) @ com.vogella.swt.widgets ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:testResources (default-testResources) @ com.vogella.swt.widgets ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\vogella\git\eclipse4book\com.vogella.swt.widgets\src\test\resources
+[INFO] 
+[INFO] --- tycho-compiler-plugin:3.0.1:testCompile (default-testCompile) @ com.vogella.swt.widgets ---
+[WARNING] Using JavaSE-17 to fulfill requested profile of JavaSE-11 this might lead to faulty dependency resolution, consider define a suitable JDK in the toolchains.xml
+[INFO] 
+[INFO] --- maven-surefire-plugin:3.0.0-M5:test (default-test) @ com.vogella.swt.widgets ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- tycho-packaging-plugin:3.0.1:update-consumer-pom (default-update-consumer-pom) @ com.vogella.swt.widgets ---
+[INFO] 
+[INFO] --- tycho-packaging-plugin:3.0.1:package-plugin (default-package-plugin) @ com.vogella.swt.widgets ---
+[INFO] Building jar: C:\Users\vogella\git\eclipse4book\com.vogella.swt.widgets\target\com.vogella.swt.widgets-1.0.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- tycho-p2-plugin:3.0.1:p2-metadata-default (default-p2-metadata-default) @ com.vogella.swt.widgets ---
+[INFO] 
+[INFO] --- tycho-surefire-plugin:3.0.1:integration-test (default-integration-test) @ com.vogella.swt.widgets ---
+[INFO] 
+[INFO] --- maven-failsafe-plugin:3.0.0-M5:verify (default-verify) @ com.vogella.swt.widgets ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] ---------< com.vogella.tycho:com.vogella.service.imageloader >----------
+[INFO] Building [bundle] Imageloader 1.0.0-SNAPSHOT                      [6/19]
+[INFO] ---------------------------[ eclipse-plugin ]---------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ com.vogella.service.imageloader ---
+[INFO] Deleting C:\Users\vogella\git\eclipse4book\com.vogella.service.imageloader\target
+[INFO] 
+[INFO] --- tycho-packaging-plugin:3.0.1:build-qualifier (default-build-qualifier) @ com.vogella.service.imageloader ---
+[INFO] The project's OSGi version is 1.0.0.202301311109
+[INFO] 
+[INFO] --- tycho-packaging-plugin:3.0.1:validate-id (default-validate-id) @ com.vogella.service.imageloader ---
+[INFO] 
+[INFO] --- tycho-packaging-plugin:3.0.1:validate-version (default-validate-version) @ com.vogella.service.imageloader ---
+[INFO] 
+[INFO] --- target-platform-configuration:3.0.1:target-platform (default-target-platform) @ com.vogella.service.imageloader ---
+[INFO] 
+[INFO] --- tycho-compiler-plugin:3.0.1:validate-classpath (default-validate-classpath) @ com.vogella.service.imageloader ---
+[INFO] Resolving class path of [bundle] Imageloader...
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ com.vogella.service.imageloader ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\vogella\git\eclipse4book\com.vogella.service.imageloader\src\main\resources
+[INFO] 
+[INFO] --- tycho-compiler-plugin:3.0.1:compile (default-compile) @ com.vogella.service.imageloader ---
+[WARNING] Using JavaSE-17 to fulfill requested profile of JavaSE-11 this might lead to faulty dependency resolution, consider define a suitable JDK in the toolchains.xml
+[INFO] Compiling 2 source files to C:\Users\vogella\git\eclipse4book\com.vogella.service.imageloader\target\classes
+[INFO] 
+[INFO] --- tycho-ds-plugin:3.0.1:declarative-services (default-declarative-services) @ com.vogella.service.imageloader ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:testResources (default-testResources) @ com.vogella.service.imageloader ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\vogella\git\eclipse4book\com.vogella.service.imageloader\src\test\resources
+[INFO] 
+[INFO] --- tycho-compiler-plugin:3.0.1:testCompile (default-testCompile) @ com.vogella.service.imageloader ---
+[WARNING] Using JavaSE-17 to fulfill requested profile of JavaSE-11 this might lead to faulty dependency resolution, consider define a suitable JDK in the toolchains.xml
+[INFO] 
+[INFO] --- maven-surefire-plugin:3.0.0-M5:test (default-test) @ com.vogella.service.imageloader ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- tycho-packaging-plugin:3.0.1:update-consumer-pom (default-update-consumer-pom) @ com.vogella.service.imageloader ---
+[INFO] 
+[INFO] --- tycho-packaging-plugin:3.0.1:package-plugin (default-package-plugin) @ com.vogella.service.imageloader ---
+[INFO] Building jar: C:\Users\vogella\git\eclipse4book\com.vogella.service.imageloader\target\com.vogella.service.imageloader-1.0.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- tycho-p2-plugin:3.0.1:p2-metadata-default (default-p2-metadata-default) @ com.vogella.service.imageloader ---
+[INFO] 
+[INFO] --- tycho-surefire-plugin:3.0.1:integration-test (default-integration-test) @ com.vogella.service.imageloader ---
+[INFO] 
+[INFO] --- maven-failsafe-plugin:3.0.0-M5:verify (default-verify) @ com.vogella.service.imageloader ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] -------------< com.vogella.tycho:com.vogella.tasks.events >-------------
+[INFO] Building [bundle] Events 1.0.0-SNAPSHOT                           [7/19]
+[INFO] ---------------------------[ eclipse-plugin ]---------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ com.vogella.tasks.events ---
+[INFO] Deleting C:\Users\vogella\git\eclipse4book\com.vogella.tasks.events\target
+[INFO] 
+[INFO] --- tycho-packaging-plugin:3.0.1:build-qualifier (default-build-qualifier) @ com.vogella.tasks.events ---
+[INFO] The project's OSGi version is 1.0.0.202301311109
+[INFO] 
+[INFO] --- tycho-packaging-plugin:3.0.1:validate-id (default-validate-id) @ com.vogella.tasks.events ---
+[INFO] 
+[INFO] --- tycho-packaging-plugin:3.0.1:validate-version (default-validate-version) @ com.vogella.tasks.events ---
+[INFO] 
+[INFO] --- target-platform-configuration:3.0.1:target-platform (default-target-platform) @ com.vogella.tasks.events ---
+[INFO] 
+[INFO] --- tycho-compiler-plugin:3.0.1:validate-classpath (default-validate-classpath) @ com.vogella.tasks.events ---
+[INFO] Resolving class path of [bundle] Events...
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ com.vogella.tasks.events ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\vogella\git\eclipse4book\com.vogella.tasks.events\src\main\resources
+[INFO] 
+[INFO] --- tycho-compiler-plugin:3.0.1:compile (default-compile) @ com.vogella.tasks.events ---
+[WARNING] Using JavaSE-17 to fulfill requested profile of JavaSE-11 this might lead to faulty dependency resolution, consider define a suitable JDK in the toolchains.xml
+[INFO] Compiling 1 source file to C:\Users\vogella\git\eclipse4book\com.vogella.tasks.events\target\classes
+[INFO] 
+[INFO] --- tycho-ds-plugin:3.0.1:declarative-services (default-declarative-services) @ com.vogella.tasks.events ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:testResources (default-testResources) @ com.vogella.tasks.events ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\vogella\git\eclipse4book\com.vogella.tasks.events\src\test\resources
+[INFO] 
+[INFO] --- tycho-compiler-plugin:3.0.1:testCompile (default-testCompile) @ com.vogella.tasks.events ---
+[WARNING] Using JavaSE-17 to fulfill requested profile of JavaSE-11 this might lead to faulty dependency resolution, consider define a suitable JDK in the toolchains.xml
+[INFO] 
+[INFO] --- maven-surefire-plugin:3.0.0-M5:test (default-test) @ com.vogella.tasks.events ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- tycho-packaging-plugin:3.0.1:update-consumer-pom (default-update-consumer-pom) @ com.vogella.tasks.events ---
+[INFO] 
+[INFO] --- tycho-packaging-plugin:3.0.1:package-plugin (default-package-plugin) @ com.vogella.tasks.events ---
+[INFO] Building jar: C:\Users\vogella\git\eclipse4book\com.vogella.tasks.events\target\com.vogella.tasks.events-1.0.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- tycho-p2-plugin:3.0.1:p2-metadata-default (default-p2-metadata-default) @ com.vogella.tasks.events ---
+[INFO] 
+[INFO] --- tycho-surefire-plugin:3.0.1:integration-test (default-integration-test) @ com.vogella.tasks.events ---
+[INFO] 
+[INFO] --- maven-failsafe-plugin:3.0.0-M5:verify (default-verify) @ com.vogella.tasks.events ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] -------------< com.vogella.tycho:com.vogella.tasks.model >--------------
+[INFO] Building [bundle] Model 1.0.0-SNAPSHOT                            [8/19]
+[INFO] ---------------------------[ eclipse-plugin ]---------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ com.vogella.tasks.model ---
+[INFO] Deleting C:\Users\vogella\git\eclipse4book\com.vogella.tasks.model\target
+[INFO] 
+[INFO] --- tycho-packaging-plugin:3.0.1:build-qualifier (default-build-qualifier) @ com.vogella.tasks.model ---
+[INFO] The project's OSGi version is 1.0.0.202301311109
+[INFO] 
+[INFO] --- tycho-packaging-plugin:3.0.1:validate-id (default-validate-id) @ com.vogella.tasks.model ---
+[INFO] 
+[INFO] --- tycho-packaging-plugin:3.0.1:validate-version (default-validate-version) @ com.vogella.tasks.model ---
+[INFO] 
+[INFO] --- target-platform-configuration:3.0.1:target-platform (default-target-platform) @ com.vogella.tasks.model ---
+[INFO] 
+[INFO] --- tycho-compiler-plugin:3.0.1:validate-classpath (default-validate-classpath) @ com.vogella.tasks.model ---
+[INFO] Resolving class path of [bundle] Model...
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ com.vogella.tasks.model ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\vogella\git\eclipse4book\com.vogella.tasks.model\src\main\resources
+[INFO] 
+[INFO] --- tycho-compiler-plugin:3.0.1:compile (default-compile) @ com.vogella.tasks.model ---
+[WARNING] Using JavaSE-17 to fulfill requested profile of JavaSE-11 this might lead to faulty dependency resolution, consider define a suitable JDK in the toolchains.xml
+[INFO] Compiling 2 source files to C:\Users\vogella\git\eclipse4book\com.vogella.tasks.model\target\classes
+[INFO] 
+[INFO] --- tycho-ds-plugin:3.0.1:declarative-services (default-declarative-services) @ com.vogella.tasks.model ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:testResources (default-testResources) @ com.vogella.tasks.model ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\vogella\git\eclipse4book\com.vogella.tasks.model\src\test\resources
+[INFO] 
+[INFO] --- tycho-compiler-plugin:3.0.1:testCompile (default-testCompile) @ com.vogella.tasks.model ---
+[WARNING] Using JavaSE-17 to fulfill requested profile of JavaSE-11 this might lead to faulty dependency resolution, consider define a suitable JDK in the toolchains.xml
+[INFO] 
+[INFO] --- maven-surefire-plugin:3.0.0-M5:test (default-test) @ com.vogella.tasks.model ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- tycho-packaging-plugin:3.0.1:update-consumer-pom (default-update-consumer-pom) @ com.vogella.tasks.model ---
+[INFO] 
+[INFO] --- tycho-packaging-plugin:3.0.1:package-plugin (default-package-plugin) @ com.vogella.tasks.model ---
+[INFO] Building jar: C:\Users\vogella\git\eclipse4book\com.vogella.tasks.model\target\com.vogella.tasks.model-1.0.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- tycho-p2-plugin:3.0.1:p2-metadata-default (default-p2-metadata-default) @ com.vogella.tasks.model ---
+[INFO] 
+[INFO] --- tycho-surefire-plugin:3.0.1:integration-test (default-integration-test) @ com.vogella.tasks.model ---
+[INFO] 
+[INFO] --- maven-failsafe-plugin:3.0.0-M5:verify (default-verify) @ com.vogella.tasks.model ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] ---------------< com.vogella.tycho:com.vogella.tasks.ui >---------------
+[INFO] Building [bundle] Ui 1.0.0-SNAPSHOT                               [9/19]
+[INFO] ---------------------------[ eclipse-plugin ]---------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ com.vogella.tasks.ui ---
+[INFO] Deleting C:\Users\vogella\git\eclipse4book\com.vogella.tasks.ui\target
+[INFO] 
+[INFO] --- tycho-packaging-plugin:3.0.1:build-qualifier (default-build-qualifier) @ com.vogella.tasks.ui ---
+[INFO] The project's OSGi version is 1.0.0.202301311109
+[INFO] 
+[INFO] --- tycho-packaging-plugin:3.0.1:validate-id (default-validate-id) @ com.vogella.tasks.ui ---
+[INFO] 
+[INFO] --- tycho-packaging-plugin:3.0.1:validate-version (default-validate-version) @ com.vogella.tasks.ui ---
+[INFO] 
+[INFO] --- target-platform-configuration:3.0.1:target-platform (default-target-platform) @ com.vogella.tasks.ui ---
+[INFO] 
+[INFO] --- tycho-compiler-plugin:3.0.1:validate-classpath (default-validate-classpath) @ com.vogella.tasks.ui ---
+[INFO] Resolving class path of [bundle] Ui...
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ com.vogella.tasks.ui ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\vogella\git\eclipse4book\com.vogella.tasks.ui\src\main\resources
+[INFO] 
+[INFO] --- tycho-compiler-plugin:3.0.1:compile (default-compile) @ com.vogella.tasks.ui ---
+[WARNING] Using JavaSE-17 to fulfill requested profile of JavaSE-11 this might lead to faulty dependency resolution, consider define a suitable JDK in the toolchains.xml
+[INFO] Compiling 20 source files to C:\Users\vogella\git\eclipse4book\com.vogella.tasks.ui\target\classes
+[INFO] 
+[INFO] --- tycho-ds-plugin:3.0.1:declarative-services (default-declarative-services) @ com.vogella.tasks.ui ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:testResources (default-testResources) @ com.vogella.tasks.ui ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\vogella\git\eclipse4book\com.vogella.tasks.ui\src\test\resources
+[INFO] 
+[INFO] --- tycho-compiler-plugin:3.0.1:testCompile (default-testCompile) @ com.vogella.tasks.ui ---
+[WARNING] Using JavaSE-17 to fulfill requested profile of JavaSE-11 this might lead to faulty dependency resolution, consider define a suitable JDK in the toolchains.xml
+[INFO] 
+[INFO] --- maven-surefire-plugin:3.0.0-M5:test (default-test) @ com.vogella.tasks.ui ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- tycho-packaging-plugin:3.0.1:update-consumer-pom (default-update-consumer-pom) @ com.vogella.tasks.ui ---
+[INFO] 
+[INFO] --- tycho-packaging-plugin:3.0.1:package-plugin (default-package-plugin) @ com.vogella.tasks.ui ---
+[INFO] Building jar: C:\Users\vogella\git\eclipse4book\com.vogella.tasks.ui\target\com.vogella.tasks.ui-1.0.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- tycho-p2-plugin:3.0.1:p2-metadata-default (default-p2-metadata-default) @ com.vogella.tasks.ui ---
+[INFO] 
+[INFO] --- tycho-surefire-plugin:3.0.1:integration-test (default-integration-test) @ com.vogella.tasks.ui ---
+[INFO] 
+[INFO] --- maven-failsafe-plugin:3.0.0-M5:verify (default-verify) @ com.vogella.tasks.ui ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] -----------< com.vogella.tycho:com.example.e4.renderer.swt >------------
+[INFO] Building [bundle] Swt 1.0.0-SNAPSHOT                             [10/19]
+[INFO] ---------------------------[ eclipse-plugin ]---------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ com.example.e4.renderer.swt ---
+[INFO] Deleting C:\Users\vogella\git\eclipse4book\com.example.e4.renderer.swt\target
+[INFO] 
+[INFO] --- tycho-packaging-plugin:3.0.1:build-qualifier (default-build-qualifier) @ com.example.e4.renderer.swt ---
+[INFO] The project's OSGi version is 1.0.0.202301311109
+[INFO] 
+[INFO] --- tycho-packaging-plugin:3.0.1:validate-id (default-validate-id) @ com.example.e4.renderer.swt ---
+[INFO] 
+[INFO] --- tycho-packaging-plugin:3.0.1:validate-version (default-validate-version) @ com.example.e4.renderer.swt ---
+[INFO] 
+[INFO] --- target-platform-configuration:3.0.1:target-platform (default-target-platform) @ com.example.e4.renderer.swt ---
+[INFO] 
+[INFO] --- tycho-compiler-plugin:3.0.1:validate-classpath (default-validate-classpath) @ com.example.e4.renderer.swt ---
+[INFO] Resolving class path of [bundle] Swt...
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ com.example.e4.renderer.swt ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\vogella\git\eclipse4book\com.example.e4.renderer.swt\src\main\resources
+[INFO] 
+[INFO] --- tycho-compiler-plugin:3.0.1:compile (default-compile) @ com.example.e4.renderer.swt ---
+[WARNING] Using JavaSE-17 to fulfill requested profile of JavaSE-11 this might lead to faulty dependency resolution, consider define a suitable JDK in the toolchains.xml
+[INFO] Compiling 3 source files to C:\Users\vogella\git\eclipse4book\com.example.e4.renderer.swt\target\classes
+[INFO] 
+[INFO] --- tycho-ds-plugin:3.0.1:declarative-services (default-declarative-services) @ com.example.e4.renderer.swt ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:testResources (default-testResources) @ com.example.e4.renderer.swt ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\vogella\git\eclipse4book\com.example.e4.renderer.swt\src\test\resources
+[INFO] 
+[INFO] --- tycho-compiler-plugin:3.0.1:testCompile (default-testCompile) @ com.example.e4.renderer.swt ---
+[WARNING] Using JavaSE-17 to fulfill requested profile of JavaSE-11 this might lead to faulty dependency resolution, consider define a suitable JDK in the toolchains.xml
+[INFO] 
+[INFO] --- maven-surefire-plugin:3.0.0-M5:test (default-test) @ com.example.e4.renderer.swt ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- tycho-packaging-plugin:3.0.1:update-consumer-pom (default-update-consumer-pom) @ com.example.e4.renderer.swt ---
+[INFO] 
+[INFO] --- tycho-packaging-plugin:3.0.1:package-plugin (default-package-plugin) @ com.example.e4.renderer.swt ---
+[INFO] Building jar: C:\Users\vogella\git\eclipse4book\com.example.e4.renderer.swt\target\com.example.e4.renderer.swt-1.0.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- tycho-p2-plugin:3.0.1:p2-metadata-default (default-p2-metadata-default) @ com.example.e4.renderer.swt ---
+[INFO] 
+[INFO] --- tycho-surefire-plugin:3.0.1:integration-test (default-integration-test) @ com.example.e4.renderer.swt ---
+[INFO] 
+[INFO] --- maven-failsafe-plugin:3.0.0-M5:verify (default-verify) @ com.example.e4.renderer.swt ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] -------------< com.vogella.tycho:com.vogella.tasks.update >-------------
+[INFO] Building [bundle] Update 1.0.0-SNAPSHOT                          [11/19]
+[INFO] ---------------------------[ eclipse-plugin ]---------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ com.vogella.tasks.update ---
+[INFO] Deleting C:\Users\vogella\git\eclipse4book\com.vogella.tasks.update\target
+[INFO] 
+[INFO] --- tycho-packaging-plugin:3.0.1:build-qualifier (default-build-qualifier) @ com.vogella.tasks.update ---
+[INFO] The project's OSGi version is 1.0.0.202301311109
+[INFO] 
+[INFO] --- tycho-packaging-plugin:3.0.1:validate-id (default-validate-id) @ com.vogella.tasks.update ---
+[INFO] 
+[INFO] --- tycho-packaging-plugin:3.0.1:validate-version (default-validate-version) @ com.vogella.tasks.update ---
+[INFO] 
+[INFO] --- target-platform-configuration:3.0.1:target-platform (default-target-platform) @ com.vogella.tasks.update ---
+[INFO] 
+[INFO] --- tycho-compiler-plugin:3.0.1:validate-classpath (default-validate-classpath) @ com.vogella.tasks.update ---
+[INFO] Resolving class path of [bundle] Update...
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ com.vogella.tasks.update ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\vogella\git\eclipse4book\com.vogella.tasks.update\src\main\resources
+[INFO] 
+[INFO] --- tycho-compiler-plugin:3.0.1:compile (default-compile) @ com.vogella.tasks.update ---
+[INFO] Compiling 1 source file to C:\Users\vogella\git\eclipse4book\com.vogella.tasks.update\target\classes
+[INFO] 
+[INFO] --- tycho-ds-plugin:3.0.1:declarative-services (default-declarative-services) @ com.vogella.tasks.update ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:testResources (default-testResources) @ com.vogella.tasks.update ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\vogella\git\eclipse4book\com.vogella.tasks.update\src\test\resources
+[INFO] 
+[INFO] --- tycho-compiler-plugin:3.0.1:testCompile (default-testCompile) @ com.vogella.tasks.update ---
+[INFO] 
+[INFO] --- maven-surefire-plugin:3.0.0-M5:test (default-test) @ com.vogella.tasks.update ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- tycho-packaging-plugin:3.0.1:update-consumer-pom (default-update-consumer-pom) @ com.vogella.tasks.update ---
+[INFO] 
+[INFO] --- tycho-packaging-plugin:3.0.1:package-plugin (default-package-plugin) @ com.vogella.tasks.update ---
+[INFO] Building jar: C:\Users\vogella\git\eclipse4book\com.vogella.tasks.update\target\com.vogella.tasks.update-1.0.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- tycho-p2-plugin:3.0.1:p2-metadata-default (default-p2-metadata-default) @ com.vogella.tasks.update ---
+[INFO] 
+[INFO] --- tycho-surefire-plugin:3.0.1:integration-test (default-integration-test) @ com.vogella.tasks.update ---
+[INFO] 
+[INFO] --- maven-failsafe-plugin:3.0.0-M5:verify (default-verify) @ com.vogella.tasks.update ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] ------------< com.vogella.tycho:com.vogella.tasks.services >------------
+[INFO] Building [bundle] Services 1.0.0-SNAPSHOT                        [12/19]
+[INFO] ---------------------------[ eclipse-plugin ]---------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ com.vogella.tasks.services ---
+[INFO] Deleting C:\Users\vogella\git\eclipse4book\com.vogella.tasks.services\target
+[INFO] 
+[INFO] --- tycho-packaging-plugin:3.0.1:build-qualifier (default-build-qualifier) @ com.vogella.tasks.services ---
+[INFO] The project's OSGi version is 1.0.0.202301311109
+[INFO] 
+[INFO] --- tycho-packaging-plugin:3.0.1:validate-id (default-validate-id) @ com.vogella.tasks.services ---
+[INFO] 
+[INFO] --- tycho-packaging-plugin:3.0.1:validate-version (default-validate-version) @ com.vogella.tasks.services ---
+[INFO] 
+[INFO] --- target-platform-configuration:3.0.1:target-platform (default-target-platform) @ com.vogella.tasks.services ---
+[INFO] 
+[INFO] --- tycho-compiler-plugin:3.0.1:validate-classpath (default-validate-classpath) @ com.vogella.tasks.services ---
+[INFO] Resolving class path of [bundle] Services...
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ com.vogella.tasks.services ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\vogella\git\eclipse4book\com.vogella.tasks.services\src\main\resources
+[INFO] 
+[INFO] --- tycho-compiler-plugin:3.0.1:compile (default-compile) @ com.vogella.tasks.services ---
+[WARNING] Using JavaSE-17 to fulfill requested profile of JavaSE-11 this might lead to faulty dependency resolution, consider define a suitable JDK in the toolchains.xml
+[INFO] Compiling 4 source files to C:\Users\vogella\git\eclipse4book\com.vogella.tasks.services\target\classes
+[INFO] 
+[INFO] --- tycho-ds-plugin:3.0.1:declarative-services (default-declarative-services) @ com.vogella.tasks.services ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:testResources (default-testResources) @ com.vogella.tasks.services ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\vogella\git\eclipse4book\com.vogella.tasks.services\src\test\resources
+[INFO] 
+[INFO] --- tycho-compiler-plugin:3.0.1:testCompile (default-testCompile) @ com.vogella.tasks.services ---
+[WARNING] Using JavaSE-17 to fulfill requested profile of JavaSE-11 this might lead to faulty dependency resolution, consider define a suitable JDK in the toolchains.xml
+[INFO] 
+[INFO] --- maven-surefire-plugin:3.0.0-M5:test (default-test) @ com.vogella.tasks.services ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- tycho-packaging-plugin:3.0.1:update-consumer-pom (default-update-consumer-pom) @ com.vogella.tasks.services ---
+[INFO] 
+[INFO] --- tycho-packaging-plugin:3.0.1:package-plugin (default-package-plugin) @ com.vogella.tasks.services ---
+[INFO] Building jar: C:\Users\vogella\git\eclipse4book\com.vogella.tasks.services\target\com.vogella.tasks.services-1.0.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- tycho-p2-plugin:3.0.1:p2-metadata-default (default-p2-metadata-default) @ com.vogella.tasks.services ---
+[INFO] 
+[INFO] --- tycho-surefire-plugin:3.0.1:integration-test (default-integration-test) @ com.vogella.tasks.services ---
+[INFO] 
+[INFO] --- maven-failsafe-plugin:3.0.0-M5:verify (default-verify) @ com.vogella.tasks.services ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] ---------< com.vogella.tycho:com.vogella.tasks.ui.contribute >----------
+[INFO] Building [bundle] Contribute 1.0.0-SNAPSHOT                      [13/19]
+[INFO] ---------------------------[ eclipse-plugin ]---------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ com.vogella.tasks.ui.contribute ---
+[INFO] Deleting C:\Users\vogella\git\eclipse4book\com.vogella.tasks.ui.contribute\target
+[INFO] 
+[INFO] --- tycho-packaging-plugin:3.0.1:build-qualifier (default-build-qualifier) @ com.vogella.tasks.ui.contribute ---
+[INFO] The project's OSGi version is 1.0.0.202301311109
+[INFO] 
+[INFO] --- tycho-packaging-plugin:3.0.1:validate-id (default-validate-id) @ com.vogella.tasks.ui.contribute ---
+[INFO] 
+[INFO] --- tycho-packaging-plugin:3.0.1:validate-version (default-validate-version) @ com.vogella.tasks.ui.contribute ---
+[INFO] 
+[INFO] --- target-platform-configuration:3.0.1:target-platform (default-target-platform) @ com.vogella.tasks.ui.contribute ---
+[INFO] 
+[INFO] --- tycho-compiler-plugin:3.0.1:validate-classpath (default-validate-classpath) @ com.vogella.tasks.ui.contribute ---
+[INFO] Resolving class path of [bundle] Contribute...
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ com.vogella.tasks.ui.contribute ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\vogella\git\eclipse4book\com.vogella.tasks.ui.contribute\src\main\resources
+[INFO] 
+[INFO] --- tycho-compiler-plugin:3.0.1:compile (default-compile) @ com.vogella.tasks.ui.contribute ---
+[INFO] Compiling 1 source file to C:\Users\vogella\git\eclipse4book\com.vogella.tasks.ui.contribute\target\classes
+[INFO] 
+[INFO] --- tycho-ds-plugin:3.0.1:declarative-services (default-declarative-services) @ com.vogella.tasks.ui.contribute ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:testResources (default-testResources) @ com.vogella.tasks.ui.contribute ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\vogella\git\eclipse4book\com.vogella.tasks.ui.contribute\src\test\resources
+[INFO] 
+[INFO] --- tycho-compiler-plugin:3.0.1:testCompile (default-testCompile) @ com.vogella.tasks.ui.contribute ---
+[INFO] 
+[INFO] --- maven-surefire-plugin:3.0.0-M5:test (default-test) @ com.vogella.tasks.ui.contribute ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- tycho-packaging-plugin:3.0.1:update-consumer-pom (default-update-consumer-pom) @ com.vogella.tasks.ui.contribute ---
+[INFO] 
+[INFO] --- tycho-packaging-plugin:3.0.1:package-plugin (default-package-plugin) @ com.vogella.tasks.ui.contribute ---
+[INFO] Building jar: C:\Users\vogella\git\eclipse4book\com.vogella.tasks.ui.contribute\target\com.vogella.tasks.ui.contribute-1.0.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- tycho-p2-plugin:3.0.1:p2-metadata-default (default-p2-metadata-default) @ com.vogella.tasks.ui.contribute ---
+[INFO] 
+[INFO] --- tycho-surefire-plugin:3.0.1:integration-test (default-integration-test) @ com.vogella.tasks.ui.contribute ---
+[INFO] 
+[INFO] --- maven-failsafe-plugin:3.0.0-M5:verify (default-verify) @ com.vogella.tasks.ui.contribute ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] ------------< com.vogella.tycho:com.vogella.tasks.feature >-------------
+[INFO] Building [feature] Feature 1.0.0-SNAPSHOT                        [14/19]
+[INFO] --------------------------[ eclipse-feature ]---------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ com.vogella.tasks.feature ---
+[INFO] Deleting C:\Users\vogella\git\eclipse4book\com.vogella.tasks.feature\target
+[INFO] 
+[INFO] --- tycho-packaging-plugin:3.0.1:build-qualifier-aggregator (default-build-qualifier-aggregator) @ com.vogella.tasks.feature ---
+[INFO] The project's OSGi version is 1.0.0.202301311109
+[INFO] 
+[INFO] --- tycho-packaging-plugin:3.0.1:validate-id (default-validate-id) @ com.vogella.tasks.feature ---
+[INFO] 
+[INFO] --- tycho-packaging-plugin:3.0.1:validate-version (default-validate-version) @ com.vogella.tasks.feature ---
+[INFO] 
+[INFO] --- target-platform-configuration:3.0.1:target-platform (default-target-platform) @ com.vogella.tasks.feature ---
+[INFO] 
+[INFO] --- tycho-packaging-plugin:3.0.1:update-consumer-pom (default-update-consumer-pom) @ com.vogella.tasks.feature ---
+[INFO] 
+[INFO] --- tycho-packaging-plugin:3.0.1:package-feature (default-package-feature) @ com.vogella.tasks.feature ---
+[INFO] Building jar: C:\Users\vogella\git\eclipse4book\com.vogella.tasks.feature\target\com.vogella.tasks.feature-1.0.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- tycho-p2-plugin:3.0.1:p2-metadata-default (default-p2-metadata-default) @ com.vogella.tasks.feature ---
+[INFO] 
+[INFO] --- tycho-p2-plugin:3.0.1:feature-p2-metadata (default-feature-p2-metadata) @ com.vogella.tasks.feature ---
+[INFO] 
+[INFO] ----------------< com.vogella.tycho:com.vogella.tasks >-----------------
+[INFO] Building [product] to-do 0.0.1                                   [15/19]
+[INFO] -------------------------[ eclipse-repository ]-------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ com.vogella.tasks ---
+[INFO] Deleting C:\Users\vogella\git\eclipse4book\com.vogella.tasks.product\target
+[INFO] 
+[INFO] --- tycho-packaging-plugin:3.0.1:build-qualifier-aggregator (default-build-qualifier-aggregator) @ com.vogella.tasks ---
+[INFO] The project's OSGi version is 0.0.1
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean-1) @ com.vogella.tasks ---
+[INFO] 
+[INFO] --- target-platform-configuration:3.0.1:target-platform (default-target-platform) @ com.vogella.tasks ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ com.vogella.tasks ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\vogella\git\eclipse4book\com.vogella.tasks.product\src\main\resources
+[INFO] 
+[INFO] --- tycho-p2-publisher-plugin:3.0.1:publish-osgi-ee (default-publish-osgi-ee) @ com.vogella.tasks ---
+[INFO] Published profile IUs: [a.jre.javase 17.0.0]
+[INFO] 
+[INFO] --- tycho-p2-publisher-plugin:3.0.1:publish-products (default-publish-products) @ com.vogella.tasks ---
+[INFO] 
+[INFO] --- tycho-p2-publisher-plugin:3.0.1:publish-categories (default-publish-categories) @ com.vogella.tasks ---
+[INFO] 
+[INFO] --- tycho-p2-publisher-plugin:3.0.1:attach-artifacts (default-attach-artifacts) @ com.vogella.tasks ---
+[INFO] 
+[INFO] --- tycho-p2-repository-plugin:3.0.1:assemble-repository (default-assemble-repository) @ com.vogella.tasks ---
+[WARNING] [3c2aec65-dda8-42c4-ad57-a63a08179b0b][extension>org.eclipse.tycho:tycho-maven-plugin:3.0.1] No digest algorithm is available to verify download of osgi.bundle,com.vogella.service.imageloader,1.0.0.202301311109.
+[WARNING] [3c2aec65-dda8-42c4-ad57-a63a08179b0b][extension>org.eclipse.tycho:tycho-maven-plugin:3.0.1] No digest algorithm is available to verify download of osgi.bundle,com.vogella.tasks.ui.contribute,1.0.0.202301311109.
+[WARNING] [3c2aec65-dda8-42c4-ad57-a63a08179b0b][extension>org.eclipse.tycho:tycho-maven-plugin:3.0.1] No digest algorithm is available to verify download of osgi.bundle,com.vogella.tasks.services,1.0.0.202301311109.
+[WARNING] [3c2aec65-dda8-42c4-ad57-a63a08179b0b][extension>org.eclipse.tycho:tycho-maven-plugin:3.0.1] No digest algorithm is available to verify download of osgi.bundle,com.google.gson,2.10.1.
+[WARNING] [3c2aec65-dda8-42c4-ad57-a63a08179b0b][extension>org.eclipse.tycho:tycho-maven-plugin:3.0.1] No digest algorithm is available to verify download of osgi.bundle,com.vogella.tasks.update,1.0.0.202301311109.
+[WARNING] [3c2aec65-dda8-42c4-ad57-a63a08179b0b][extension>org.eclipse.tycho:tycho-maven-plugin:3.0.1] No digest algorithm is available to verify download of org.eclipse.update.feature,com.vogella.tasks.feature,1.0.0.202301311109.
+[WARNING] [3c2aec65-dda8-42c4-ad57-a63a08179b0b][extension>org.eclipse.tycho:tycho-maven-plugin:3.0.1] No digest algorithm is available to verify download of binary,com.vogella.tasks.executable.gtk.linux.x86_64,0.0.1.
+[WARNING] [3c2aec65-dda8-42c4-ad57-a63a08179b0b][extension>org.eclipse.tycho:tycho-maven-plugin:3.0.1] No digest algorithm is available to verify download of osgi.bundle,com.vogella.swt.widgets,1.0.0.202301311109.
+[WARNING] [3c2aec65-dda8-42c4-ad57-a63a08179b0b][extension>org.eclipse.tycho:tycho-maven-plugin:3.0.1] No digest algorithm is available to verify download of osgi.bundle,com.vogella.tasks.ui,1.0.0.202301311109.
+[WARNING] [3c2aec65-dda8-42c4-ad57-a63a08179b0b][extension>org.eclipse.tycho:tycho-maven-plugin:3.0.1] No digest algorithm is available to verify download of osgi.bundle,com.example.e4.renderer.swt,1.0.0.202301311109.
+[WARNING] [3c2aec65-dda8-42c4-ad57-a63a08179b0b][extension>org.eclipse.tycho:tycho-maven-plugin:3.0.1] No digest algorithm is available to verify download of osgi.bundle,com.vogella.tasks.events,1.0.0.202301311109.
+[WARNING] [3c2aec65-dda8-42c4-ad57-a63a08179b0b][extension>org.eclipse.tycho:tycho-maven-plugin:3.0.1] No digest algorithm is available to verify download of osgi.bundle,com.vogella.tasks.model,1.0.0.202301311109.
+[WARNING] [3c2aec65-dda8-42c4-ad57-a63a08179b0b][extension>org.eclipse.tycho:tycho-maven-plugin:3.0.1] No digest algorithm is available to verify download of binary,com.vogella.tasks.executable.win32.win32.x86_64,0.0.1.
+[WARNING] [3c2aec65-dda8-42c4-ad57-a63a08179b0b][extension>org.eclipse.tycho:tycho-maven-plugin:3.0.1] No digest algorithm is available to verify download of binary,com.vogella.tasks.executable.cocoa.macosx.x86_64,0.0.1.
+[INFO] 
+[INFO] --- tycho-p2-repository-plugin:3.0.1:archive-repository (default-archive-repository) @ com.vogella.tasks ---
+[INFO] Building zip: C:\Users\vogella\git\eclipse4book\com.vogella.tasks.product\target\com.vogella.tasks-0.0.1.zip
+[INFO] 
+[INFO] --- tycho-p2-director-plugin:3.0.1:materialize-products (materialize-products) @ com.vogella.tasks ---
+[INFO] Installing product com.vogella.tasks for environment linux/gtk/x86_64 to C:\Users\vogella\git\eclipse4book\com.vogella.tasks.product\target\products\com.vogella.tasks\linux\gtk\x86_64
+Installing com.vogella.tasks 0.0.1.
+Installing com.vogella.tasks.feature.feature.group 1.0.0.202301311109.
+Installing org.eclipse.e4.rcp.feature.group 4.24.0.v20220530-1036.
+Installing org.eclipse.emf.ecore.feature.group 2.28.0.v20220426-0617.
+Installing org.eclipse.emf.common.feature.group 2.26.0.v20220325-0806.
+Installing org.eclipse.equinox.p2.core.feature.feature.group 1.6.1400.v20220518-1326.
+Installing org.eclipse.ecf.core.ssl.feature.feature.group 1.1.501.v20210409-2301.
+Installing org.eclipse.ecf.filetransfer.ssl.feature.feature.group 1.1.401.v20210409-2301.
+Installing org.eclipse.ecf.core.feature.feature.group 1.6.1.v20211005-1944.
+Installing org.eclipse.ecf.filetransfer.feature.feature.group 3.14.1800.v20220215-0126.
+Installing org.eclipse.justj.openjdk.hotspot.jre.minimal.feature.group 17.0.6.v20230125-1136.
+[WARNING] [3c2aec65-dda8-42c4-ad57-a63a08179b0b][extension>org.eclipse.tycho:tycho-maven-plugin:3.0.1] Failed creating shared configuration url for null.
+Operation completed in 7270 ms.
+[INFO] Installing product com.vogella.tasks for environment win32/win32/x86_64 to C:\Users\vogella\git\eclipse4book\com.vogella.tasks.product\target\products\com.vogella.tasks\win32\win32\x86_64
+Installing com.vogella.tasks 0.0.1.
+Installing com.vogella.tasks.feature.feature.group 1.0.0.202301311109.
+Installing org.eclipse.e4.rcp.feature.group 4.24.0.v20220530-1036.
+Installing org.eclipse.emf.ecore.feature.group 2.28.0.v20220426-0617.
+Installing org.eclipse.emf.common.feature.group 2.26.0.v20220325-0806.
+Installing org.eclipse.equinox.p2.core.feature.feature.group 1.6.1400.v20220518-1326.
+Installing org.eclipse.ecf.core.ssl.feature.feature.group 1.1.501.v20210409-2301.
+Installing org.eclipse.ecf.filetransfer.ssl.feature.feature.group 1.1.401.v20210409-2301.
+Installing org.eclipse.ecf.core.feature.feature.group 1.6.1.v20211005-1944.
+Installing org.eclipse.ecf.filetransfer.feature.feature.group 3.14.1800.v20220215-0126.
+Installing org.eclipse.justj.openjdk.hotspot.jre.minimal.feature.group 17.0.6.v20230125-1136.
+[WARNING] [3c2aec65-dda8-42c4-ad57-a63a08179b0b][extension>org.eclipse.tycho:tycho-maven-plugin:3.0.1] Failed creating shared configuration url for null.
+Operation completed in 6882 ms.
+[INFO] Installing product com.vogella.tasks for environment macosx/cocoa/x86_64 to C:\Users\vogella\git\eclipse4book\com.vogella.tasks.product\target\products\com.vogella.tasks\macosx\cocoa\x86_64\Eclipse.app
+Installing com.vogella.tasks 0.0.1.
+Installing com.vogella.tasks.feature.feature.group 1.0.0.202301311109.
+Installing org.eclipse.e4.rcp.feature.group 4.24.0.v20220530-1036.
+Installing org.eclipse.emf.ecore.feature.group 2.28.0.v20220426-0617.
+Installing org.eclipse.emf.common.feature.group 2.26.0.v20220325-0806.
+Installing org.eclipse.equinox.p2.core.feature.feature.group 1.6.1400.v20220518-1326.
+Installing org.eclipse.ecf.core.ssl.feature.feature.group 1.1.501.v20210409-2301.
+Installing org.eclipse.ecf.filetransfer.ssl.feature.feature.group 1.1.401.v20210409-2301.
+Installing org.eclipse.ecf.core.feature.feature.group 1.6.1.v20211005-1944.
+Installing org.eclipse.ecf.filetransfer.feature.feature.group 3.14.1800.v20220215-0126.
+Installing org.eclipse.justj.openjdk.hotspot.jre.minimal.feature.group 17.0.6.v20230125-1136.
+[WARNING] [3c2aec65-dda8-42c4-ad57-a63a08179b0b][extension>org.eclipse.tycho:tycho-maven-plugin:3.0.1] Failed creating shared configuration url for null.
+Operation completed in 6970 ms.
+[INFO] 
+[INFO] --- tycho-p2-director-plugin:3.0.1:archive-products (archive-products) @ com.vogella.tasks ---
+[INFO] Building tar: C:\Users\vogella\git\eclipse4book\com.vogella.tasks.product\target\products\com.vogella.tasks-linux.gtk.x86_64.tar.gz
+[INFO] Building zip: C:\Users\vogella\git\eclipse4book\com.vogella.tasks.product\target\products\com.vogella.tasks-win32.win32.x86_64.zip
+[INFO] Building tar: C:\Users\vogella\git\eclipse4book\com.vogella.tasks.product\target\products\com.vogella.tasks-macosx.cocoa.x86_64.tar.gz
+[INFO] 
+[INFO] ---------< com.vogella.tycho:com.vogella.tasks.services.tests >---------
+[INFO] Building [test-bundle] Tests 1.0.0-SNAPSHOT                      [16/19]
+[INFO] ------------------------[ eclipse-test-plugin ]-------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ com.vogella.tasks.services.tests ---
+[INFO] Deleting C:\Users\vogella\git\eclipse4book\com.vogella.tasks.services.tests\target
+[INFO] 
+[INFO] --- tycho-packaging-plugin:3.0.1:build-qualifier (default-build-qualifier) @ com.vogella.tasks.services.tests ---
+[INFO] The project's OSGi version is 1.0.0.202301311109
+[INFO] 
+[INFO] --- tycho-packaging-plugin:3.0.1:validate-id (default-validate-id) @ com.vogella.tasks.services.tests ---
+[INFO] 
+[INFO] --- tycho-packaging-plugin:3.0.1:validate-version (default-validate-version) @ com.vogella.tasks.services.tests ---
+[INFO] 
+[INFO] --- target-platform-configuration:3.0.1:target-platform (default-target-platform) @ com.vogella.tasks.services.tests ---
+[INFO] 
+[INFO] --- tycho-compiler-plugin:3.0.1:validate-classpath (default-validate-classpath) @ com.vogella.tasks.services.tests ---
+[INFO] Resolving class path of [test-bundle] Tests...
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ com.vogella.tasks.services.tests ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\vogella\git\eclipse4book\com.vogella.tasks.services.tests\src\main\resources
+[INFO] 
+[INFO] --- tycho-compiler-plugin:3.0.1:compile (default-compile) @ com.vogella.tasks.services.tests ---
+[INFO] Compiling 1 source file to C:\Users\vogella\git\eclipse4book\com.vogella.tasks.services.tests\target\classes
+[INFO] 
+[INFO] --- tycho-ds-plugin:3.0.1:declarative-services (default-declarative-services) @ com.vogella.tasks.services.tests ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:testResources (default-testResources) @ com.vogella.tasks.services.tests ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\vogella\git\eclipse4book\com.vogella.tasks.services.tests\src\test\resources
+[INFO] 
+[INFO] --- tycho-packaging-plugin:3.0.1:update-consumer-pom (default-update-consumer-pom) @ com.vogella.tasks.services.tests ---
+[INFO] 
+[INFO] --- tycho-packaging-plugin:3.0.1:package-plugin (default-package-plugin) @ com.vogella.tasks.services.tests ---
+[INFO] Building jar: C:\Users\vogella\git\eclipse4book\com.vogella.tasks.services.tests\target\com.vogella.tasks.services.tests-1.0.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- tycho-p2-plugin:3.0.1:p2-metadata-default (default-p2-metadata-default) @ com.vogella.tasks.services.tests ---
+[INFO] 
+[INFO] --- tycho-surefire-plugin:3.0.1:test (default-test) @ com.vogella.tasks.services.tests ---
+[INFO] Could not find a java toolchain of type jdk and JAVA_HOME is not set, trying java from PATH instead
+[INFO] Executing Test Runtime with timeout 0, logs (if any) will be placed at: C:\Users\vogella\git\eclipse4book\com.vogella.tasks.services.tests\target\work\data\.metadata\.log
+[INFO] Command line:
+	[java, -Dosgi.noShutdown=false, -Dosgi.os=win32, -Dosgi.ws=win32, -Dosgi.arch=x86_64, -Dosgi.clean=true, -jar, C:\Users\vogella\.m2\repository\p2\osgi\bundle\org.eclipse.equinox.launcher\1.6.400.v20210924-0641\org.eclipse.equinox.launcher-1.6.400.v20210924-0641.jar, -data, C:\Users\vogella\git\eclipse4book\com.vogella.tasks.services.tests\target\work\data, -install, C:\Users\vogella\git\eclipse4book\com.vogella.tasks.services.tests\target\work, -configuration, C:\Users\vogella\git\eclipse4book\com.vogella.tasks.services.tests\target\work\configuration, -application, org.eclipse.tycho.surefire.osgibooter.headlesstest, -testproperties, C:\Users\vogella\git\eclipse4book\com.vogella.tasks.services.tests\target\surefire.properties]
+Running null
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.028 s - in null
+com.vogella.tasks.services.tests.TransientTaskServiceImplTests.testThatTestServiceReturnsNineTasks  Time elapsed: 0.016 s
+
+Results:
+
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] All tests passed!
+[INFO] 
+[INFO] -----------< com.vogella.tycho:com.vogella.contribute.parts >-----------
+[INFO] Building [bundle] Parts 1.0.0-SNAPSHOT                           [17/19]
+[INFO] ---------------------------[ eclipse-plugin ]---------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ com.vogella.contribute.parts ---
+[INFO] Deleting C:\Users\vogella\git\eclipse4book\com.vogella.contribute.parts\target
+[INFO] 
+[INFO] --- tycho-packaging-plugin:3.0.1:build-qualifier (default-build-qualifier) @ com.vogella.contribute.parts ---
+[INFO] The project's OSGi version is 1.0.0.202301311109
+[INFO] 
+[INFO] --- tycho-packaging-plugin:3.0.1:validate-id (default-validate-id) @ com.vogella.contribute.parts ---
+[INFO] 
+[INFO] --- tycho-packaging-plugin:3.0.1:validate-version (default-validate-version) @ com.vogella.contribute.parts ---
+[INFO] 
+[INFO] --- target-platform-configuration:3.0.1:target-platform (default-target-platform) @ com.vogella.contribute.parts ---
+[INFO] 
+[INFO] --- tycho-compiler-plugin:3.0.1:validate-classpath (default-validate-classpath) @ com.vogella.contribute.parts ---
+[INFO] Resolving class path of [bundle] Parts...
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ com.vogella.contribute.parts ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\vogella\git\eclipse4book\com.vogella.contribute.parts\src\main\resources
+[INFO] 
+[INFO] --- tycho-compiler-plugin:3.0.1:compile (default-compile) @ com.vogella.contribute.parts ---
+[INFO] Compiling 1 source file to C:\Users\vogella\git\eclipse4book\com.vogella.contribute.parts\target\classes
+[INFO] 
+[INFO] --- tycho-ds-plugin:3.0.1:declarative-services (default-declarative-services) @ com.vogella.contribute.parts ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:testResources (default-testResources) @ com.vogella.contribute.parts ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\vogella\git\eclipse4book\com.vogella.contribute.parts\src\test\resources
+[INFO] 
+[INFO] --- tycho-compiler-plugin:3.0.1:testCompile (default-testCompile) @ com.vogella.contribute.parts ---
+[INFO] 
+[INFO] --- maven-surefire-plugin:3.0.0-M5:test (default-test) @ com.vogella.contribute.parts ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- tycho-packaging-plugin:3.0.1:update-consumer-pom (default-update-consumer-pom) @ com.vogella.contribute.parts ---
+[INFO] 
+[INFO] --- tycho-packaging-plugin:3.0.1:package-plugin (default-package-plugin) @ com.vogella.contribute.parts ---
+[INFO] Building jar: C:\Users\vogella\git\eclipse4book\com.vogella.contribute.parts\target\com.vogella.contribute.parts-1.0.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- tycho-p2-plugin:3.0.1:p2-metadata-default (default-p2-metadata-default) @ com.vogella.contribute.parts ---
+[INFO] 
+[INFO] --- tycho-surefire-plugin:3.0.1:integration-test (default-integration-test) @ com.vogella.contribute.parts ---
+[INFO] 
+[INFO] --- maven-failsafe-plugin:3.0.0-M5:verify (default-verify) @ com.vogella.contribute.parts ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] -------------< com.vogella.tycho:com.vogella.eclipse.css >--------------
+[INFO] Building [bundle] Css 1.0.0-SNAPSHOT                             [18/19]
+[INFO] ---------------------------[ eclipse-plugin ]---------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ com.vogella.eclipse.css ---
+[INFO] Deleting C:\Users\vogella\git\eclipse4book\com.vogella.eclipse.css\target
+[INFO] 
+[INFO] --- tycho-packaging-plugin:3.0.1:build-qualifier (default-build-qualifier) @ com.vogella.eclipse.css ---
+[INFO] The project's OSGi version is 1.0.0.202301311109
+[INFO] 
+[INFO] --- tycho-packaging-plugin:3.0.1:validate-id (default-validate-id) @ com.vogella.eclipse.css ---
+[INFO] 
+[INFO] --- tycho-packaging-plugin:3.0.1:validate-version (default-validate-version) @ com.vogella.eclipse.css ---
+[INFO] 
+[INFO] --- target-platform-configuration:3.0.1:target-platform (default-target-platform) @ com.vogella.eclipse.css ---
+[INFO] 
+[INFO] --- tycho-compiler-plugin:3.0.1:validate-classpath (default-validate-classpath) @ com.vogella.eclipse.css ---
+[INFO] Resolving class path of [bundle] Css...
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ com.vogella.eclipse.css ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\vogella\git\eclipse4book\com.vogella.eclipse.css\src\main\resources
+[INFO] 
+[INFO] --- tycho-compiler-plugin:3.0.1:compile (default-compile) @ com.vogella.eclipse.css ---
+[WARNING] Using JavaSE-17 to fulfill requested profile of JavaSE-11 this might lead to faulty dependency resolution, consider define a suitable JDK in the toolchains.xml
+[INFO] Compiling 2 source files to C:\Users\vogella\git\eclipse4book\com.vogella.eclipse.css\target\classes
+[INFO] 
+[INFO] --- tycho-ds-plugin:3.0.1:declarative-services (default-declarative-services) @ com.vogella.eclipse.css ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:testResources (default-testResources) @ com.vogella.eclipse.css ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\vogella\git\eclipse4book\com.vogella.eclipse.css\src\test\resources
+[INFO] 
+[INFO] --- tycho-compiler-plugin:3.0.1:testCompile (default-testCompile) @ com.vogella.eclipse.css ---
+[WARNING] Using JavaSE-17 to fulfill requested profile of JavaSE-11 this might lead to faulty dependency resolution, consider define a suitable JDK in the toolchains.xml
+[INFO] 
+[INFO] --- maven-surefire-plugin:3.0.0-M5:test (default-test) @ com.vogella.eclipse.css ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- tycho-packaging-plugin:3.0.1:update-consumer-pom (default-update-consumer-pom) @ com.vogella.eclipse.css ---
+[INFO] 
+[INFO] --- tycho-packaging-plugin:3.0.1:package-plugin (default-package-plugin) @ com.vogella.eclipse.css ---
+[INFO] Building jar: C:\Users\vogella\git\eclipse4book\com.vogella.eclipse.css\target\com.vogella.eclipse.css-1.0.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- tycho-p2-plugin:3.0.1:p2-metadata-default (default-p2-metadata-default) @ com.vogella.eclipse.css ---
+[INFO] 
+[INFO] --- tycho-surefire-plugin:3.0.1:integration-test (default-integration-test) @ com.vogella.eclipse.css ---
+[INFO] 
+[INFO] --- maven-failsafe-plugin:3.0.0-M5:verify (default-verify) @ com.vogella.eclipse.css ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] -------< com.vogella.tycho:releng-updatesite.eclipse-repository >-------
+[INFO] Building [updatesite] releng-updatesite.eclipse-repository 1.0.0-SNAPSHOT [19/19]
+[INFO] -------------------------[ eclipse-repository ]-------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ releng-updatesite.eclipse-repository ---
+[INFO] Deleting C:\Users\vogella\git\eclipse4book\releng-updatesite\target
+[INFO] 
+[INFO] --- tycho-packaging-plugin:3.0.1:build-qualifier-aggregator (default-build-qualifier-aggregator) @ releng-updatesite.eclipse-repository ---
+[INFO] The project's OSGi version is 1.0.0.202301311109
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean-1) @ releng-updatesite.eclipse-repository ---
+[INFO] 
+[INFO] --- target-platform-configuration:3.0.1:target-platform (default-target-platform) @ releng-updatesite.eclipse-repository ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ releng-updatesite.eclipse-repository ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\vogella\git\eclipse4book\releng-updatesite\src\main\resources
+[INFO] 
+[INFO] --- tycho-p2-publisher-plugin:3.0.1:publish-osgi-ee (default-publish-osgi-ee) @ releng-updatesite.eclipse-repository ---
+[INFO] Published profile IUs: [a.jre.javase 17.0.0]
+[INFO] 
+[INFO] --- tycho-p2-publisher-plugin:3.0.1:publish-products (default-publish-products) @ releng-updatesite.eclipse-repository ---
+[INFO] 
+[INFO] --- tycho-p2-publisher-plugin:3.0.1:publish-categories (default-publish-categories) @ releng-updatesite.eclipse-repository ---
+[INFO] 
+[INFO] --- tycho-p2-publisher-plugin:3.0.1:attach-artifacts (default-attach-artifacts) @ releng-updatesite.eclipse-repository ---
+[INFO] 
+[INFO] --- tycho-p2-repository-plugin:3.0.1:assemble-repository (default-assemble-repository) @ releng-updatesite.eclipse-repository ---
+[WARNING] [3c2aec65-dda8-42c4-ad57-a63a08179b0b][extension>org.eclipse.tycho:tycho-maven-plugin:3.0.1] No digest algorithm is available to verify download of osgi.bundle,com.vogella.service.imageloader,1.0.0.202301311109.
+[WARNING] [3c2aec65-dda8-42c4-ad57-a63a08179b0b][extension>org.eclipse.tycho:tycho-maven-plugin:3.0.1] No digest algorithm is available to verify download of osgi.bundle,com.vogella.tasks.ui,1.0.0.202301311109.
+[WARNING] [3c2aec65-dda8-42c4-ad57-a63a08179b0b][extension>org.eclipse.tycho:tycho-maven-plugin:3.0.1] No digest algorithm is available to verify download of osgi.bundle,com.vogella.tasks.services,1.0.0.202301311109.
+[WARNING] [3c2aec65-dda8-42c4-ad57-a63a08179b0b][extension>org.eclipse.tycho:tycho-maven-plugin:3.0.1] No digest algorithm is available to verify download of osgi.bundle,com.google.gson,2.10.1.
+[WARNING] [3c2aec65-dda8-42c4-ad57-a63a08179b0b][extension>org.eclipse.tycho:tycho-maven-plugin:3.0.1] No digest algorithm is available to verify download of osgi.bundle,com.vogella.tasks.model,1.0.0.202301311109.
+[WARNING] [3c2aec65-dda8-42c4-ad57-a63a08179b0b][extension>org.eclipse.tycho:tycho-maven-plugin:3.0.1] No digest algorithm is available to verify download of osgi.bundle,com.vogella.swt.widgets,1.0.0.202301311109.
+[WARNING] [3c2aec65-dda8-42c4-ad57-a63a08179b0b][extension>org.eclipse.tycho:tycho-maven-plugin:3.0.1] No digest algorithm is available to verify download of osgi.bundle,com.example.e4.renderer.swt,1.0.0.202301311109.
+[WARNING] [3c2aec65-dda8-42c4-ad57-a63a08179b0b][extension>org.eclipse.tycho:tycho-maven-plugin:3.0.1] No digest algorithm is available to verify download of org.eclipse.update.feature,com.vogella.tasks.feature,1.0.0.202301311109.
+[WARNING] [3c2aec65-dda8-42c4-ad57-a63a08179b0b][extension>org.eclipse.tycho:tycho-maven-plugin:3.0.1] No digest algorithm is available to verify download of osgi.bundle,com.vogella.tasks.update,1.0.0.202301311109.
+[WARNING] [3c2aec65-dda8-42c4-ad57-a63a08179b0b][extension>org.eclipse.tycho:tycho-maven-plugin:3.0.1] No digest algorithm is available to verify download of osgi.bundle,com.vogella.tasks.ui.contribute,1.0.0.202301311109.
+[WARNING] [3c2aec65-dda8-42c4-ad57-a63a08179b0b][extension>org.eclipse.tycho:tycho-maven-plugin:3.0.1] No digest algorithm is available to verify download of osgi.bundle,com.vogella.tasks.events,1.0.0.202301311109.
+[INFO] 
+[INFO] --- tycho-p2-repository-plugin:3.0.1:archive-repository (default-archive-repository) @ releng-updatesite.eclipse-repository ---
+[INFO] Building zip: C:\Users\vogella\git\eclipse4book\releng-updatesite\target\releng-updatesite.eclipse-repository-1.0.0-SNAPSHOT.zip
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] releng 1.0.0-SNAPSHOT .............................. SUCCESS [  0.035 s]
+[INFO] [bundle] Rcp from the Wizard 1.0.0-SNAPSHOT ........ SUCCESS [  2.702 s]
+[INFO] [feature] RCP Feature from the wizard 1.0.0-SNAPSHOT SUCCESS [  0.079 s]
+[INFO] [product] Example RCP product from the Wizard 1.0.0-SNAPSHOT SUCCESS [ 11.338 s]
+[INFO] [bundle] Widgets 1.0.0-SNAPSHOT .................... SUCCESS [  0.260 s]
+[INFO] [bundle] Imageloader 1.0.0-SNAPSHOT ................ SUCCESS [  0.232 s]
+[INFO] [bundle] Events 1.0.0-SNAPSHOT ..................... SUCCESS [  0.161 s]
+[INFO] [bundle] Model 1.0.0-SNAPSHOT ...................... SUCCESS [  0.150 s]
+[INFO] [bundle] Ui 1.0.0-SNAPSHOT ......................... SUCCESS [  0.713 s]
+[INFO] [bundle] Swt 1.0.0-SNAPSHOT ........................ SUCCESS [  0.497 s]
+[INFO] [bundle] Update 1.0.0-SNAPSHOT ..................... SUCCESS [  0.366 s]
+[INFO] [bundle] Services 1.0.0-SNAPSHOT ................... SUCCESS [  0.406 s]
+[INFO] [bundle] Contribute 1.0.0-SNAPSHOT ................. SUCCESS [  0.301 s]
+[INFO] [feature] Feature 1.0.0-SNAPSHOT ................... SUCCESS [  0.095 s]
+[INFO] [product] to-do 0.0.1 .............................. SUCCESS [ 47.733 s]
+[INFO] [test-bundle] Tests 1.0.0-SNAPSHOT ................. SUCCESS [  2.563 s]
+[INFO] [bundle] Parts 1.0.0-SNAPSHOT ...................... SUCCESS [  0.281 s]
+[INFO] [bundle] Css 1.0.0-SNAPSHOT ........................ SUCCESS [  0.253 s]
+[INFO] [updatesite] releng-updatesite.eclipse-repository 1.0.0-SNAPSHOT SUCCESS [  1.216 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  05:06 min
+[INFO] Finished at: 2023-01-31T12:15:05+01:00
+[INFO] ------------------------------------------------------------------------

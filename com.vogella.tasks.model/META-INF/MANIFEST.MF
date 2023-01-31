@@ -7,3 +7,4 @@ Bundle-Vendor: VOGELLA
 Automatic-Module-Name: com.vogella.tasks.model
 Bundle-RequiredExecutionEnvironment: JavaSE-11
 Export-Package: com.vogella.tasks.model
+Require-Bundle: slf4j.api;bundle-version="1.7.36"
